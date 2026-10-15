@@ -1,0 +1,12 @@
+{
+  "status": "success",
+  "latest_version": "2.3.1",
+  "min_required_version": "2.0",
+  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.3.1.exe",
+  "features": "Bản cập nhật Lucas-1Changer Pro v2.3.1 (Chính thức):\n• Bổ sung thanh Progress Bar: Hiển thị hộp thoại tiến trình trực quan, êm ái khi bấm 'Kiểm tra cập nhật'.\n• Khắc phục triệt để lỗi Google Account: Tự động trích xuất Master Token nạp vào accounts_ce.db, loại bỏ hoàn toàn lỗi bắt xác minh đăng nhập lại.\n• Chuẩn hóa cấu trúc bộ cài: Gom gọn file hệ thống vào thư mục App, tích hợp file setup 1-Click tự tạo Shortcut Desktop.\n• Tối ưu hiệu năng: Dọn sạch tài nguyên thừa, nâng cao tốc độ quét và điều khiển dàn Phone Farm.",
+  "changelog": "- Bổ sung Progress Bar và hộp thoại kiểm tra cập nhật OTA trực quan.\n- Cập nhật phiên bản chính thức v2.3.1 trên toàn hệ thống.\n- Tối ưu cấu trúc bộ cài đặt 1-Click setup gọn nhẹ.\n- Duy trì ổn định 100% cơ chế nạp tài khoản Google.",
+  "force_update": false,
+  "require_data_reset": false,
+  "reset_reason": "",
+  "release_date": "16/10/2026"
+}
