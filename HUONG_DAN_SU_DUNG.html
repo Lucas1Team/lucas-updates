@@ -311,7 +311,7 @@ hotfix Scrcpy chống giật lag cho PC yếu và cơ chế tự động dọn s
   <div class="quick-nav">
     <h4>📑 Danh Mục Hướng Dẫn Nhanh:</h4>
     <div class="nav-grid">
-      <a href="#sec1" class="nav-item"><span>⚡ 1.</span> Cài Đặt 1-Click Cho Dàn Phone Farm</a>
+      <a href="#sec1" class="nav-item"><span>⚡ 1.</span> Tự Động Quét & Cài Môi Trường (Zero-Config)</a>
       <a href="#sec2" class="nav-item"><span>📱 2.</span> Giao Diện Mới v2.3.6 & 4 Nút Phân Cấp</a>
       <a href="#sec3" class="nav-item"><span>🖥️ 3.</span> Xếp Lưới Desktop & Hotfix Scrcpy Chống Lag</a>
       <a href="#sec4" class="nav-item"><span>🤖 4.</span> Auto Workflow Studio (Nạp Game/Thẻ)</a>
@@ -323,52 +323,36 @@ hotfix Scrcpy chống giật lag cho PC yếu và cơ chế tự động dọn s
     </div>
   </div>
 
-  <!-- PHẦN 1: HƯỚNG DẪN 1-CLICK CÀI ĐẶT -->
+  <!-- PHẦN 1: TỰ ĐỘNG QUÉT & THIẾT LẬP MÔI TRƯỜNG -->
   <div class="section section-highlight" id="sec1">
-    <h2>⚡ 1. Hướng Dẫn 1-Click Cài Ngay Dàn Máy Cho Khách & Tester</h2>
-    <p>Cơ chế <strong>Zero-config 1-Click Provisioning</strong> giúp khách hàng và tester cắm cáp vào là sử dụng được ngay cho 1 máy lẻ hoặc <strong>toàn bộ dàn Phone Farm 10 đến 50+ máy cùng một lúc</strong> mà không cần gõ dòng lệnh ADB nào.</p>
+    <h2>⚡ 1. Tự Động Quét & Thiết Lập Môi Trường Khi Khởi Động (Zero-Config)</h2>
+    <p>Hệ thống <strong>Lucas-1Changer Pro v2.3.6</strong> vận hành hoàn toàn tự động theo cơ chế <em>Zero-config Provisioning</em>. Người dùng không cần phải cài đặt thủ công qua dòng lệnh hay thao tác ADB phức tạp.</p>
     
     <div class="callout callout-teal">
-      <div class="callout-title">Quy Trình 3 Bước Chuẩn:</div>
-      <strong>Bật USB Debugging -> Cắm Cáp USB -> Bấm [ ⚡ SETUP PHONE 1-CLICK ] -> Hoàn tất 100%!</strong>
+      <div class="callout-title">Quy Trình Tự Động Hóa 100%:</div>
+      <strong>Cắm Cáp Thiết Bị -> Mở Tool -> Hệ thống tự quét & thông báo cài môi trường 1-Click -> Hoàn tất sử dụng ngay!</strong>
     </div>
 
-    <h3>Bước 1: Chuẩn bị Điện thoại & Cắm Cáp USB</h3>
-    <ol>
-      <li>Điện thoại Android (Android 9 đến 14) đã ROOT (bằng Magisk, KernelSU hoặc APatch) và đã cài LSPosed.</li>
-      <li>Vào <strong>Cài đặt</strong> -> <strong>Tùy chọn nhà phát triển</strong> -> BẬT <strong>Gỡ lỗi USB (USB Debugging)</strong>.
-        <br><em>(Riêng máy Xiaomi/Redmi/POCO/HyperOS: Bật thêm dòng "Gỡ lỗi USB (Cài đặt bảo mật)").</em>
-      </li>
-      <li>Cắm cáp USB nối điện thoại vào máy tính (cắm 1 máy hoặc cắm cả dàn vào Hub USB). Màn hình điện thoại hiện popup hỏi <em>"Cho phép gỡ lỗi USB từ máy tính này?"</em> -> Tick <strong>"Luôn cho phép từ máy tính này"</strong> và bấm <strong>OK</strong>.</li>
-    </ol>
-
-    <h3>Bước 2: Mở Lucas-1Changer Pro & Đăng Nhập</h3>
-    <ol>
-      <li>Chạy trực tiếp file <strong><code>LucasChanger_Pro_v2.3.6.exe</code></strong> (hoặc <code>LucasChanger_Pro.exe</code>).</li>
-      <li>Tại màn hình đăng nhập: Nhập Tài khoản & Mật khẩu được Admin cấp. Hệ thống tự động nhận diện mã phần cứng máy tính (HWID duy nhất). Tick <em>"Ghi nhớ đăng nhập trên máy này"</em> và bấm <strong>ĐĂNG NHẬP VÀO HỆ THỐNG</strong>.</li>
-    </ol>
-
-    <h3>Bước 3: Bấm Nút "⚡ SETUP PHONE 1-CLICK" Trên Thanh Công Cụ</h3>
-    <ol>
-      <li>Tại thanh công cụ đỉnh màn hình, bấm vào nút màu Tím Neon nổi bật: <span class="btn-ui btn-purple">⚡ SETUP PHONE 1-CLICK</span>.</li>
-      <li>Cửa sổ <em>"Trung Tâm Cài Đặt Phone Farm 1-Click"</em> hiện ra, tự động phát hiện danh sách máy cắm cáp và tích sẵn các quyền:
+    <h3>Cơ Chế Phát Hiện & Thiết Lập Thông Minh:</h3>
+    <ul>
+      <li><strong>Tự động quét thiết bị khi khởi động:</strong> Ngay khi khởi chạy phần mềm và cắm điện thoại qua cáp USB, tool sẽ tự động nhận diện danh sách thiết bị kết nối và kiểm tra tình trạng môi trường (quyền Root, Zygote, Module Lucas Spoofer lõi).</li>
+      <li><strong>Tự động hiển thị hộp thoại cài đặt khi thiếu môi trường:</strong> Nếu phát hiện máy mới cắm vào chưa có module Spoofer hoặc môi trường chưa sẵn sàng, hệ thống sẽ tự động hiển thị cửa sổ <em>"Trung Tâm Cài Đặt Phone Farm 1-Click"</em>.</li>
+      <li><strong>Cài đặt đồng loạt 1-Click trong vài giây:</strong>
+        Người dùng chỉ cần bấm <span class="btn-ui btn-green">▶ BẮT ĐẦU CÀI ĐẶT 1-CLICK</span>:
         <ul>
-          <li><strong>🧹 Dọn sạch triệt để tàn dư tool cũ khác trên thị trường:</strong> Quét sạch toàn bộ tàn dư hook, database, file config của các tool cũ để chống xung đột, văng app hay crash Zygote.</li>
-          <li><strong>📦 Tự động nạp & cài đặt LucasSpoofer.apk:</strong> Module Xposed lõi chịu trách nhiệm hook sâu phần cứng.</li>
-          <li><strong>🔍 Tự động cài đặt DeviceInfo.apk:</strong> Ứng dụng kiểm tra và đối chiếu thông số độc lập.</li>
-          <li><strong>💡 Cấu hình màn hình luôn sáng & tắt ngủ:</strong> Giữ thiết bị luôn sẵn sàng kết nối, không bị ngắt quãng khi treo máy qua đêm.</li>
-          <li><strong>⚡ Cấp quyền Root tối cao & Soft Reboot Zygote (5 giây):</strong> Kích hoạt toàn bộ hook hệ thống mà không cần tắt mở lại nguồn máy.</li>
+          <li>Tự động dọn sạch triệt để tàn dư của các tool cũ khác trên thị trường (chống xung đột, chống văng app).</li>
+          <li>Tự động nạp và cài đặt module Xposed lõi <code>LucasSpoofer.apk</code> và <code>DeviceInfo.apk</code>.</li>
+          <li>Tự động cấu hình giữ màn hình luôn sáng, chống ngủ gật khi cắm dàn farm qua đêm.</li>
+          <li>Tự động cấp quyền Root tối cao và Soft Reboot Zygote (chỉ mất 5 giây) để kích hoạt toàn bộ hook hệ thống mà không cần tắt mở lại nguồn máy.</li>
         </ul>
       </li>
-      <li>Bấm nút <span class="btn-ui btn-green">▶ BẮT ĐẦU CÀI ĐẶT 1-CLICK</span>. Toàn bộ dàn máy sẽ được cài đặt đồng loạt chỉ trong vài giây!</li>
-    </ol>
-
-    <h3>Bước 4: Kích Hoạt Module Trên LSPosed (Chỉ làm 1 lần duy nhất)</h3>
-    <ol>
-      <li>Mở ứng dụng <strong>LSPosed Manager</strong> trên điện thoại -> Chọn mục <strong>Modules</strong> -> Bấm chọn <strong>Lucas Spoofer</strong>.</li>
-      <li>Gạt BẬT công tắc <strong>Kích hoạt Module</strong> -> Tick chọn các app bạn cần đổi máy (Khung Android, Dịch vụ Google Play, Game, App Offer...).</li>
-      <li><strong>HOÀN TẤT!</strong> Dàn máy đã sẵn sàng 100% để Change thiết bị và chạy tự động hóa!</li>
-    </ol>
+      <li><strong>Kích hoạt Module trên LSPosed (Chỉ làm 1 lần duy nhất):</strong>
+        Mở ứng dụng <strong>LSPosed Manager</strong> trên điện thoại -> Chọn mục <strong>Modules</strong> -> Bấm <strong>Lucas Spoofer</strong> -> Gạt BẬT công tắc và tick chọn các ứng dụng cần đổi máy. Thiết bị đã sẵn sàng 100% để sử dụng vĩnh viễn!
+      </li>
+      <li><strong>Nút chủ động [ Setup Phone 1-Click ]:</strong>
+        Khi cắm thêm điện thoại mới vào dàn farm trong lúc tool đang chạy, bạn chỉ cần bấm nút <span class="btn-ui btn-purple">Setup Phone 1-Click</span> trên thanh công cụ để bổ sung môi trường cho các máy mới bất kỳ lúc nào.
+      </li>
+    </ul>
   </div>
 
   <!-- PHẦN 2: GIAO DIỆN MỚI V2.3.6 & 4 NÚT PHÂN CẤP -->
