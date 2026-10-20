@@ -1,12 +1,12 @@
 {
   "status": "success",
-  "latest_version": "2.3.3",
+  "latest_version": "2.3.4",
   "min_required_version": "2.0",
-  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.3.3.exe",
-  "features": "Bản cập nhật Lucas-1Changer Pro v2.3.3 (Chính thức):\n• Bổ sung cột 'Tài khoản Email': Hiển thị trực tiếp tài khoản Gmail đang được nạp trên từng máy trong bảng thiết bị, nhận diện tự động từ máy và cập nhật tức thì khi Khôi phục/Change.\n• Nhận diện Màn Live riêng trực quan: Thêm số thứ tự máy và Tên máy trực tiếp trên thanh tiêu đề cửa sổ Live (VD: Lucas Live - [Máy #1] Pixel 7 (127.0.0.1:5555)).\n• Tự xếp lưới Desktop chuẩn chữ Z: Tự động co vừa khít màn hình Desktop theo thứ tự chữ Z, không bao giờ bị đè chồng.\n• Thanh trượt Zoom mượt mà: Thu nhỏ / phóng to hàng loạt toàn bộ thẻ máy từ 130px đến 450px theo thời gian thực.\n• Hộp thoại xác nhận Restore thông minh & Fix lỗi quét môi trường.",
-  "changelog": "- Bổ sung cột 'Tài khoản Email' trên bảng Nhiều thiết bị để theo dõi máy nào đang nạp tài khoản nào.\n- Tự động đồng bộ và hiển thị tài khoản Gmail đã nạp khi Khôi phục hoặc Quét máy.\n- Tự xếp lưới Desktop chuẩn chữ Z và tự co vừa khít màn hình Desktop.\n- Thêm thanh trượt Zoom trên Bức tường Farm phóng to thu nhỏ hàng loạt từ 130px đến 450px.\n- Thêm Tên máy và STT vào thanh tiêu đề trên cùng của cửa sổ Live Scrcpy riêng.\n- Chuột phải mở Live trực tiếp theo dòng thiết bị mà không cần tick chọn trước; hỗ trợ nhấp đúp mở nhanh.\n- Tự sinh tên Wifi tự nhiên không chứa tiền tố Lucas.",
+  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.3.4.exe",
+  "features": "Bản vá lỗi & bổ sung tính năng nhanh Lucas-1Changer Pro v2.3.4 (Chính thức):\n• Khắc phục triệt để lỗi Restore làm mất quyền Root & Xóa trắng cài đặt máy: Ứng dụng cơ chế Sandbox Tar Extraction độc quyền, bảo vệ tuyệt đối file hệ thống và quyền Root.\n• Khắc phục lỗi chạy nạp đa máy bị loạn: Cơ chế cô lập luồng độc lập, thêm hộp thoại xác nhận thông minh khi chỉ nạp cho 1 máy.\n• Bổ sung tính năng Dán Mail chuẩn DumaPhones: Hỗ trợ nút [✉ Dán Mail] ở cả Tab Khôi phục và Tab Thay đổi thông tin bên ngoài, tự động tìm bản backup và phân bổ danh sách email vào từng máy.\n• Tàng hình Root không cần cài ROM: Tự động khóa kernel cờ an toàn qua resetprop -n và kích hoạt module Shamiko tàng hình chống quét Play Integrity.\n• Giao diện tinh chỉnh gọn gàng, loại bỏ các thông báo kỹ thuật thừa thãi.",
+  "changelog": "- Sửa triệt để lỗi giải nén đè lên /data/system làm reset máy và mất quyền Root nhờ Sandbox Tar Extraction.\n- Sửa lỗi nạp 1 backup nhưng chạy nhầm sang các máy khác trên Phone Farm.\n- Bổ sung nút [✉ Dán Mail] tiện lợi ngay tại Tab Thay đổi thông tin bên ngoài và Tab Khôi phục.\n- Bổ sung tính năng chuột phải [✉ Khôi phục theo Email cho máy này...].\n- Tự động fake cờ bootloader kernel (ro.boot.verifiedbootstate green, ro.boot.flash.locked 1) và kích hoạt Shamiko whitelist.\n- Tinh chỉnh giao diện gọn gàng, thanh lịch chuẩn WinForms nguyên bản.",
   "force_update": false,
   "require_data_reset": false,
   "reset_reason": "",
-  "release_date": "16/10/2026"
+  "release_date": "20/10/2026"
 }
