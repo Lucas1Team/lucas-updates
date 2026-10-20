@@ -1,6 +1,6 @@
-<!-- [Update: 20/10/2026 21:00]
-Cập nhật README kênh OTA Lucas-1Changer Pro v2.3.5 Chính thức.
-Bổ sung liên kết tải Hướng dẫn sử dụng HTML & PDF v2.3.5. -->
+<!-- [Update: 20/10/2026 22:35]
+Cập nhật README kênh OTA Lucas-1Changer Pro v2.3.6 Chính thức.
+Bổ sung liên kết tải LucasChanger_Pro_v2.3.6.exe, Hướng dẫn sử dụng HTML & PDF v2.3.6. -->
 # ⚡ Lucas-1Changer Pro - Kênh Cập Nhật Chính Thức (OTA Updates)
 
 Kênh phân phối và lưu trữ các gói cập nhật OTA tự động chính thức dành cho phần mềm **Lucas-1Changer Pro**.
@@ -8,24 +8,36 @@ Kênh phân phối và lưu trữ các gói cập nhật OTA tự động chính
 ---
 
 ## 🚀 Thông Tin Bản Phát Hành Mới Nhất
-* **Phiên bản hiện tại:** `v2.3.5` (Official Release)
+* **Phiên bản hiện tại:** `v2.3.6` (Official Release)
 * **Ngày phát hành:** 20/10/2026
 * **Trạng thái:** Bản phát hành chính thức ổn định, sẵn sàng OTA 1-Click.
 
-### 📋 Điểm Mới Nổi Bật Trong Bản v2.3.5:
-1. **Chuẩn hóa Cột "Dòng máy" (thay thế "Tên máy"):** Tự động giải mã các mã phần cứng kỹ thuật (`SM-9373`, `SM-G973`, `SM-S911`, `2201123G`...) thành tên thương mại quen thuộc (Samsung Galaxy S10, Galaxy S23, Xiaomi 12 Pro...). Form phân cấp 4 tầng: `Hãng` -> `Dòng máy` -> `Mã máy` -> `Phiên bản Android` kèm nút `🎲 Random giữ dòng máy`.
-2. **Hộp thoại "⚡ Xếp Lưới Màn Hình Live Ra Desktop" Đa Kích Thước:**
-   - Bộ chọn kích thước màn hình theo tỷ lệ 9:16 phong phú: *Mặc định (320x570)*, *Tiêu chuẩn (280x500)*, *Nhỏ gọn (240x426)*, *Lớn (360x640)*, *Rất lớn (400x710)*, *Tự co giãn vừa Desktop*, hoặc *Tùy chỉnh WxH*.
-   - Checkbox tích chọn từng thiết bị độc lập kèm nút `[✓ Chọn tất cả]` và `[✕ Bỏ chọn cả]`.
-   - Tự động căn góc trên bên trái Desktop (Top-Left: `Left + 2, Top + 2`) dàn đều sang phải theo thứ tự `#1, #2, #3...`, tự động xuống hàng khi chạm mép phải Desktop.
-   - Tự ghi nhớ vị trí cửa sổ Scrcpy trên Desktop (Desktop Slot Memory).
-3. **Lá chắn bảo vệ toàn vẹn Sandbox Tar Extraction Shield (`RESTORE_SANDBOX_INTEGRITY_TOKEN`):** Ngăn chặn tuyệt đối mọi sửa đổi làm ảnh hưởng đến chức năng Khôi phục dữ liệu và an toàn phân vùng Root.
-4. **Khắc phục triệt để Tab Thay đổi thông tin trên máy thật:** Can thiệp sâu toàn bộ partition properties qua `resetprop` đa nền tảng (Magisk, KernelSU, APatch), cập nhật SSAID và đồng bộ file cấu hình JSON đa vị trí kèm restart Zygote trong 2 giây.
-5. **Tích hợp nút Hướng Dẫn Sử Dụng 1-Click:** Bấm `[📖 Hướng dẫn sử dụng]` ở thanh trạng thái để mở ngay tài liệu cẩm nang.
+### 📋 Điểm Mới Nổi Bật Trong Bản v2.3.6:
+1. **Tái Cấu Trúc & Tinh Gọn Giao Diện Theo Mockup Demo v8:**
+   - Thu gọn bề ngang tổng thể về 1100px vừa vặn, hiển thị hoàn hảo trên mọi độ phân giải.
+   - Top Action Bar phẳng hóa: Loại bỏ các nút thừa/trùng lặp (Làm mới cấu hình, Đăng xuất, Bật/tắt log, Xếp lưới nhỏ phía trên). Các nút bấm hiển thị văn bản phẳng, rõ ràng, không icon rối mắt.
+   - Đóng khung viền bao riêng cố định 4 ô Dòng máy & Hệ điều hành (Hãng, Dòng máy, Phiên bản Android, Tên phiên bản) có Suggest Dropdown List tiện dụng.
+   - Bố trí 8 ô thông số phần cứng đối xứng 2 cột tăm tắp kèm 2 nút xem trước chuẩn chữ đỏ: *[Random giữ dòng máy (xem trước)]* & *[Random toàn bộ (xem trước)]*.
+2. **Nút Gộp Thông Minh [Dán Mail & Khôi Phục] (Màu Xanh Dương):**
+   - Tự động nhận diện chuỗi Mail|Pass|2FA|Recovery trong Clipboard, lưu vào danh mục quản lý và kích hoạt quy trình Bung nén khôi phục (Restore App Data) chỉ trong 1 cú nhấp chuột duy nhất.
+3. **Phân Cấp 4 Nút Hành Động Chuẩn (Thực Thi Trực Tiếp Lên Điện Thoại):**
+   - **Nút 1 (Màu Xanh ngọc Teal `#0f766e` - Ưu tiên số 1):** `RANDOM & CHANGE (Giữ Dòng Máy: Galaxy S23)` - Tự động sinh danh tính phần cứng mới nhưng bảo toàn 100% dòng máy đang kết nối. Tên dòng máy cập nhật động theo thiết bị.
+   - **Nút 2 (Màu Indigo `#4338ca`):** `RANDOM & CHANGE (Dòng Máy Bất Kỳ)` - Sinh ngẫu nhiên sang một dòng máy mới bất kỳ trong kho dữ liệu.
+   - **Nút 3 (Màu Xanh Dương `#2563eb`):** `CHANGE THEO THÔNG SỐ VỪA TẠO` - Áp dụng chính xác những giá trị đang hiển thị trên 12 ô thông số.
+   - **Nút 4 (Màu Hổ Phách `#d97706`):** `RESTORE VỀ GỐC CỦA MÁY` - Đưa thiết bị về đúng thông số xuất xưởng ban đầu.
+   - Tích hợp Checkbox `[Tự động làm sạch ứng dụng (Wipe Clean Data)]` ngay trên tiêu đề nhóm hành động nhanh.
+4. **Hotfix Scrcpy Chống Giật Lag Cho PC Yếu & Auto Dọn Dẹp Khi Thoát:**
+   - Luôn truyền tham số tối ưu `--max-size 480 --max-fps 25 -b 2M` giúp máy tính PC yếu, Core i3, Ram 8GB hay laptop văn phòng vẫn mở mượt mà hàng chục máy.
+   - Tùy chọn `--turn-screen-off` tự động tắt màn hình vật lý trên điện thoại khi remote, giúp mát máy và chống chai phù pin.
+   - Cơ chế `CloseAllScrcpySilent` tự động kết thúc triệt để mọi tiến trình `scrcpy.exe` ngầm ngay khi đóng Lucas-1Changer, giải phóng 100% RAM và CPU.
+5. **Kế Thừa Toàn Bộ Các Tính Năng Đỉnh Cao Của v2.3.5:**
+   - Lá chắn bảo vệ toàn vẹn Sandbox Tar Extraction Shield (`RESTORE_SANDBOX_INTEGRITY_TOKEN`).
+   - Can thiệp sâu phần cứng qua `resetprop` đa nền tảng, cập nhật SSAID và restart Zygote trong 2 giây.
+   - Hộp thoại Xếp lưới Desktop Top-Left đa kích thước (9:16) kèm bộ nhớ tọa độ cửa sổ độc lập.
 
 ---
 
-## 📖 Cẩm Nang Hướng Dẫn Sử Dụng (HDSD v2.3.5)
+## 📖 Cẩm Nang Hướng Dẫn Sử Dụng (HDSD v2.3.6)
 * 🌐 **Xem trực tuyến (HTML):** [HUONG_DAN_SU_DUNG.html](https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/HUONG_DAN_SU_DUNG.html)
 * 📄 **Tải file PDF in ấn chuẩn đẹp (5 MB):** [HUONG_DAN_SU_DUNG.pdf](https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/HUONG_DAN_SU_DUNG.pdf)
 
@@ -35,9 +47,10 @@ Kênh phân phối và lưu trữ các gói cập nhật OTA tự động chính
 
 | Tệp tin | Mô tả | Dung lượng | Tải xuống |
 | :--- | :--- | :--- | :--- |
-| **LucasChanger_Pro_v2.3.5.exe** | File thực thi chính v2.3.5 (Bản mới nhất) | ~600 KB | [Tải EXE](https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.3.5.exe) |
+| **LucasChanger_Pro_v2.3.6.exe** | File thực thi chính v2.3.6 (Bản mới nhất) | ~616 KB | [Tải EXE](https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.3.6.exe) |
+| **LucasChanger_Pro_v2.3.5.exe** | Bản cập nhật v2.3.5 (Lưu trữ ổn định) | ~612 KB | [Tải EXE](https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.3.5.exe) |
 | **LucasChanger_Pro_v2.3.4.exe** | Bản cập nhật v2.3.4 | ~580 KB | [Tải EXE](https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.3.4.exe) |
-| **version.json** | Cấu hình kiểm tra phiên bản OTA v2.3.5 | ~2 KB | [Xem JSON](https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/version.json) |
+| **version.json** | Cấu hình kiểm tra phiên bản OTA v2.3.6 | ~2 KB | [Xem JSON](https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/version.json) |
 
 ---
 © 2026 Lucas Team. All rights reserved.

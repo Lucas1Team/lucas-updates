@@ -1,13 +1,14 @@
-<!-- [Update: 20/10/2026 21:00]
-Cập nhật Cẩm nang Hướng dẫn sử dụng Lucas-1Changer Pro v2.3.5.
-Bổ sung chi tiết cột Dòng máy, Xếp lưới Desktop Top-Left đa kích thước,
-Lá chắn Sandbox Tar Shield, OTA 1-Click và phím tắt mở HDSD trực tiếp. -->
+<!-- [Update: 20/10/2026 22:35]
+Cập nhật Cẩm nang Hướng dẫn sử dụng Lucas-1Changer Pro v2.3.6.
+Bổ sung chi tiết Giao diện Demo v8, Khung 4 ô thiết bị cố định,
+4 nút phân cấp chuẩn với Nút 1 Teal ưu tiên số 1, nút gộp Dán Mail & Khôi Phục,
+hotfix Scrcpy chống giật lag cho PC yếu và cơ chế tự động dọn sạch tiến trình khi thoát. -->
 <!DOCTYPE html>
 <html lang="vi">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Cẩm Nang Hướng Dẫn Sử Dụng - Lucas-1Changer Pro v2.3.5</title>
+<title>Cẩm Nang Hướng Dẫn Sử Dụng - Lucas-1Changer Pro v2.3.6</title>
 <style>
   :root {
     --bg-dark: #0f172a;
@@ -21,6 +22,7 @@ Lá chắn Sandbox Tar Shield, OTA 1-Click và phím tắt mở HDSD trực ti�
     --accent-orange: #f59e0b;
     --accent-red: #ef4444;
     --accent-purple: #8b5cf6;
+    --accent-teal: #0f766e;
     --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   }
 
@@ -43,8 +45,8 @@ Lá chắn Sandbox Tar Shield, OTA 1-Click và phím tắt mở HDSD trực ti�
 
   /* Header Cover */
   .hero-header {
-    background: linear-gradient(135deg, #1e1b4b 0%, #0f172a 55%, #020617 100%);
-    border: 1px solid #4f46e5;
+    background: linear-gradient(135deg, #134e4a 0%, #0f172a 55%, #020617 100%);
+    border: 1px solid #0d9488;
     border-radius: 16px;
     padding: 32px;
     margin-bottom: 30px;
@@ -59,7 +61,7 @@ Lá chắn Sandbox Tar Shield, OTA 1-Click và phím tắt mở HDSD trực ti�
     border-radius: 18px;
     background: #000;
     padding: 6px;
-    border: 2px solid #8b5cf6;
+    border: 2px solid #14b8a6;
     object-fit: contain;
     flex-shrink: 0;
   }
@@ -84,6 +86,7 @@ Lá chắn Sandbox Tar Shield, OTA 1-Click và phím tắt mở HDSD trực ti�
     margin-right: 6px;
     margin-bottom: 4px;
   }
+  .badge-teal { background: rgba(20, 184, 166, 0.25); color: #5eead4; border: 1px solid #14b8a6; }
   .badge-purple { background: rgba(139, 92, 246, 0.25); color: #c4b5fd; border: 1px solid #8b5cf6; }
   .badge-blue { background: rgba(2, 132, 199, 0.25); color: #7dd3fc; border: 1px solid #0284c7; }
   .badge-green { background: rgba(16, 185, 129, 0.25); color: #a7f3d0; border: 1px solid #10b981; }
@@ -124,8 +127,8 @@ Lá chắn Sandbox Tar Shield, OTA 1-Click và phím tắt mở HDSD trực ti�
     font-size: 13.5px;
   }
   .nav-item:hover {
-    background: rgba(2, 132, 199, 0.2);
-    border-color: #0284c7;
+    background: rgba(20, 184, 166, 0.2);
+    border-color: #14b8a6;
     color: #ffffff;
     transform: translateX(3px);
   }
@@ -141,9 +144,9 @@ Lá chắn Sandbox Tar Shield, OTA 1-Click và phím tắt mở HDSD trực ti�
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
   }
   .section-highlight {
-    border: 2px solid #8b5cf6;
-    background: linear-gradient(180deg, rgba(139, 92, 246, 0.12) 0%, #1e293b 100%);
-    box-shadow: 0 8px 25px rgba(139, 92, 246, 0.2);
+    border: 2px solid #0d9488;
+    background: linear-gradient(180deg, rgba(13, 148, 136, 0.12) 0%, #1e293b 100%);
+    box-shadow: 0 8px 25px rgba(13, 148, 136, 0.25);
   }
   h2 {
     margin-top: 0;
@@ -156,8 +159,8 @@ Lá chắn Sandbox Tar Shield, OTA 1-Click và phím tắt mở HDSD trực ti�
     gap: 10px;
   }
   .section-highlight h2 {
-    border-bottom: 1px solid rgba(139, 92, 246, 0.4);
-    color: #c4b5fd;
+    border-bottom: 1px solid rgba(20, 184, 166, 0.4);
+    color: #5eead4;
   }
   h3 {
     font-size: 16.5px;
@@ -201,6 +204,8 @@ Lá chắn Sandbox Tar Shield, OTA 1-Click và phím tắt mở HDSD trực ti�
     margin: 16px 0;
   }
   .callout-title { font-weight: bold; color: #38bdf8; margin-bottom: 4px; font-size: 13.5px; }
+  .callout-teal { border-left-color: #14b8a6; background: rgba(20, 184, 166, 0.12); }
+  .callout-teal .callout-title { color: #5eead4; }
   .callout-purple { border-left-color: #8b5cf6; background: rgba(139, 92, 246, 0.12); }
   .callout-purple .callout-title { color: #c4b5fd; }
   .callout-warning { border-left-color: var(--accent-orange); background: rgba(245, 158, 11, 0.1); }
@@ -222,12 +227,14 @@ Lá chắn Sandbox Tar Shield, OTA 1-Click và phím tắt mở HDSD trực ti�
     border: 1px solid #475569;
     white-space: nowrap;
   }
-  .btn-primary { background: #0284c7; border-color: #38bdf8; }
+  .btn-teal { background: #0f766e; border-color: #14b8a6; color: #fff; }
+  .btn-indigo { background: #4338ca; border-color: #6366f1; color: #fff; }
+  .btn-primary { background: #0284c7; border-color: #38bdf8; color: #fff; }
   .btn-purple { background: #7c3aed; border-color: #a78bfa; color: #fff; }
-  .btn-green { background: #16a34a; border-color: #4ade80; }
-  .btn-orange { background: #d97706; border-color: #fbbf24; }
-  .btn-red { background: #dc2626; border-color: #f87171; }
-  .btn-sky { background: #0284c7; border-color: #38bdf8; }
+  .btn-green { background: #16a34a; border-color: #4ade80; color: #fff; }
+  .btn-orange { background: #d97706; border-color: #fbbf24; color: #fff; }
+  .btn-red { background: #dc2626; border-color: #f87171; color: #fff; }
+  .btn-sky { background: #0284c7; border-color: #38bdf8; color: #fff; }
 
   /* Tables */
   table {
@@ -287,12 +294,13 @@ Lá chắn Sandbox Tar Shield, OTA 1-Click và phím tắt mở HDSD trực ti�
   <div class="hero-header">
     <img src="guide_assets/lucas 2.png" alt="Lucas Logo" class="hero-logo" onerror="this.src='lucas 2.png'">
     <div class="hero-text">
-      <h1>LUCAS-1CHANGER PRO v2.3.5</h1>
+      <h1>LUCAS-1CHANGER PRO v2.3.6</h1>
       <p>Cẩm Nang Hướng Dẫn Sử Dụng & Vận Hành Hệ Thống Phone Farm Tự Động Hóa Chuyên Nghiệp</p>
       <div>
-        <span class="badge badge-purple">⚡ v2.3.5 Official Release</span>
-        <span class="badge badge-blue">Dòng Máy Thông Minh</span>
-        <span class="badge badge-green">Xếp Lưới Live Top-Left</span>
+        <span class="badge badge-teal">⚡ v2.3.6 Official Release</span>
+        <span class="badge badge-purple">UI Tinh Gọn v8</span>
+        <span class="badge badge-blue">4 Nút Phân Cấp Chuẩn</span>
+        <span class="badge badge-green">Hotfix Scrcpy Chống Lag</span>
         <span class="badge badge-orange">Sandbox Shield</span>
         <span class="badge badge-red">OTA 1-Click Update</span>
       </div>
@@ -304,8 +312,8 @@ Lá chắn Sandbox Tar Shield, OTA 1-Click và phím tắt mở HDSD trực ti�
     <h4>📑 Danh Mục Hướng Dẫn Nhanh:</h4>
     <div class="nav-grid">
       <a href="#sec1" class="nav-item"><span>⚡ 1.</span> Cài Đặt 1-Click Cho Dàn Phone Farm</a>
-      <a href="#sec2" class="nav-item"><span>📱 2.</span> Quản Lý & Chuẩn Hóa Cột "Dòng Máy"</a>
-      <a href="#sec3" class="nav-item"><span>🖥️ 3.</span> Xếp Lưới Màn Hình Live Ra Desktop</a>
+      <a href="#sec2" class="nav-item"><span>📱 2.</span> Giao Diện Mới v2.3.6 & 4 Nút Phân Cấp</a>
+      <a href="#sec3" class="nav-item"><span>🖥️ 3.</span> Xếp Lưới Desktop & Hotfix Scrcpy Chống Lag</a>
       <a href="#sec4" class="nav-item"><span>🤖 4.</span> Auto Workflow Studio (Nạp Game/Thẻ)</a>
       <a href="#sec5" class="nav-item"><span>🛡️ 5.</span> Sao Lưu, Khôi Phục & Sandbox Shield</a>
       <a href="#sec6" class="nav-item"><span>🔧 6.</span> Can Thiệp Sâu Phần Cứng Máy Thật</a>
@@ -320,7 +328,7 @@ Lá chắn Sandbox Tar Shield, OTA 1-Click và phím tắt mở HDSD trực ti�
     <h2>⚡ 1. Hướng Dẫn 1-Click Cài Ngay Dàn Máy Cho Khách & Tester</h2>
     <p>Cơ chế <strong>Zero-config 1-Click Provisioning</strong> giúp khách hàng và tester cắm cáp vào là sử dụng được ngay cho 1 máy lẻ hoặc <strong>toàn bộ dàn Phone Farm 10 đến 50+ máy cùng một lúc</strong> mà không cần gõ dòng lệnh ADB nào.</p>
     
-    <div class="callout callout-purple">
+    <div class="callout callout-teal">
       <div class="callout-title">Quy Trình 3 Bước Chuẩn:</div>
       <strong>Bật USB Debugging -> Cắm Cáp USB -> Bấm [ ⚡ SETUP PHONE 1-CLICK ] -> Hoàn tất 100%!</strong>
     </div>
@@ -336,7 +344,7 @@ Lá chắn Sandbox Tar Shield, OTA 1-Click và phím tắt mở HDSD trực ti�
 
     <h3>Bước 2: Mở Lucas-1Changer Pro & Đăng Nhập</h3>
     <ol>
-      <li>Chạy trực tiếp file <strong><code>LucasChanger_Pro_v2.3.5.exe</code></strong> (hoặc <code>LucasChanger_Pro.exe</code>).</li>
+      <li>Chạy trực tiếp file <strong><code>LucasChanger_Pro_v2.3.6.exe</code></strong> (hoặc <code>LucasChanger_Pro.exe</code>).</li>
       <li>Tại màn hình đăng nhập: Nhập Tài khoản & Mật khẩu được Admin cấp. Hệ thống tự động nhận diện mã phần cứng máy tính (HWID duy nhất). Tick <em>"Ghi nhớ đăng nhập trên máy này"</em> và bấm <strong>ĐĂNG NHẬP VÀO HỆ THỐNG</strong>.</li>
     </ol>
 
@@ -363,81 +371,112 @@ Lá chắn Sandbox Tar Shield, OTA 1-Click và phím tắt mở HDSD trực ti�
     </ol>
   </div>
 
-  <!-- PHẦN 2: QUẢN LÝ THIẾT BỊ & CỘT DÒNG MÁY -->
+  <!-- PHẦN 2: GIAO DIỆN MỚI V2.3.6 & 4 NÚT PHÂN CẤP -->
   <div class="section" id="sec2">
-    <h2>📱 2. Quản Lý Thiết Bị & Chuẩn Hóa Cột "Dòng Máy" (Bản Mới v2.3.5)</h2>
-    <p>Một trong những nâng cấp quan trọng nhất của phiên bản <strong>v2.3.5</strong> là việc thay thế hoàn toàn cột <em>"Tên máy"</em> bằng cột <strong>"Dòng máy"</strong> thân thiện và thông minh.</p>
+    <h2>📱 2. Bảng Điều Khiển Giao Diện Mới v2.3.6 & Phân Cấp 4 Nút Đổi Máy Chuẩn</h2>
+    <p>Phiên bản <strong>v2.3.6</strong> mang đến sự lột xác toàn diện về mặt giao diện người dùng (dựa trên Mockup Demo v8 đã được chuẩn hóa), tập trung vào sự tối giản, hiện đại và tốc độ thao tác vượt trội.</p>
 
     <div class="img-wrapper">
-      <img src="guide_assets/v235_preview_main_dashboard.png" alt="Giao diện chính v2.3.5" onerror="this.src='v235_preview_main_dashboard.png'">
-      <div class="img-caption">Hình 1: Bảng điều khiển chính với Cột Dòng Máy chuẩn hóa và Form thông số phân cấp trực quan</div>
+      <img src="guide_assets/v236_preview_main_dashboard.png" alt="Giao diện chuẩn Lucas-1Changer Pro v2.3.6" onerror="this.src='v236_preview_main_dashboard.png'">
+      <div class="img-caption">Hình 1: Bảng điều khiển chính Lucas-1Changer Pro v2.3.6 - Khung 4 ô thiết bị cố định, nút gộp Dán Mail & Khôi Phục và 4 nút hành động chuẩn phân cấp</div>
     </div>
 
-    <h3>Tại sao lại là "Dòng máy" thay cho "Tên máy"?</h3>
+    <h3>Các Cải Tiến Giao Diện Cốt Lõi Trên Bản v2.3.6:</h3>
     <ul>
-      <li><strong>Xóa bỏ mã kỹ thuật khó hiểu:</strong> Nhiều dòng điện thoại khi truy vấn qua hệ điều hành chỉ trả về các đoạn mã mainboard hoặc mã sản phẩm thô (ví dụ: <code>SM-9373</code>, <code>SM-G973U</code>, <code>SM-S911U</code>, <code>2201123G</code>, <code>CPH2173</code>...). Người dùng rất khó phân biệt đây là máy gì.</li>
-      <li><strong>Bộ giải mã tự động (ResolveFriendlyDeviceLine):</strong> Lucas-1Changer Pro v2.3.5 tích hợp thuật toán thông minh kết hợp đọc các thuộc tính thị trường <code>ro.product.marketname</code>, <code>ro.sem.marketname</code> và cơ sở dữ liệu đối chiếu phần cứng, tự động dịch các mã trên thành tên thương mại chuẩn: <strong>Samsung Galaxy S10</strong>, <strong>Samsung Galaxy S23</strong>, <strong>Xiaomi 12 Pro</strong>, <strong>OPPO Find X3 Pro</strong>...</li>
-    </ul>
-
-    <h3>Bố cục Form Thông Tin Thiết Bị Phân Cấp:</h3>
-    <ul>
-      <li><strong>Hãng (Brand):</strong> Nhà sản xuất thiết bị (Google, Samsung, Xiaomi, Sony, OPPO...).</li>
-      <li><strong>Dòng máy (Device Line):</strong> Tên thương mại thân thiện của dòng máy (Galaxy S23, Pixel 7, Xiaomi 13 Pro...).</li>
-      <li><strong>Mã máy (Model Code):</strong> Mã hiệu phần cứng kỹ thuật của dòng máy đó (SM-S911U, GVU6C, 2210132G...).</li>
-      <li><strong>Phiên bản Android (OS Version):</strong> Hệ điều hành đang chạy (Android 14, 13, 12...).</li>
-    </ul>
-
-    <div class="callout callout-success">
-      <div class="callout-title">🎲 Tính năng "Random giữ dòng máy":</div>
-      Cho phép người dùng sinh ngẫu nhiên toàn bộ mã định danh phần cứng mới tinh (IMEI, Android ID, SSAID, WiFi MAC, Serial...) nhưng <strong>giữ nguyên chuẩn dáng dòng máy hiện tại</strong>, giúp đổi profile máy sạch sẽ mà không làm thay đổi cấu hình phần cứng cơ bản.
-    </div>
-  </div>
-
-  <!-- PHẦN 3: XẾP LƯỚI MÀN HÌNH LIVE RA DESKTOP -->
-  <div class="section" id="sec3">
-    <h2>🖥️ 3. Tính Năng "⚡ Xếp Lưới Màn Hình Live Ra Desktop" Đa Kích Thước</h2>
-    <p>Giúp người dùng dễ dàng theo dõi và điều khiển chuột/phím trực tiếp toàn bộ dàn máy trên màn hình máy tính theo bố cục lưới ngăn nắp, khoa học.</p>
-
-    <div class="img-wrapper">
-      <img src="guide_assets/v235_preview_tile_desktop_modal.png" alt="Hộp thoại Xếp Lưới Desktop v2.3.5" onerror="this.src='v235_preview_tile_desktop_modal.png'">
-      <div class="img-caption">Hình 2: Hộp thoại Xếp Lưới Desktop với Bộ chọn kích thước màn hình tỷ lệ 9:16 và Checkbox chọn máy</div>
-    </div>
-
-    <h3>Các bước thao tác:</h3>
-    <ol>
-      <li>Tại thanh công cụ đỉnh màn hình, bấm vào nút: <span class="btn-ui btn-sky">⚡ Tự xếp lưới Desktop</span> (hoặc <em>⚡ Xếp Lưới Màn Hình Live Ra Desktop</em>).</li>
-      <li>Hộp thoại cấu hình xuất hiện:
+      <li><strong>1. Tinh gọn bề ngang cửa sổ về 1100px:</strong> Loại bỏ toàn bộ khoảng thừa hai bên lề, tối ưu góc nhìn cho mọi độ phân giải màn hình từ Laptop Full HD đến Màn hình đồ họa 4K.</li>
+      <li><strong>2. Top Action Bar phẳng hóa chuyên nghiệp:</strong>
+        Loại bỏ các nút chức năng thừa hoặc trùng lặp (nút Làm mới cấu hình, Đăng xuất, Bật/tắt log và nút Xếp lưới nhỏ phía trên). Các nút bấm hiển thị văn bản phẳng chuẩn mực, sang trọng, nói không với icon màu mè rối mắt.
+      </li>
+      <li><strong>3. Khung viền riêng biệt [Dòng máy & Hệ điều hành (Cố định)]:</strong>
+        Bao bọc 4 trường thông tin thiết bị cốt lõi trong một viền riêng biệt:
         <ul>
-          <li><strong>📐 Lựa chọn kích thước màn hình:</strong>
-            <ul>
-              <li><code>Mặc định (320 x 570 px)</code>: Tỷ lệ 9:16 sắc nét, tối ưu cho màn hình Full HD hoặc 2K.</li>
-              <li><code>Tiêu chuẩn (280 x 500 px)</code>: Kích thước cân đối, dễ dàng xếp từ 6 đến 8 máy cùng lúc.</li>
-              <li><code>Nhỏ gọn (240 x 426 px)</code>: Rất tiết kiệm diện tích, phù hợp dàn farm 10 đến 16 máy.</li>
-              <li><code>Lớn (360 x 640 px)</code> & <code>Rất lớn (400 x 710 px)</code>: Phóng to giúp soi rõ nét từng chữ nhỏ hoặc chi tiết trong game.</li>
-              <li><code>Tự co giãn vừa Desktop (Auto Fit)</code>: Hệ thống tự đo diện tích màn hình máy tính đang có và chia đều kích thước vừa khít cho toàn bộ các máy được chọn.</li>
-              <li><code>Tùy chỉnh (Custom W x H)</code>: Cho phép nhập kích thước Width và Height tùy ý theo nhu cầu riêng.</li>
-            </ul>
-          </li>
-          <li><strong>☑️ Tick chọn màn hình máy muốn xếp:</strong>
-            <ul>
-              <li>Tự do tick hoặc bỏ tick từng máy độc lập trong danh sách.</li>
-              <li>Cung cấp 2 nút nhanh: <span class="btn-ui">✓ Chọn tất cả</span> và <span class="btn-ui">✕ Bỏ chọn cả</span>.</li>
-            </ul>
-          </li>
+          <li><code>Hãng (Brand)</code>: Samsung, Google, Xiaomi, OPPO, Sony, Vivo...</li>
+          <li><code>Dòng máy (Device Line)</code>: Galaxy S23, Pixel 7 Pro, Xiaomi 13 Ultra, Xperia 1 V...</li>
+          <li><code>Phiên bản Android (OS)</code>: Android 14, Android 13, Android 12, Android 11...</li>
+          <li><code>Tên phiên bản (Release Name)</code>: Upside Down Cake, Tiramisu, Snow Cone...</li>
+        </ul>
+        <em>Cả 4 ô đều hỗ trợ Droplist gợi ý thông minh, cho phép chọn nhanh trong danh mục hoặc gõ chỉnh sửa tùy ý.</em>
+      </li>
+      <li><strong>4. 8 Ô thông số phần cứng đối xứng 2 cột tăm tắp:</strong>
+        Bố trí ngăn nắp, cân đối tuyệt đối giữa Cột trái (Mã máy, Nhà SX, Tên thiết bị, Bo mạch) và Cột phải (Build Fingerprint, IMEI, Android ID, WiFi MAC).
+      </li>
+      <li><strong>5. Bộ đôi nút xem trước thông số (Màu Xám Slate):</strong>
+        <ul>
+          <li><span class="btn-ui">Random giữ dòng máy (xem trước)</span>: Sinh toàn bộ IMEI, Android ID, MAC, Serial... mới tinh nhưng <strong>giữ nguyên Hãng và Dòng máy đã chọn</strong>.</li>
+          <li><span class="btn-ui">Random toàn bộ (xem trước)</span>: Đổi ngẫu nhiên toàn bộ trường thông số sang một dòng máy mới bất kỳ trong kho dữ liệu.</li>
         </ul>
       </li>
-      <li>Bấm nút <span class="btn-ui btn-sky">⚡ Bắt Đầu Xếp Lưới Ngay</span>.</li>
-    </ol>
+      <li><strong>6. Nút gộp thông minh [ Dán Mail & Khôi Phục ] (Màu Xanh Dương):</strong>
+        Gộp 2 bước rườm rà thành 1 chạm: Tự động trích xuất chuỗi định dạng Email từ bộ nhớ tạm Clipboard (dạng <code>mail|pass|2fa|recovery...</code>), lưu trữ vào danh mục quản lý và kích hoạt ngay tiến trình Bung nén khôi phục (Restore App Data).
+      </li>
+    </ul>
 
-    <div class="callout callout-purple">
-      <div class="callout-title">🧭 Thuật toán xếp từ góc trên bên trái (Top-Left Flow):</div>
-      Cửa sổ Scrcpy sẽ tự động căn bắt đầu từ góc trên bên trái của Desktop (tọa độ <code>Left + 2, Top + 2</code>), xếp đều đặn sang phải theo thứ tự <code>#1</code>, <code>#2</code>, <code>#3</code>... Khi chạm mép phải Desktop, hệ thống sẽ tự động xuống dòng và tiếp tục xếp hàng tiếp theo từ trái sang phải, đảm bảo không bao giờ che khuất thanh Taskbar.
+    <h3>Phân Cấp 4 Nút Hành Động Chuẩn (Thực Thi Trực Tiếp Lên Điện Thoại):</h3>
+    <div class="callout callout-teal">
+      <div class="callout-title">Nút 1 (ƯU TIÊN HÀNG ĐẦU - MÀU XANH NGỌC TEAL #0f766e):</div>
+      <p style="margin: 0; font-size: 15px; font-weight: bold; color: #5eead4;">
+        RANDOM & CHANGE (Giữ Dòng Máy: Galaxy S23)<br>
+        <span style="font-size: 12.5px; font-weight: normal; color: #a7f3d0;">(Sinh mới IMEI, Android ID, MAC, Serial... nhưng bảo toàn 100% dòng máy đang kết nối)</span>
+      </p>
+      <p style="margin-top: 6px; font-size: 13.5px; color: #e2e8f0;">
+        👉 Đây là nút được sử dụng thường xuyên nhất trong nuôi tài khoản và cày Phone Farm. Nút tự động hiển thị tên dòng máy của thiết bị đang kết nối. Bấm nút này sẽ tráo đổi toàn bộ danh tính thiết bị nhưng giữ nguyên vẹn form dáng, cấu hình chuẩn của dòng máy hiện tại.
+      </p>
+    </div>
+
+    <div class="callout" style="border-left-color: #6366f1; background: rgba(99, 102, 241, 0.12);">
+      <div class="callout-title" style="color: #a5b4fc;">Nút 2 (MÀU INDIGO #4338ca):</div>
+      <strong>RANDOM & CHANGE (Dòng Máy Bất Kỳ)</strong>: Sinh ngẫu nhiên tất cả thông số sang một dòng máy bất kỳ trong cơ sở dữ liệu hàng nghìn thiết bị và ghi đè thẳng vào điện thoại.
+    </div>
+
+    <div class="callout callout-primary">
+      <div class="callout-title">Nút 3 (MÀU XANH DƯƠNG #2563eb):</div>
+      <strong>CHANGE THEO THÔNG SỐ VỪA TẠO</strong>: Áp dụng chính xác những giá trị đang hiển thị trên 12 ô thông số (do bạn vừa bấm nút xem trước hoặc vừa tự tay điền chỉnh sửa).
     </div>
 
     <div class="callout callout-warning">
-      <div class="callout-title">💾 Tính năng Tự Ghi Nhớ Vị Trí Cửa Sổ (Desktop Slot Memory):</div>
-      Nếu bạn tự tay kéo dời một cửa sổ Scrcpy sang một vị trí bất kỳ trên màn hình, hệ thống sẽ tự động lưu lại tọa độ vị trí đó theo Slot. Ở các lần mở sau, cửa sổ sẽ xuất hiện chính xác tại vị trí bạn đã đặt! Bấm nút <span class="btn-ui">↺ Đặt lại vị trí ban đầu</span> nếu bạn muốn xóa bộ nhớ vị trí và xếp lại từ đầu.
+      <div class="callout-title">Nút 4 (MÀU HỔ PHÁCH #d97706):</div>
+      <strong>RESTORE VỀ GỐC CỦA MÁY</strong>: Trả điện thoại về đúng 100% thông số xuất xưởng ban đầu khi xuất xưởng.
     </div>
+
+    <div class="callout callout-success">
+      <div class="callout-title">☑️ Tùy chọn [ Tự động làm sạch ứng dụng (Wipe Clean Data) ]:</div>
+      Được tích hợp ngay trên tiêu đề nhóm Hành động nhanh. Khi tick chọn, trước khi đổi thông số, phần mềm sẽ tự động dọn sạch Cache, Data của các ứng dụng mục tiêu, giúp bạn không cần phải vào Cài đặt để xóa dữ liệu bằng tay.
+    </div>
+  </div>
+
+  <!-- PHẦN 3: XẾP LƯỚI DESKTOP & HOTFIX SCRCPY CHỐNG LAG -->
+  <div class="section" id="sec3">
+    <h2>🖥️ 3. Xếp Lưới Màn Hình Live Ra Desktop & Hotfix Scrcpy Chống Lag PC Yếu</h2>
+    <p>Tính năng mở màn hình Scrcpy trực tiếp toàn bộ dàn máy ra Desktop để người dùng điều khiển chuột và phím thuận tiện, kết hợp các bản vá tối ưu phần cứng độc quyền trên v2.3.6.</p>
+
+    <div class="img-wrapper">
+      <img src="guide_assets/v235_preview_tile_desktop_modal.png" alt="Hộp thoại Xếp Lưới Desktop v2.3.6" onerror="this.src='v235_preview_tile_desktop_modal.png'">
+      <div class="img-caption">Hình 2: Hộp thoại cấu hình Xếp Lưới Desktop với Bộ chọn kích thước tỷ lệ 9:16 và Checkbox chọn máy</div>
+    </div>
+
+    <h3>Hotfix Scrcpy Chống Giật Lag Cho Máy Tính PC Yếu (Bản Quyền v2.3.6):</h3>
+    <ul>
+      <li><strong>Giới hạn thông số chuẩn tối ưu phần cứng:</strong>
+        Mọi cửa sổ Scrcpy được khởi chạy đều được cấu hình tham số:
+        <code>--max-size 480 --max-fps 25 -b 2M</code>.
+        Nhờ đó, luồng video cực kỳ nhẹ nhàng, tiêu tốn rất ít băng thông USB và CPU máy tính. Ngay cả những máy tính PC Core i3, Ram 8GB hay laptop văn phòng vẫn có thể mở đồng thời 10 đến 30 màn hình mượt mà không bị treo máy.
+      </li>
+      <li><strong>Tùy chọn Tắt màn hình thiết bị khi remote (<code>--turn-screen-off</code>):</strong>
+        Màn hình vật lý của điện thoại sẽ tự động tắt đen trong khi cửa sổ máy tính vẫn hiển thị sắc nét. Giúp thiết bị cực kỳ mát mẻ, chống chai phù pin và tiết kiệm điện năng tối đa khi cày dàn farm 24/7.
+      </li>
+      <li><strong>Cơ chế tự động dọn sạch tiến trình ngầm (Scrcpy Ghost Process Cleaner):</strong>
+        Tất cả tiến trình <code>scrcpy.exe</code> và các luồng ADB phụ sẽ tự động được quét và kết thúc triệt để ngay khi đóng Lucas-1Changer Pro hoặc khi bấm Đặt lại lưới. Cam kết không bao giờ để lại tiến trình rác chạy ngầm làm nghẽn RAM máy tính.
+      </li>
+    </ul>
+
+    <h3>Các bước xếp lưới màn hình:</h3>
+    <ol>
+      <li>Tại thanh công cụ đỉnh màn hình, bấm nút: <span class="btn-ui btn-sky">⚡ Tự xếp lưới Desktop</span>.</li>
+      <li>Chọn kích thước hiển thị: <em>Mặc định (320x570)</em>, <em>Tiêu chuẩn (280x500)</em>, <em>Nhỏ gọn (240x426)</em>, <em>Lớn (360x640)</em>, <em>Rất lớn (400x710)</em>, hoặc <em>Tự co giãn vừa Desktop</em>.</li>
+      <li>Tick chọn các máy bạn muốn mở (hoặc bấm <em>[✓ Chọn tất cả]</em>).</li>
+      <li>Bấm nút <span class="btn-ui btn-sky">⚡ Bắt Đầu Xếp Lưới Ngay</span>. Các cửa sổ sẽ tự động căn góc trên bên trái Desktop (<code>Left + 2, Top + 2</code>), dàn từ trái sang phải theo thứ tự <code>#1, #2, #3...</code> và tự xuống hàng khi chạm mép phải Desktop.</li>
+      <li><strong>Ghi nhớ vị trí (Desktop Slot Memory):</strong> Nếu bạn tự tay kéo cửa sổ sang vị trí khác, hệ thống sẽ tự động nhớ tọa độ đó cho các lần mở tiếp theo!</li>
+    </ol>
   </div>
 
   <!-- PHẦN 4: KỊCH BẢN TỰ ĐỘNG HÓA -->
@@ -527,7 +566,7 @@ Lá chắn Sandbox Tar Shield, OTA 1-Click và phím tắt mở HDSD trực ti�
     </ul>
 
     <div class="img-wrapper">
-      <img src="guide_assets/v235_preview_single_mode.png" alt="Chế độ 1 máy v2.3.5" onerror="this.src='v235_preview_single_mode.png'">
+      <img src="guide_assets/v235_preview_single_mode.png" alt="Chế độ 1 máy v2.3.6" onerror="this.src='v235_preview_single_mode.png'">
       <div class="img-caption">Hình 3: Giao diện Chế độ Xem Tập Trung 1 Máy với màn hình Scrcpy trực tiếp mượt mà</div>
     </div>
   </div>
@@ -538,7 +577,7 @@ Lá chắn Sandbox Tar Shield, OTA 1-Click và phím tắt mở HDSD trực ti�
     <p>Lucas-1Changer Pro tích hợp cơ chế cập nhật tự động qua mạng (Over-The-Air Update) kết nối trực tiếp với máy chủ CDN GitHub chính thức của Lucas Team.</p>
 
     <ul>
-      <li><strong>Tự động kiểm tra khi mở phần mềm:</strong> Mỗi khi khởi động, ứng dụng sẽ tự động đối soát phiên bản đang chạy với phiên bản mới nhất trên máy chủ. Nếu có bản cập nhật mới (ví dụ v2.3.5), một thông báo với đầy đủ Changelog sẽ xuất hiện.</li>
+      <li><strong>Tự động kiểm tra khi mở phần mềm:</strong> Mỗi khi khởi động, ứng dụng sẽ tự động đối soát phiên bản đang chạy với phiên bản mới nhất trên máy chủ. Nếu có bản cập nhật mới (ví dụ v2.3.6), một thông báo với đầy đủ Changelog sẽ xuất hiện.</li>
       <li><strong>Cập nhật 1-Click không gián đoạn:</strong> Chỉ cần bấm <strong>"Cập nhật ngay"</strong>, công cụ tự động tải file thực thi mới, giải nén và nạp lại cấu hình mượt mà, không làm mất bất kỳ dữ liệu cài đặt hay hồ sơ backup nào.</li>
       <li><strong>Kiểm tra cập nhật thủ công:</strong> Tại thanh trạng thái dưới cùng bên phải của phần mềm, bạn có thể bấm nút <span class="btn-ui">🔄 Kiểm tra cập nhật</span> bất kỳ lúc nào để tải bản cập nhật mới nhất.</li>
       <li><strong>Mở nhanh Hướng dẫn sử dụng:</strong> Bấm nút <span class="btn-ui btn-purple">📖 Hướng dẫn sử dụng</span> ở góc dưới phải để mở ngay tài liệu cẩm nang này!</li>
@@ -580,7 +619,7 @@ Lá chắn Sandbox Tar Shield, OTA 1-Click và phím tắt mở HDSD trực ti�
         <tr>
           <td><strong>Màn hình Scrcpy bị giật khi mở nhiều máy</strong></td>
           <td>Băng thông USB hoặc CPU máy tính bị quá tải do FPS/Bitrate cao.</td>
-          <td>Vào Tab VIP -> Kích hoạt <strong>Chế độ ECO Farm</strong> (chỉnh FPS xuống 20-30, Bitrate 1-2 Mbps) và bấm Xếp lưới Desktop lại.</td>
+          <td>Phiên bản v2.3.6 đã tích hợp sẵn Hotfix tự động giới hạn 480p, 25fps, 2M bitrate và tắt màn hình thiết bị. Mọi PC đều chạy cực êm. Nếu muốn hạ thêm, vào Tab VIP kích hoạt <strong>Chế độ ECO Farm</strong>.</td>
         </tr>
       </tbody>
     </table>
@@ -588,7 +627,7 @@ Lá chắn Sandbox Tar Shield, OTA 1-Click và phím tắt mở HDSD trực ti�
 
   <!-- FOOTER -->
   <div style="text-align: center; color: var(--text-secondary); font-size: 13.5px; margin-top: 40px; padding-top: 20px; border-top: 1px solid #1e293b;">
-    <strong>Lucas-1Changer Pro v2.3.5 Official Release</strong> &copy; 2026.<br>
+    <strong>Lucas-1Changer Pro v2.3.6 Official Release</strong> &copy; 2026.<br>
     Phát triển & Phân phối độc quyền bởi <strong>Lucas Team</strong>. Mọi quyền được bảo lưu.
   </div>
 
