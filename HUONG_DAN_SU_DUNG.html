@@ -311,7 +311,7 @@ hotfix Scrcpy chống giật lag cho PC yếu và cơ chế tự động dọn s
   <div class="quick-nav">
     <h4>📑 Danh Mục Hướng Dẫn Nhanh:</h4>
     <div class="nav-grid">
-      <a href="#sec1" class="nav-item"><span>⚡ 1.</span> Tự Động Quét & Cài Môi Trường (Zero-Config)</a>
+      <a href="#sec1" class="nav-item"><span>⚡ 1.</span> Tự Động Kích Hoạt LSPosed (Zero-Touch)</a>
       <a href="#sec2" class="nav-item"><span>📱 2.</span> Giao Diện Mới v2.3.6 & 4 Nút Phân Cấp</a>
       <a href="#sec3" class="nav-item"><span>🖥️ 3.</span> Xếp Lưới Desktop & Hotfix Scrcpy Chống Lag</a>
       <a href="#sec4" class="nav-item"><span>🤖 4.</span> Auto Workflow Studio (Nạp Game/Thẻ)</a>
@@ -325,33 +325,28 @@ hotfix Scrcpy chống giật lag cho PC yếu và cơ chế tự động dọn s
 
   <!-- PHẦN 1: TỰ ĐỘNG QUÉT & THIẾT LẬP MÔI TRƯỜNG -->
   <div class="section section-highlight" id="sec1">
-    <h2>⚡ 1. Tự Động Quét & Thiết Lập Môi Trường Khi Khởi Động (Zero-Config)</h2>
-    <p>Hệ thống <strong>Lucas-1Changer Pro v2.3.6</strong> vận hành hoàn toàn tự động theo cơ chế <em>Zero-config Provisioning</em>. Người dùng không cần phải cài đặt thủ công qua dòng lệnh hay thao tác ADB phức tạp.</p>
+    <h2>⚡ 1. Tự Động Quét, Bổ Sung Môi Trường & Kích Hoạt LSPosed (Zero-Touch 100%)</h2>
+    <p>Hệ thống <strong>Lucas-1Changer Pro v2.3.6</strong> vận hành hoàn toàn tự động theo cơ chế <em>Zero-Touch Auto-Provisioning</em>. Khách hàng chỉ việc cắm cáp USB vào máy tính — toàn bộ quy trình nạp môi trường, cấp quyền và kích hoạt LSPosed sẽ diễn ra tự động 100%, <strong>tuyệt đối không cần chạm tay vào màn hình điện thoại!</strong></p>
     
     <div class="callout callout-teal">
-      <div class="callout-title">Quy Trình Tự Động Hóa 100%:</div>
-      <strong>Cắm Cáp Thiết Bị -> Mở Tool -> Hệ thống tự quét & thông báo cài môi trường 1-Click -> Hoàn tất sử dụng ngay!</strong>
+      <div class="callout-title">Quy Trình Tự Động Hóa 100% (Zero-Touch):</div>
+      <strong>Cắm Cáp Thiết Bị -> Mở Tool -> Hệ thống tự quét, tự nạp APK, tự kích hoạt LSPosed ngầm & tự Soft Reboot Zygote -> Sẵn sàng Change ngay lập tức!</strong>
     </div>
 
-    <h3>Cơ Chế Phát Hiện & Thiết Lập Thông Minh:</h3>
+    <h3>Cơ Chế Tự Động Hóa Đột Phá Trên Bản v2.3.6:</h3>
     <ul>
-      <li><strong>Tự động quét thiết bị khi khởi động:</strong> Ngay khi khởi chạy phần mềm và cắm điện thoại qua cáp USB, tool sẽ tự động nhận diện danh sách thiết bị kết nối và kiểm tra tình trạng môi trường (quyền Root, Zygote, Module Lucas Spoofer lõi).</li>
-      <li><strong>Tự động hiển thị hộp thoại cài đặt khi thiếu môi trường:</strong> Nếu phát hiện máy mới cắm vào chưa có module Spoofer hoặc môi trường chưa sẵn sàng, hệ thống sẽ tự động hiển thị cửa sổ <em>"Trung Tâm Cài Đặt Phone Farm 1-Click"</em>.</li>
-      <li><strong>Cài đặt đồng loạt 1-Click trong vài giây:</strong>
-        Người dùng chỉ cần bấm <span class="btn-ui btn-green">▶ BẮT ĐẦU CÀI ĐẶT 1-CLICK</span>:
+      <li><strong>Tự động quét thiết bị khi cắm cáp:</strong> Ngay khi cắm điện thoại vào máy tính hoặc bật tool, phần mềm tự động nhận diện danh sách thiết bị và kiểm tra chi tiết trạng thái môi trường (Root, Zygote, Lucas Spoofer, Device Info, ADBKeyboard và trạng thái kích hoạt LSPosed).</li>
+      <li><strong>Tự động nạp gói lõi còn thiếu trong nền (Silent Provisioning):</strong> Nếu phát hiện thiết bị mới cắm vào chưa có đủ môi trường, hệ thống tự động tải và cài đặt trong nền mà không làm gián đoạn hay hiện popup phiền phức.</li>
+      <li><strong>TỰ ĐỘNG KÍCH HOẠT MODULE TRONG LSPOSED & GÁN PHẠM VI SCOPE:</strong>
+        Lucas-1Changer Pro v2.3.6 tích hợp động cơ can thiệp Root độc quyền:
         <ul>
-          <li>Tự động dọn sạch triệt để tàn dư của các tool cũ khác trên thị trường (chống xung đột, chống văng app).</li>
-          <li>Tự động nạp và cài đặt module Xposed lõi <code>LucasSpoofer.apk</code> và <code>DeviceInfo.apk</code>.</li>
-          <li>Tự động cấu hình giữ màn hình luôn sáng, chống ngủ gật khi cắm dàn farm qua đêm.</li>
-          <li>Tự động cấp quyền Root tối cao và Soft Reboot Zygote (chỉ mất 5 giây) để kích hoạt toàn bộ hook hệ thống mà không cần tắt mở lại nguồn máy.</li>
+          <li>Tự động ghi cờ kích hoạt module <code>com.lucas.spoofer</code> vào cấu hình <code>/data/adb/lspd/</code> của LSPosed.</li>
+          <li>Tự động quét và gán toàn bộ phạm vi <strong>Scope</strong> cho: <code>android</code> (Khung hệ điều hành), <code>Google Play Services</code>, <code>Google Play Store</code> và toàn bộ các ứng dụng bên thứ 3 đang có trên máy.</li>
+          <li>Tự động thực hiện Soft Reboot Zygote (chỉ mất 2 giây) để Zygote nạp ngay hook mà không cần khởi động lại nguồn máy.</li>
         </ul>
       </li>
-      <li><strong>Kích hoạt Module trên LSPosed (Chỉ làm 1 lần duy nhất):</strong>
-        Mở ứng dụng <strong>LSPosed Manager</strong> trên điện thoại -> Chọn mục <strong>Modules</strong> -> Bấm <strong>Lucas Spoofer</strong> -> Gạt BẬT công tắc và tick chọn các ứng dụng cần đổi máy. Thiết bị đã sẵn sàng 100% để sử dụng vĩnh viễn!
-      </li>
-      <li><strong>Nút chủ động [ Setup Phone 1-Click ]:</strong>
-        Khi cắm thêm điện thoại mới vào dàn farm trong lúc tool đang chạy, bạn chỉ cần bấm nút <span class="btn-ui btn-purple">Setup Phone 1-Click</span> trên thanh công cụ để bổ sung môi trường cho các máy mới bất kỳ lúc nào.
-      </li>
+      <li><strong>Không cần mở app LSPosed Manager bằng tay:</strong> Khách hàng không cần phải đi tìm app LSPosed, không cần gạt công tắc hay tick chọn app thủ công trên từng máy nữa!</li>
+      <li><strong>Nút [ Setup Phone 1-Click ] cho dàn Farm:</strong> Khi cắm đồng loạt dàn máy 10 đến 50+ thiết bị vào Hub USB, người dùng chỉ cần bấm nút <span class="btn-ui btn-purple">Setup Phone 1-Click</span> trên thanh công cụ để khởi tạo và kích hoạt toàn bộ dàn máy cùng một lúc chỉ trong vài giây.</li>
     </ul>
   </div>
 
