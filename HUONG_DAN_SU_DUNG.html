@@ -1,8 +1,8 @@
-<!-- [Update: 20/10/2026 22:35]
+<!-- [Update: 20/10/2026 23:15]
 Cập nhật Cẩm nang Hướng dẫn sử dụng Lucas-1Changer Pro v2.3.6.
-Bổ sung chi tiết Giao diện Demo v8, Khung 4 ô thiết bị cố định,
-4 nút phân cấp chuẩn với Nút 1 Teal ưu tiên số 1, nút gộp Dán Mail & Khôi Phục,
-hotfix Scrcpy chống giật lag cho PC yếu và cơ chế tự động dọn sạch tiến trình khi thoát. -->
+Bổ sung chi tiết chất lượng hiển thị Scrcpy 1080p Full HD siêu nét, bitrate 8 Mbps,
+cơ chế chuyển đổi linh hoạt độ phân giải (1080p, 720p, Gốc Native, 480p)
+và tự động làm mới tiến trình Scrcpy cũ khi xếp lưới Desktop. -->
 <!DOCTYPE html>
 <html lang="vi">
 <head>
@@ -433,18 +433,28 @@ hotfix Scrcpy chống giật lag cho PC yếu và cơ chế tự động dọn s
       <div class="img-caption">Hình 2: Hộp thoại cấu hình Xếp Lưới Desktop với Bộ chọn kích thước tỷ lệ 9:16 và Checkbox chọn máy</div>
     </div>
 
-    <h3>Hotfix Scrcpy Chống Giật Lag Cho Máy Tính PC Yếu (Bản Quyền v2.3.6):</h3>
+    <h3>Chuẩn Hiển Thị Sắc Nét Cao & Tối Ưu Stream Scrcpy (Nâng cấp v2.3.6):</h3>
     <ul>
-      <li><strong>Giới hạn thông số chuẩn tối ưu phần cứng:</strong>
-        Mọi cửa sổ Scrcpy được khởi chạy đều được cấu hình tham số:
-        <code>--max-size 480 --max-fps 25 -b 2M</code>.
-        Nhờ đó, luồng video cực kỳ nhẹ nhàng, tiêu tốn rất ít băng thông USB và CPU máy tính. Ngay cả những máy tính PC Core i3, Ram 8GB hay laptop văn phòng vẫn có thể mở đồng thời 10 đến 30 màn hình mượt mà không bị treo máy.
+      <li><strong>Mặc định 1080p Full HD siêu nét (8 Mbps, 30 FPS):</strong>
+        Khác với các công cụ thông thường bị mờ nhòe chữ số, Lucas-1Changer Pro v2.3.6 thiết lập mặc định độ phân giải decode <strong>1080p với Bitrate 8 Mbps</strong> chuẩn nét căng. Giúp người dùng đọc rõ từng chữ số IMEI, serial, email và chi tiết nhỏ nhất trên ứng dụng mà không bị vỡ hạt.
+      </li>
+      <li><strong>Tùy chọn Độ nét & Tối ưu đa dạng:</strong>
+        Hộp thoại Xếp lưới cung cấp 4 chế độ tối ưu linh hoạt cho mọi dàn máy:
+        <ul>
+          <li><strong>1080p - Sắc nét cao (Chuẩn nét căng - Mặc định):</strong> Decode 1080p, Bitrate 8 Mbps, 30 FPS. Khuyên dùng để nhìn rõ nhất.</li>
+          <li><strong>720p - Tiêu chuẩn mượt mà:</strong> Decode 720p, Bitrate 4 Mbps, 30 FPS. Cân bằng tối ưu khi mở đồng thời từ 10 - 20 máy.</li>
+          <li><strong>Gốc (Native 100% - Không nén):</strong> Giữ nguyên độ phân giải gốc của máy thật, Bitrate 12 Mbps, 60 FPS cho độ sắc nét tối đa.</li>
+          <li><strong>480p - Tiết kiệm CPU:</strong> Decode 480p, Bitrate 2 Mbps, 25 FPS. Dành riêng cho máy tính văn phòng cấu hình rất yếu.</li>
+        </ul>
+      </li>
+      <li><strong>Tự động làm mới cấu hình Scrcpy khi Xếp Lưới:</strong>
+        Khi người dùng chọn cấu hình độ nét mới và bấm Xếp lưới, hệ thống tự động nhận diện và làm mới tiến trình Scrcpy cũ để áp dụng ngay lập tức thông số vừa chọn, tuyệt đối không bị khóa cứng ở độ phân giải cũ.
       </li>
       <li><strong>Tùy chọn Tắt màn hình thiết bị khi remote (<code>--turn-screen-off</code>):</strong>
         Màn hình vật lý của điện thoại sẽ tự động tắt đen trong khi cửa sổ máy tính vẫn hiển thị sắc nét. Giúp thiết bị cực kỳ mát mẻ, chống chai phù pin và tiết kiệm điện năng tối đa khi cày dàn farm 24/7.
       </li>
       <li><strong>Cơ chế tự động dọn sạch tiến trình ngầm (Scrcpy Ghost Process Cleaner):</strong>
-        Tất cả tiến trình <code>scrcpy.exe</code> và các luồng ADB phụ sẽ tự động được quét và kết thúc triệt để ngay khi đóng Lucas-1Changer Pro hoặc khi bấm Đặt lại lưới. Cam kết không bao giờ để lại tiến trình rác chạy ngầm làm nghẽn RAM máy tính.
+        Tất cả tiến trình <code>scrcpy.exe</code> và các luồng ADB phụ sẽ tự động được quét và kết thúc triệt để ngay khi đóng Lucas-1Changer Pro hoặc khi bấm Đặt lại vị trí. Cam kết không bao giờ để lại tiến trình rác chạy ngầm làm nghẽn RAM máy tính.
       </li>
     </ul>
 
@@ -596,9 +606,9 @@ hotfix Scrcpy chống giật lag cho PC yếu và cơ chế tự động dọn s
           <td>Vào Magisk/KSU/APatch -> Bật Enforce DenyList -> Thêm app mục tiêu vào DenyList -> Dùng tính năng <em>"Ẩn ứng dụng Magisk"</em> để đổi tên gói cài đặt.</td>
         </tr>
         <tr>
-          <td><strong>Màn hình Scrcpy bị giật khi mở nhiều máy</strong></td>
-          <td>Băng thông USB hoặc CPU máy tính bị quá tải do FPS/Bitrate cao.</td>
-          <td>Phiên bản v2.3.6 đã tích hợp sẵn Hotfix tự động giới hạn 480p, 25fps, 2M bitrate và tắt màn hình thiết bị. Mọi PC đều chạy cực êm. Nếu muốn hạ thêm, vào Tab VIP kích hoạt <strong>Chế độ ECO Farm</strong>.</td>
+          <td><strong>Màn hình Scrcpy bị giật hoặc mờ khi mở nhiều máy</strong></td>
+          <td>Tùy thuộc vào cấu hình PC và số lượng máy cắm vào.</td>
+          <td>Nếu thấy mờ chữ: Tại hộp thoại Xếp Lưới, chọn <strong>1080p - Sắc nét cao</strong> (bitrate 8 Mbps). Nếu mở dàn từ 15-30 máy và PC bị chậm, chọn <strong>720p</strong> hoặc <strong>480p</strong> để giảm tải CPU và USB bus.</td>
         </tr>
       </tbody>
     </table>
