@@ -1,13 +1,14 @@
-<!-- [Update: 21/10/2026 16:10]
-Cập nhật Cẩm nang Hướng dẫn sử dụng Lucas-1Changer Pro v2.3.9 Full Package.
-Bổ sung chi tiết UI siêu tinh gọn 900x665, Root Silent Install mọi ROM, và Backup siêu nhẹ.
-Chỉ lưu tài khoản & cấu hình, không kèm APK, cùng cơ chế tự động dọn rác bản cũ. -->
+<!-- [Update: 21/10/2026 19:35]
+Cập nhật Cẩm nang Hướng dẫn sử dụng Lucas-1Changer Pro v2.4.1 Chuẩn Quốc Tế.
+Bổ sung chi tiết Bộ chọn thiết bị liên hoàn (Cascade Selectors) khớp Hãng - Dòng máy - Mã máy,
+Đồng bộ About Phone trong Cài đặt gốc, OTA Cloud tốc độ cao & Re-sync Hotfix 1-Click.
+Loại bỏ hoàn toàn tài liệu định dạng PDF, chuyển đổi trọn vẹn sang cẩm nang HTML siêu nhẹ. -->
 <!DOCTYPE html>
 <html lang="vi">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Cẩm Nang Hướng Dẫn Sử Dụng - Lucas-1Changer Pro v2.3.9</title>
+<title>Cẩm Nang Hướng Dẫn Sử Dụng - Lucas-1Changer Pro v2.4.1</title>
 <style>
   :root {
     --bg-dark: #0f172a;
@@ -403,15 +404,15 @@ Chỉ lưu tài khoản & cấu hình, không kèm APK, cùng cơ chế tự đ�
   <div class="hero-header">
     <img src="Resources/guide_assets/lucas 2.png" alt="Lucas Logo" class="hero-logo" onerror="this.src='guide_assets/lucas 2.png';">
     <div class="hero-text">
-      <h1>LUCAS-1CHANGER PRO v2.3.9</h1>
+      <h1>LUCAS-1CHANGER PRO v2.4.1</h1>
       <p>Cẩm Nang Hướng Dẫn Sử Dụng & Vận Hành Hệ Thống Phone Farm Tự Động Hóa Chuyên Nghiệp</p>
       <div>
-        <span class="badge badge-teal">⚡ v2.3.9 Official Release</span>
+        <span class="badge badge-teal">⚡ v2.4.1 Official Release</span>
         <span class="badge badge-purple">UI Phone Farm 900x665</span>
-        <span class="badge badge-blue">Clean Auto-Fill (Có STT)</span>
-        <span class="badge badge-green">Root Silent Install (100% ROM)</span>
-        <span class="badge badge-orange">Backup TK & Cấu Hình Siêu Tốc</span>
-        <span class="badge badge-red">Auto Dọn Rác & OTA 1-Click</span>
+        <span class="badge badge-blue">Bộ Chọn Thiết Bị Liên Hoàn (v2.4.1)</span>
+        <span class="badge badge-green">Khớp 100% About Phone Cài Đặt Gốc</span>
+        <span class="badge badge-orange">OTA Cloud & Re-sync Hotfix</span>
+        <span class="badge badge-red">HTML Guide Siêu Nhẹ (Bỏ PDF)</span>
       </div>
     </div>
   </div>
@@ -421,13 +422,13 @@ Chỉ lưu tài khoản & cấu hình, không kèm APK, cùng cơ chế tự đ�
     <h4>📑 Danh Mục Hướng Dẫn Nhanh:</h4>
     <div class="nav-grid">
       <a href="#sec1" class="nav-item"><span>⚡ 1.</span> Tự Động Kích Hoạt LSPosed & Root Silent Install</a>
-      <a href="#sec2" class="nav-item"><span>📱 2.</span> Giao Diện Mới v2.3.9 & Bảng Thiết Bị Auto-Fill</a>
+      <a href="#sec2" class="nav-item"><span>📱 2.</span> Giao Diện v2.4.1 & Bộ Chọn Thiết Bị Liên Hoàn</a>
       <a href="#sec3" class="nav-item"><span>🖥️ 3.</span> Xếp Lưới Desktop & Hotfix Scrcpy Chống Lag</a>
       <a href="#sec4" class="nav-item"><span>🤖 4.</span> Auto Workflow Studio (Nạp Game/Thẻ)</a>
       <a href="#sec5" class="nav-item"><span>🛡️ 5.</span> Sao Lưu Siêu Tốc (Chỉ TK & Cấu Hình, Bỏ APK)</a>
-      <a href="#sec6" class="nav-item"><span>🔧 6.</span> Tương Thích 100% Mọi Loại ROM & Can Thiệp Sâu</a>
+      <a href="#sec6" class="nav-item"><span>🔧 6.</span> Tương Thích 100% Mọi Loại ROM & Khớp About Phone</a>
       <a href="#sec7" class="nav-item"><span>⭐ 7.</span> Phòng Điều Khiển VIP Phone Farm</a>
-      <a href="#sec8" class="nav-item"><span>🔄 8.</span> Tự Động Dọn Rác Bản Cũ & Cập Nhật OTA</a>
+      <a href="#sec8" class="nav-item"><span>🔄 8.</span> Cập Nhật OTA GitHub Cloud & Re-sync Hotfix</a>
       <a href="#sec9" class="nav-item"><span>🛠️ 9.</span> Xử Lý Sự Cố Thường Gặp (FAQ)</a>
     </div>
   </div>
@@ -435,23 +436,23 @@ Chỉ lưu tài khoản & cấu hình, không kèm APK, cùng cơ chế tự đ�
   <!-- PHẦN 1: TỰ ĐỘNG QUÉT & THIẾT LẬP MÔI TRƯỜNG -->
   <div class="section section-highlight" id="sec1">
     <h2>⚡ 1. Tự Động Quét, Bổ Sung Môi Trường & Kích Hoạt LSPosed (Zero-Touch 100%)</h2>
-    <p>Hệ thống <strong>Lucas-1Changer Pro v2.3.9</strong> vận hành hoàn toàn tự động theo cơ chế <em>Zero-Touch Auto-Provisioning</em>. Khách hàng chỉ việc cắm cáp USB vào máy tính — toàn bộ quy trình nạp môi trường, cấp quyền và kích hoạt LSPosed sẽ diễn ra tự động 100%, <strong>tuyệt đối không cần chạm tay vào màn hình điện thoại!</strong></p>
+    <p>Hệ thống <strong>Lucas-1Changer Pro v2.4.1</strong> vận hành hoàn toàn tự động theo cơ chế <em>Zero-Touch Auto-Provisioning</em>. Khách hàng chỉ việc cắm cáp USB vào máy tính — toàn bộ quy trình nạp môi trường, cấp quyền và kích hoạt LSPosed sẽ diễn ra tự động 100%, <strong>tuyệt đối không cần chạm tay vào màn hình điện thoại!</strong></p>
     
     <div class="callout callout-teal">
       <div class="callout-title">Quy Trình Tự Động Hóa 100% (Zero-Touch):</div>
       <strong>Cắm Cáp Thiết Bị -> Mở Tool -> Hệ thống tự quét, tự nạp APK qua Root Silent Install, tự kích hoạt LSPosed ngầm & tự Soft Reboot Zygote -> Sẵn sàng Change ngay lập tức!</strong>
     </div>
 
-    <h3>Cơ Chế Tự Động Hóa & Root Silent Install Đột Phá Trên Bản v2.3.9:</h3>
+    <h3>Cơ Chế Tự Động Hóa & Root Silent Install Đột Phá:</h3>
     <ul>
       <li><strong>Cài đặt tĩnh lặng qua quyền Root (Root Silent Install):</strong> Sử dụng lệnh độc quyền <code>su -c "pm install -r -d -g /data/local/tmp/..."</code> thay thế cho lệnh ADB install thông thường. Cơ chế này vượt qua 100% rào cản chặn cài đặt USB trên các dòng ROM khắt khe như <strong>Xiaomi / MIUI / HyperOS, ColorOS, OriginOS</strong> (không bao giờ đòi tài khoản Mi hay cắm SIM xác thực), đồng thời tự động cấp trước toàn bộ Runtime Permissions và triệt tiêu hoàn toàn popup cảnh báo của Google Play Protect.</li>
       <li><strong>Tự động quét thiết bị khi cắm cáp:</strong> Ngay khi cắm điện thoại vào máy tính hoặc bật tool, phần mềm tự động nhận diện danh sách thiết bị và kiểm tra chi tiết trạng thái môi trường (Root, Zygote, Lucas Spoofer, Device Info, ADBKeyboard và trạng thái kích hoạt LSPosed).</li>
       <li><strong>Tự động nạp gói lõi còn thiếu trong nền (Silent Provisioning):</strong> Nếu phát hiện thiết bị mới cắm vào chưa có đủ môi trường, hệ thống tự động tải và cài đặt trọn bộ APK tích hợp sẵn trong thư mục <code>Resources/apk/</code> mà không làm gián đoạn hay hiện popup phiền phức.</li>
       <li><strong>TỰ ĐỘNG KÍCH HOẠT MODULE TRONG LSPOSED & GÁN PHẠM VI SCOPE:</strong>
-        Lucas-1Changer Pro v2.3.9 tích hợp động cơ can thiệp Root độc quyền:
+        Lucas-1Changer Pro v2.4.1 tích hợp động cơ can thiệp Root độc quyền:
         <ul>
           <li>Tự động ghi cờ kích hoạt module <code>com.lucas.spoofer</code> vào cấu hình <code>/data/adb/lspd/</code> của LSPosed.</li>
-          <li>Tự động quét và gán toàn bộ phạm vi <strong>Scope</strong> cho: <code>android</code> (Khung hệ điều hành), <code>Google Play Services</code>, <code>Google Play Store</code> và toàn bộ các ứng dụng bên thứ 3 đang có trên máy.</li>
+          <li>Tự động quét và gán toàn bộ phạm vi <strong>Scope</strong> cho: <code>android</code> (Khung hệ điều hành), <code>com.android.settings</code> (Cài đặt gốc), <code>Google Play Services</code>, <code>Google Play Store</code> và toàn bộ các ứng dụng bên thứ 3 đang có trên máy.</li>
           <li>Tự động thực hiện Soft Reboot Zygote (chỉ mất 2 giây) để Zygote nạp ngay hook mà không cần khởi động lại nguồn máy.</li>
         </ul>
       </li>
@@ -460,37 +461,40 @@ Chỉ lưu tài khoản & cấu hình, không kèm APK, cùng cơ chế tự đ�
     </ul>
   </div>
 
-  <!-- PHẦN 2: GIAO DIỆN MỚI V2.3.9 & BẢNG THIẾT BỊ AUTO-FILL -->
+  <!-- PHẦN 2: GIAO DIỆN MỚI V2.4.1 & BỘ CHỌN THIẾT BỊ LIÊN HOÀN -->
   <div class="section" id="sec2">
-    <h2>📱 2. Bảng Điều Khiển Giao Diện Phone Farm Siêu Tinh Gọn v2.3.9</h2>
-    <p>Phiên bản <strong>v2.3.9</strong> mang đến sự lột xác toàn diện về mặt giao diện người dùng, được tái cấu trúc hoàn toàn dựa trên thực tế cày Phone Farm: siêu tinh tươm, loại bỏ mọi cột thừa, bổ sung cột STT rõ ràng và thu nhỏ kích thước tổng thể vừa vặn cho Desktop.</p>
+    <h2>📱 2. Bảng Điều Khiển Giao Diện Phone Farm Siêu Tinh Gọn v2.4.1</h2>
+    <p>Phiên bản <strong>v2.4.1</strong> mang đến sự nâng cấp vượt bậc về trải nghiệm người dùng, kết hợp bảng điều khiển Phone Farm tối ưu và <strong>Bộ chọn thiết bị liên hoàn (Cascade Selectors)</strong> khớp hoàn hảo 3 thông số Hãng, Dòng máy và Mã máy.</p>
 
     <div class="img-wrapper">
-      <img src="Resources/guide_assets/v239_preview_main_dashboard.png" alt="Giao diện chuẩn Lucas-1Changer Pro v2.3.9" onerror="this.src='guide_assets/v239_preview_main_dashboard.png';">
-      <div class="img-caption">Hình 1: Bảng điều khiển chính Lucas-1Changer Pro v2.3.9 - Kích thước chuẩn 900x665 px, Cột STT, Bảng thiết bị Clean Auto-Fill, Khung tuỳ chọn thu gọn 25% và 4 nút hành động cân đối</div>
+      <img src="Resources/guide_assets/v239_preview_main_dashboard.png" alt="Giao diện chuẩn Lucas-1Changer Pro v2.4.1" onerror="this.src='guide_assets/v239_preview_main_dashboard.png';">
+      <div class="img-caption">Hình 1: Bảng điều khiển chính Lucas-1Changer Pro v2.4.1 - Kích thước chuẩn 900x665 px, Cột STT, Bảng thiết bị Clean Auto-Fill, Bộ chọn liên hoàn 3 danh sách và Khung tùy chọn neo sát phải</div>
     </div>
 
-    <h3>Các Cải Tiến Giao Diện Cốt Lõi Trên Bản v2.3.9:</h3>
+    <h3>Các Cải Tiến Cốt Lõi Trên Bản v2.4.1:</h3>
     <ul>
-      <li><strong>1. Thu gọn kích thước cửa sổ về 900x665 px (Chuẩn Phone Farm):</strong>
-        Dành trọn vẹn 50% không gian màn hình Desktop bên phải cho 3 - 4 cửa sổ Scrcpy điều khiển điện thoại thật mà không bị che khuất hay đè lên tool.
+      <li><strong>1. Bộ Chọn Thiết Bị Liên Hoàn 3 Danh Sách (Cascade Device Selector - Đột Phá v2.4.1):</strong>
+        <ul>
+          <li><strong>Khắc phục triệt để tình trạng lệch thông số:</strong> Trước đây khi chọn Samsung, dòng máy hoặc mã máy vẫn bị kẹt ở Pixel 7. Trên bản v2.4.1, 3 danh sách <strong>Hãng - Dòng máy - Mã máy</strong> được kết nối tự động 100%.</li>
+          <li><strong>Tự động lọc dropdown theo Hãng:</strong> Khi chọn <code>samsung</code>, cả 2 ô Dòng máy và Mã máy lập tức nạp danh sách thiết bị Samsung và tự động chọn ngay máy đầu tiên phù hợp (Dòng máy: <strong>Galaxy S23 Ultra</strong>, Mã máy: <strong>SM-S918B</strong>, Android: <strong>14</strong>).</li>
+          <li><strong>Tự động khớp 2 chiều:</strong> Khi chọn Dòng máy <code>Galaxy S22 Ultra</code> $\rightarrow$ Mã máy tự nhảy sang <code>SM-S908B</code>. Khi gõ hoặc chọn Mã máy <code>SM-S901B</code> $\rightarrow$ Dòng máy tự cập nhật thành <code>Galaxy S22</code>.</li>
+          <li><strong>Kho Preset chuẩn hơn 65 dòng máy thực tế:</strong> Tích hợp đầy đủ Samsung Galaxy S24/S23/S22 Ultra, Z Fold 5, Google Pixel 8/7/6, Xiaomi 14/13/12, Redmi Note, POCO, Oppo Find X, Vivo X90, Realme GT, OnePlus 12/11, Sony Xperia, Asus ROG, Huawei, Motorola, LG.</li>
+          <li><strong>Đồng bộ 2 chiều Multi & Single View:</strong> Chuyển đổi giữa chế độ Nhiều Thiết Bị và 1 Thiết Bị mượt mà, không xung đột vòng lặp sự kiện.</li>
+        </ul>
       </li>
       <li><strong>2. Bảng danh sách thiết bị siêu sạch (Clean Auto-Fill):</strong>
         <ul>
           <li><strong>Thêm cột Số Thứ Tự (STT):</strong> Căn giữa rõ ràng ngay bên cạnh cột Chọn máy, giúp người dùng đối chiếu nhanh máy #1, #2, #3... với cổng cắm USB và cửa sổ Scrcpy.</li>
-          <li><strong>Loại bỏ triệt để 4 cột rườm rà:</strong> Đã bỏ hoàn toàn cột <em>Ngày hết hạn</em>, <em>Key kích hoạt</em>, <em>Config Socks</em> và <em>Thông báo</em> để trả lại không gian tối đa cho bảng dữ liệu.</li>
-          <li><strong>Cột Email Mới tự động co giãn (Auto-Fill):</strong> Cột Email tự động giãn rộng lấp đầy bảng, hiển thị trọn vẹn cả địa chỉ mail dài lẫn mật khẩu và pass khôi phục mà không bị cắt cụt.</li>
+          <li><strong>Cột Tài khoản Email tự động co giãn (Auto-Fill):</strong> Cột Email tự động giãn rộng lấp đầy bảng, hiển thị trọn vẹn cả địa chỉ mail dài lẫn mật khẩu và pass khôi phục mà không bị cắt cụt. Đã bỏ chữ <em>(Mới)</em> để tiêu đề luôn ngắn gọn, tinh tươm.</li>
           <li><strong>Cột Trạng thái trực quan:</strong> Hiển thị chữ màu Xanh lá (<code>Trực tuyến</code>) khi máy đã sẵn sàng và màu Đỏ cam nổi bật (<code>Chưa Root ⚠️</code>) khi máy chưa cấp quyền Root.</li>
         </ul>
       </li>
-      <li><strong>3. Tinh chỉnh Khung Tìm Kiếm & Tuỳ Chọn Thiết Bị:</strong>
+      <li><strong>3. Tinh chỉnh Khung Tùy Chọn & Khung Tìm Kiếm:</strong>
         <ul>
-          <li><strong>Khung tuỳ chọn thiết bị thu nhỏ 25%:</strong> Giảm diện tích chiếm dụng, giúp bố cục thông số thanh thoát và tập trung hơn.</li>
-          <li><strong>Khung tìm kiếm neo chuẩn góc phải Toolbar:</strong> Cố định mép phải thanh công cụ với khoảng cách an toàn >100px, tuyệt đối không bị đè hay cắt chữ khi co giãn cửa sổ.</li>
+          <li><strong>Khung tuỳ chọn thiết bị neo cố định sát bên phải:</strong> Giúp giao diện gọn gàng, dành trọn không gian ở giữa cho 4 nút hành động nhanh.</li>
+          <li><strong>4 Nút hành động nhanh mở rộng ~325px:</strong> Các nút bấm co giãn rộng rãi, chữ to rõ ràng, bố cục cân đối chuẩn tỷ lệ Phone Farm.</li>
+          <li><strong>Khung tìm kiếm neo chuẩn góc phải Toolbar:</strong> Cố định mép phải thanh công cụ với khoảng cách an toàn, tuyệt đối không bị đè hay cắt chữ khi co giãn cửa sổ.</li>
         </ul>
-      </li>
-      <li><strong>4. 4 Nút Hành Động Nhanh Thu Gọn Cân Đối (235px x 34px):</strong>
-        Triệt tiêu hoàn toàn cảm giác nút bấm to thô bè, sắp xếp 4 nút dọc tăm tắp, thanh thoát và hiện đại.
       </li>
     </ul>
 
@@ -498,7 +502,7 @@ Chỉ lưu tài khoản & cấu hình, không kèm APK, cùng cơ chế tự đ�
     <div class="callout callout-teal">
       <div class="callout-title">Nút 1 (ƯU TIÊN HÀNG ĐẦU - MÀU XANH NGỌC TEAL #0f766e):</div>
       <p style="margin: 0; font-size: 15px; font-weight: bold; color: #5eead4;">
-        RANDOM & CHANGE (Giữ Dòng Máy: Galaxy S23)<br>
+        RANDOM & CHANGE (Giữ Dòng Máy: Galaxy S23 Ultra)<br>
         <span style="font-size: 12.5px; font-weight: normal; color: #a7f3d0;">(Sinh mới IMEI, Android ID, MAC, Serial... nhưng bảo toàn 100% dòng máy đang kết nối)</span>
       </p>
       <p style="margin-top: 6px; font-size: 13.5px; color: #e2e8f0;">
@@ -508,12 +512,12 @@ Chỉ lưu tài khoản & cấu hình, không kèm APK, cùng cơ chế tự đ�
 
     <div class="callout" style="border-left-color: #6366f1; background: rgba(99, 102, 241, 0.12);">
       <div class="callout-title" style="color: #a5b4fc;">Nút 2 (MÀU INDIGO #4338ca):</div>
-      <strong>RANDOM & CHANGE (Dòng Máy Bất Kỳ)</strong>: Sinh ngẫu nhiên tất cả thông số sang một dòng máy bất kỳ trong cơ sở dữ liệu hàng nghìn thiết bị và ghi đè thẳng vào điện thoại.
+      <strong>RANDOM & CHANGE (Dòng Máy Bất Kỳ)</strong>: Sinh ngẫu nhiên tất cả thông số sang một dòng máy bất kỳ trong cơ sở dữ liệu hàng chục thiết bị thực tế và ghi đè thẳng vào điện thoại.
     </div>
 
     <div class="callout callout-primary">
       <div class="callout-title">Nút 3 (MÀU XANH DƯƠNG #2563eb):</div>
-      <strong>CHANGE THEO THÔNG SỐ VỪA TẠO</strong>: Áp dụng chính xác những giá trị đang hiển thị trên 12 ô thông số (do bạn vừa bấm nút xem trước hoặc vừa tự tay điền chỉnh sửa).
+      <strong>CHANGE THEO THÔNG SỐ VỪA TẠO</strong>: Áp dụng chính xác những giá trị đang hiển thị trên các ô thông số (do bạn vừa bấm nút xem trước hoặc vừa tự tay điền chỉnh sửa).
     </div>
 
     <div class="callout callout-warning">
@@ -523,17 +527,17 @@ Chỉ lưu tài khoản & cấu hình, không kèm APK, cùng cơ chế tự đ�
 
     <div class="callout callout-success">
       <div class="callout-title">☑️ Tùy chọn [ Tự động làm sạch ứng dụng (Wipe Clean Data) ]:</div>
-      Được tích hợp ngay trên tiêu đề nhóm Hành động nhanh. Khi tick chọn, trước khi đổi thông số, phần mềm sẽ tự động dọn sạch Cache, Data của các ứng dụng mục tiêu, giúp bạn không cần phải vào Cài đặt để xóa dữ liệu bằng tay.
+      Được tích hợp ngay trong khung tùy chọn bên phải. Khi tick chọn, trước khi đổi thông số, phần mềm sẽ tự động dọn sạch Cache, Data của các ứng dụng mục tiêu, giúp bạn không cần phải vào Cài đặt để xóa dữ liệu bằng tay.
     </div>
   </div>
 
   <!-- PHẦN 3: XẾP LƯỚI DESKTOP & HOTFIX SCRCPY CHỐNG LAG -->
   <div class="section" id="sec3">
     <h2>🖥️ 3. Xếp Lưới Màn Hình Live Ra Desktop & Hotfix Scrcpy Chống Lag PC Yếu</h2>
-    <p>Tính năng mở màn hình Scrcpy trực tiếp toàn bộ dàn máy ra Desktop để người dùng điều khiển chuột và phím thuận tiện, kết hợp các bản vá tối ưu phần cứng độc quyền trên v2.3.9.</p>
+    <p>Tính năng mở màn hình Scrcpy trực tiếp toàn bộ dàn máy ra Desktop để người dùng điều khiển chuột và phím thuận tiện, kết hợp các bản vá tối ưu phần cứng độc quyền trên v2.4.1.</p>
 
     <div class="img-wrapper">
-      <img src="Resources/guide_assets/v235_preview_tile_desktop_modal.png" alt="Hộp thoại Xếp Lưới Desktop v2.3.9" onerror="this.src='guide_assets/v235_preview_tile_desktop_modal.png';">
+      <img src="Resources/guide_assets/v235_preview_tile_desktop_modal.png" alt="Hộp thoại Xếp Lưới Desktop v2.4.1" onerror="this.src='guide_assets/v235_preview_tile_desktop_modal.png';">
       <div class="img-caption">Hình 2: Hộp thoại cấu hình Xếp Lưới Desktop với Bộ chọn kích thước tỷ lệ 9:16 và Checkbox chọn máy</div>
     </div>
 
@@ -610,8 +614,8 @@ Chỉ lưu tài khoản & cấu hình, không kèm APK, cùng cơ chế tự đ�
 
   <!-- PHẦN 5: SAO LƯU SIÊU TỐC & PHỤC HỒI AN TOÀN -->
   <div class="section" id="sec5">
-    <h2>🛡️ 5. Sao Lưu Siêu Tốc (Backup & Change) & Phục Hồi An Toàn (Nâng Cấp Đột Phá v2.3.9)</h2>
-    <p>Phân hệ sao lưu (Backup) trên <strong>v2.3.9</strong> được tối ưu hóa toàn diện theo cơ chế <strong>Lightweight Fast-Backup</strong>: Loại bỏ hoàn toàn việc kéo file cài đặt APK nặng nề, chỉ tập trung bảo lưu tài khoản hệ thống và hồ sơ cấu hình máy.</p>
+    <h2>🛡️ 5. Sao Lưu Siêu Tốc (Backup & Change) & Phục Hồi An Toàn (Nâng Cấp Đột Phá v2.4.1)</h2>
+    <p>Phân hệ sao lưu (Backup) trên <strong>v2.4.1</strong> được tối ưu hóa toàn diện theo cơ chế <strong>Lightweight Fast-Backup</strong>: Loại bỏ hoàn toàn việc kéo file cài đặt APK nặng nề, chỉ tập trung bảo lưu tài khoản hệ thống và hồ sơ cấu hình máy.</p>
 
     <div class="callout callout-teal">
       <div class="callout-title">⚡ Đột Phá Về Tốc Độ & Dung Lượng Trên Nút [ Backup & Change ]:</div>
@@ -640,8 +644,8 @@ Chỉ lưu tài khoản & cấu hình, không kèm APK, cùng cơ chế tự đ�
 
   <!-- PHẦN 6: TƯƠNG THÍCH 100% MỌI LOẠI ROM & CAN THIỆP SÂU -->
   <div class="section" id="sec6">
-    <h2>🔧 6. Cơ Chế Can Thiệp Sâu Phần Cứng & Tương Thích 100% Mọi Loại ROM</h2>
-    <p>Lucas-1Changer Pro v2.3.9 tương thích tuyệt đối với 100% tất cả các loại ROM hiện nay: <strong>DomaPhone, AOSP, LineageOS, Pixel Experience, Xiaomi MIUI/HyperOS, Samsung OneUI, OPPO ColorOS, Vivo OriginOS</strong> và các nền tảng máy ảo LDPlayer 9 / Nox / MuMu.</p>
+    <h2>🔧 6. Cơ Chế Can Thiệp Sâu Phần Cứng, Đồng Bộ Cài Đặt (About Phone) & Tương Thích 100% ROM</h2>
+    <p>Lucas-1Changer Pro v2.4.1 tương thích tuyệt đối với 100% tất cả các loại ROM hiện nay: <strong>DomaPhone, AOSP, LineageOS, Pixel Experience, Xiaomi MIUI/HyperOS, Samsung OneUI, OPPO ColorOS, Vivo OriginOS</strong> và các nền tảng máy ảo LDPlayer 9 / Nox / MuMu.</p>
 
     <h3>Các công nghệ can thiệp sâu độc quyền:</h3>
     <ol>
@@ -652,6 +656,9 @@ Chỉ lưu tài khoản & cấu hình, không kèm APK, cùng cơ chế tự đ�
           <li><code>/data/domaconf/duma.prop</code>, <code>/data/domaconf/config</code>, <code>/data/domaconf/device.json</code> (Tương thích 100% ROM DomaPhone).</li>
           <li><code>/data/adb/modules/lucas_spoofer/system.prop</code> (Magisk Systemless Props tự nạp khi boot máy).</li>
         </ul>
+      </li>
+      <li><strong>Đồng Bộ Chuẩn Xác Mục Cài Đặt Điện Thoại (About Phone Sync):</strong>
+        Can thiệp sâu vào Settings Provider (<code>settings put global device_name</code>), các biến hệ thống OEM (<code>ro.product.marketname</code>, <code>ro.boot.em.model</code>, <code>ro.vendor.product.model</code>) và phạm vi Hook LSPosed bao gồm cả <code>com.android.settings</code>. Giúp mục <em>"Thông tin điện thoại / Giới thiệu về điện thoại"</em> trong Cài đặt Android hiển thị chuẩn 100% tên thương mại (Ví dụ: Galaxy S24 Ultra, Xiaomi 14 Pro, Pixel 8 Pro...) trùng khớp hoàn toàn với kết quả kiểm tra trên Device Info HW và CPU-Z.
       </li>
       <li><strong>Chuẩn Hóa Root Script Triệt Tiêu Lỗi CRLF/BOM:</strong>
         Toàn bộ tập lệnh Shell can thiệp phần cứng được mã hóa chuẩn UTF-8 No-BOM và loại bỏ triệt để ký tự ngắt dòng Windows <code>\r\n</code>, đảm bảo Android shell thực thi 100% dòng lệnh mượt mà, xóa bỏ hoàn toàn hiện tượng báo thành công ảo.
@@ -678,20 +685,21 @@ Chỉ lưu tài khoản & cấu hình, không kèm APK, cùng cơ chế tự đ�
     </ul>
 
     <div class="img-wrapper">
-      <img src="Resources/guide_assets/v235_preview_single_mode.png" alt="Chế độ 1 máy v2.3.9" onerror="this.src='guide_assets/v235_preview_single_mode.png';">
+      <img src="Resources/guide_assets/v235_preview_single_mode.png" alt="Chế độ 1 máy v2.4.1" onerror="this.src='guide_assets/v235_preview_single_mode.png';">
       <div class="img-caption">Hình 3: Giao diện Chế độ Xem Tập Trung 1 Máy với màn hình Scrcpy trực tiếp mượt mà</div>
     </div>
   </div>
 
   <!-- PHẦN 8: TỰ ĐỘNG DỌN RÁC & CẬP NHẬT TỰ ĐỘNG OTA -->
   <div class="section" id="sec8">
-    <h2>🔄 8. Cơ Chế Tự Động Dọn Rác Bản Cũ & Cập Nhật OTA 1-Click</h2>
-    <p>Lucas-1Changer Pro tích hợp cơ chế quản lý tệp tin sạch sẽ và cập nhật tự động qua mạng (Over-The-Air Update) kết nối trực tiếp với máy chủ CDN GitHub chính thức của Lucas Team.</p>
+    <h2>🔄 8. Cơ Chế Tự Động Dọn Rác Bản Cũ & Cập Nhật Siêu Tốc OTA 1-Click</h2>
+    <p>Lucas-1Changer Pro tích hợp cơ chế quản lý tệp tin sạch sẽ và cập nhật tự động qua mạng (Over-The-Air Update) kết nối trực tiếp với máy chủ GitHub Cloud chính thức của Lucas Team.</p>
 
     <ul>
-      <li><strong>Cơ chế tự động dọn rác khi khởi động (CleanupLegacyFiles):</strong> Mỗi khi mở ứng dụng, tool sẽ tự động quét thư mục làm việc và xóa sạch toàn bộ các file <code>.exe</code> cũ (từ v2.0 đến v2.3.8) cùng các file <code>.bat</code> tạm còn sót lại. Thư mục tool của Sếp luôn luôn sạch sẽ, duy nhất 1 file thực thi <code>LucasChanger_Pro_v2.3.9.exe</code>.</li>
-      <li><strong>Cập nhật 1-Click không gián đoạn:</strong> Khi có bản cập nhật mới, chỉ cần bấm <strong>"Cập nhật ngay"</strong>, công cụ tự động tải file mới và thay thế in-place an toàn, tuyệt đối không tạo ra các file thừa.</li>
-      <li><strong>Link tải gói cài đặt đầy đủ chính thức:</strong> Tải trọn bộ Full Package (gồm EXE, cẩm nang HDSD, công cụ ADB/Scrcpy và trọn bộ APKs) qua link rút gọn chính thức: <a href="https://da.gd/lucas-full" target="_blank" style="color: #38bdf8; font-weight: bold;">https://da.gd/lucas-full</a>.</li>
+      <li><strong>Cơ chế tự động dọn rác khi khởi động (CleanupLegacyFiles):</strong> Mỗi khi mở ứng dụng, tool sẽ tự động quét thư mục làm việc và xóa sạch toàn bộ các file <code>.exe</code> cũ (từ v2.0 đến v2.4.0) cùng các file <code>.bat</code> tạm còn sót lại. Thư mục tool của Sếp luôn luôn sạch sẽ, duy nhất 1 file thực thi <code>LucasChanger_Pro_v2.4.1.exe</code>.</li>
+      <li><strong>Cập nhật OTA 1-Click & Đồng bộ lại Hotfix:</strong> Khi có bản cập nhật mới, chỉ cần bấm <strong>"Cập nhật ngay"</strong>, công cụ tự động tải file mới và thay thế in-place an toàn, tuyệt đối không tạo ra các file thừa. Thậm chí khi đang ở phiên bản mới nhất, nút <strong>"Đồng bộ lại (Re-sync)"</strong> cho phép cập nhật tức thì các bản vá Hotfix nhanh mà không cần tăng số hiệu phiên bản.</li>
+      <li><strong>Cẩm nang Hướng dẫn 100% HTML tương tác (Loại bỏ PDF):</strong> Bỏ hoàn toàn file PDF tĩnh nặng nề (~4.5 MB), chuyển đổi trọn vẹn sang cẩm nang HTML siêu nhẹ (~45 KB). Mở tức thì trên mọi trình duyệt web mặc định, hỗ trợ mục lục nhảy nhanh, hiển thị hình ảnh minh họa sắc nét và luôn được đồng bộ tự động theo từng thay đổi của phần mềm.</li>
+      <li><strong>Link tải gói cài đặt đầy đủ chính thức:</strong> Tải trọn bộ Full Package (gồm EXE, cẩm nang HDSD HTML, công cụ ADB/Scrcpy và trọn bộ APKs) qua link rút gọn chính thức: <a href="https://da.gd/lucas-full" target="_blank" style="color: #38bdf8; font-weight: bold;">https://da.gd/lucas-full</a>.</li>
       <li><strong>Mở nhanh Hướng dẫn sử dụng:</strong> Bấm nút <span class="btn-ui btn-purple">📖 Hướng dẫn sử dụng</span> ở góc dưới phải phần mềm để mở ngay tài liệu cẩm nang này bất kỳ lúc nào!</li>
     </ul>
   </div>
@@ -744,7 +752,7 @@ Chỉ lưu tài khoản & cấu hình, không kèm APK, cùng cơ chế tự đ�
 
   <!-- FOOTER -->
   <div style="text-align: center; color: var(--text-secondary); font-size: 13.5px; margin-top: 40px; padding-top: 20px; border-top: 1px solid #1e293b;">
-    <strong>Lucas-1Changer Pro v2.3.9 Official Release</strong> &copy; 2026.<br>
+    <strong>Lucas-1Changer Pro v2.4.1 Official Release</strong> &copy; 2026.<br>
     Phát triển & Phân phối độc quyền bởi <strong>Lucas Team</strong>. Mọi quyền được bảo lưu.
   </div>
 
