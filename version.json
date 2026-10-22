@@ -1,14 +1,14 @@
 {
   "status": "success",
-  "latest_version": "2.5.0",
+  "latest_version": "2.5.1",
   "min_required_version": "1.0.0",
-  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.5.0.exe",
-  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.5.0.exe",
-  "download_url_setup": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.5.0_Setup.exe",
-  "features": "- Sửa triệt để Tên máy (About phone Device name): can thiệp toàn diện các khóa Samsung và Settings XML, tự động áp dụng 100% không cần sửa tay\n- Tự động nạp trọn bộ môi trường Magisk, Zygisk, LSPosed, Spoofer, DeviceInfo, Keyboard khi cắm máy\n- Tự động tải file từ GitHub OTA nếu máy tính người dùng thiếu file\n- Bảo vệ Baseband chip Modem Samsung: chống mất IMEI 00000 và bảo toàn 100% sóng SIM",
-  "changelog": "- [ĐỘT PHÁ v2.5.0] Sửa lỗi Tên máy (Device Name) trên Samsung One UI và Android 10: tự động can thiệp Settings System, Global, Secure và sửa trực tiếp database XML, nạp sạch cache.\n- [AUTO PROVISIONING] Khi cắm máy: tự động phát hiện và nạp trọn bộ Magisk.apk, kích hoạt Zygisk, module LSPosed, LSPosed Manager, Spoofer, Keyboard và Standalone Resetprop.\n- [BẢO VỆ BASEBAND] Loại bỏ lệnh resetprop can thiệp vào gsm.version.baseband, cứu hộ triệt để hiện tượng mất IMEI 000000000000000 và SIM Not Available trên Samsung S9.\n- [AUTO DOWNLOAD] Tool tự động tải các file APK/Module cần thiết từ GitHub nếu máy tính người dùng chạy file exe đơn lẻ.",
+  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.5.1.exe",
+  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.5.1.exe",
+  "download_url_setup": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.5.1_Setup.exe",
+  "features": "- Fix dứt điểm Tên máy Samsung (About phone Device Name): can thiệp đồng bộ Settings, Bluetooth command và broadcast Samsung One UI\n- Tự động Fast Zygote Restart (Soft Reboot 2-3s): nạp mới 100% Android Version và LSPosed Hooks vào Settings mà không cần full reboot\n- Cứu hộ Shannon Modem: hồi sinh daemons cbd/sec-ril, khôi phục cột sóng và IMEI chuẩn xác\n- Kích hoạt Launcher Icon cho LSPosed Manager & Magisk trên màn hình chính của điện thoại",
+  "changelog": "- [FIX TÊN MÁY SAMSUNG] Đồng bộ toàn diện Settings Provider, Bluetooth Name, XML storage và broadcast com.samsung.settings.DEVICE_NAME_CHANGED, ăn ngay tên mới trong About Phone.\n- [FAST ZYGOTE RESTART] Tự động khởi động lại Zygote sau Change, nạp mới tức thời Android Version và toàn bộ hook của LucasSpoofer vào System Server và Settings.\n- [CỨU HỘ SHANNON MODEM] Tự động hồi sinh daemons modem Shannon (cbd, sec-ril, ril-daemon), trị dứt điểm mất sóng và IMEI 000000000000000 trên Samsung S9.\n- [LAUNCHER ICON LSPOSED & MAGISK] Tự động kích hoạt MainActivity cho org.lsposed.manager và cấp quyền root vĩnh viễn UID 2000 trong magisk.db, icon hiển thị đầy đủ trên màn hình điện thoại.",
   "force_update": false,
   "require_data_reset": false,
   "reset_reason": "",
-  "release_date": "22/10/2026 20:50 (Bản phát hành chính thức v2.5.0 Toàn Diện)"
+  "release_date": "22/10/2026 23:00 (Bản phát hành chính thức v2.5.1)"
 }
