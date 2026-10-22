@@ -1,14 +1,14 @@
 {
   "status": "success",
-  "latest_version": "2.4.4",
+  "latest_version": "2.4.5",
   "min_required_version": "1.0.0",
-  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.4.4.exe",
-  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.4.4.exe",
-  "download_url_setup": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.4.4_Setup.exe",
+  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.4.5.exe",
+  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.4.5.exe",
+  "download_url_setup": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.4.5_Setup.exe",
   "features": "- Tùy chọn 2 phiên bản song song: Bản Cài đặt (Setup) & Bản Di động (Portable)\n- Tự động Reboot sau Change (Nạp 100% About Phone & Khôi phục Sóng)\n- Khắc phục triệt để treo Shannon Modem máy thật Galaxy S9 (Mất sóng / IMEI 000)\n- Đồng bộ chuẩn LineageOS (device_hostname & lineagesettings)\n- Loại bỏ nghẽn timeout lệnh root, tăng tốc độ Change tức thì\n- Tương thích 100% Cài đặt gốc Android (Settings -> About Phone)",
-  "changelog": "- Phát hành song song 2 bản: Portable (cơ động) và Setup (cài ổ cứng).\n- Bổ sung tùy chọn 'Reboot sau Change' nạp mới Model/Brand vào nhân hệ thống.\n- Tối ưu lệnh root không còn bị ngắt giữa chừng bởi timeout.\n- Tự phục hồi Baseband/IMEI thật của modem chip Exynos Shannon.\n- Nâng cấp phiên bản phát hành chính thức Pro v2.4.4.",
+  "changelog": "- Phát hành song song 2 bản: Portable (cơ động) và Setup (cài ổ cứng).\n- Bổ sung tùy chọn 'Reboot sau Change' nạp mới Model/Brand vào nhân hệ thống.\n- Tối ưu lệnh root không còn bị ngắt giữa chừng bởi timeout.\n- Tự phục hồi Baseband/IMEI thật của modem chip Exynos Shannon.\n- Nâng cấp phiên bản phát hành chính thức Pro v2.4.5.",
   "force_update": false,
   "require_data_reset": false,
   "reset_reason": "",
-  "release_date": "22/10/2026 13:00 (Phát hành song song Portable & Setup)"
+  "release_date": "22/10/2026 13:20 (Phát hành song song Portable & Setup)"
 }
