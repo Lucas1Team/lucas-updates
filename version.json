@@ -1,14 +1,14 @@
 {
   "status": "success",
-  "latest_version": "2.4.8",
+  "latest_version": "2.4.9",
   "min_required_version": "1.0.0",
-  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.4.8.exe",
-  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.4.8.exe",
-  "download_url_setup": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.4.8_Setup.exe",
-  "features": "- Tự Động Nạp Môi Trường 100% (Autonomous Zero-Touch Provisioning): Tự nạp Magisk, Zygisk, LSPosed framework zip, LSPosed Manager, Spoofer, DeviceInfo, ADBKeyboard và Standalone Resetprop ngay khi cắm máy\n- Người dùng không cần hiểu kỹ thuật hay thao tác tay bất kỳ bước nào\n- Tích hợp sẵn trọn bộ binary và module nhúng trực tiếp trong gói phân phối\n- Tự động phục hồi Shannon Modem (cbd/sec-ril) chống mất sóng và IMEI 00000\n- Phát hành đồng bộ song song bản Portable và Setup Installer v2.4.8",
-  "changelog": "- [ĐỘT PHÁ v2.4.8] Cơ chế Tự động thiết lập 100% (Zero-Touch Provisioning): Tự kiểm tra và tự nạp toàn bộ thành phần còn thiếu (Magisk app, Zygisk config, LSPosed-zygisk framework module, LSPosed Manager, Spoofer v2.4.2, DeviceInfo, ADBKeyboard, standalone resetprop engine) khi cắm điện thoại hoặc khi Change.\n- [1-CLICK SETUP] Nâng cấp bộ cài Phone Farm 1-Click: Tự động flash module ZIP LSPosed vào Magisk và nạp cấu hình Scope tự động kể cả khi LSPosed chưa từng mở.\n- [CHUẨN HÓA FILE] Đóng gói trọn vẹn toàn bộ module ZIP, extracted folder và ELF binaries vào Resources để khách hàng tải về là sẵn sàng sử dụng 100%.",
+  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.4.9.exe",
+  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.4.9.exe",
+  "download_url_setup": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.4.9_Setup.exe",
+  "features": "- Sửa triệt để lỗi không quét thấy thiết bị: tự động phục hồi kết nối ADB, hỗ trợ máy chưa cấp quyền USB (unauthorized/offline) và bảo toàn 100% kết nối máy thật\n- Khôi phục nút Cập nhật tự sáng rực và nhấp nháy phát sáng (Pulse Glow) ngay khi phát hiện bản mới\n- Bổ sung Background Timer kiểm tra OTA định kỳ 90s trong nền\n- Tự động nạp trọn bộ môi trường (Magisk, Zygisk, LSPosed, Spoofer, DeviceInfo, Keyboard, Standalone Resetprop) khi cắm máy\n- Đồng bộ song song gói Portable và Setup Installer v2.4.9",
+  "changelog": "- [HOTFIX v2.4.9] Sửa lỗi quét không thấy thiết bị: loại bỏ lệnh continue vứt bỏ máy thật khi gặp cảnh báo getprop, tăng timeout lên 4000ms và tự động reconnect/start-server.\n- [PULSE GLOW] Khôi phục hiệu ứng nút Cập nhật tự sáng nhấp nháy luân phiên màu Cam Neon và Đỏ Tươi cực kỳ nổi bật khi có bản mới.\n- [TIMER 90S] Tự động kiểm tra OTA ngầm định kỳ mỗi 90 giây trong nền.\n- [ĐA CDN] Quét song song Fastly, GitHub Raw, GitHub Main, jsDelivr và luôn chọn phiên bản phát hành cao nhất trên mạng.",
   "force_update": false,
   "require_data_reset": false,
   "reset_reason": "",
-  "release_date": "22/10/2026 18:15 (Bản đột phá Autonomous Zero-Touch Provisioning)"
+  "release_date": "22/10/2026 18:38 (Bản cập nhật v2.4.9 Hotfix Quét Máy & Tự Sáng Nút)"
 }
