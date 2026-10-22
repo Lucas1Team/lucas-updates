@@ -1,14 +1,14 @@
 {
   "status": "success",
-  "latest_version": "2.4.9",
+  "latest_version": "2.5.0",
   "min_required_version": "1.0.0",
-  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.4.9.exe",
-  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.4.9.exe",
-  "download_url_setup": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.4.9_Setup.exe",
-  "features": "- Sửa triệt để lỗi không quét thấy thiết bị: tự động phục hồi kết nối ADB, hỗ trợ máy chưa cấp quyền USB (unauthorized/offline) và bảo toàn 100% kết nối máy thật\n- Khôi phục nút Cập nhật tự sáng rực và nhấp nháy phát sáng (Pulse Glow) ngay khi phát hiện bản mới\n- Bổ sung Background Timer kiểm tra OTA định kỳ 90s trong nền\n- Tự động nạp trọn bộ môi trường (Magisk, Zygisk, LSPosed, Spoofer, DeviceInfo, Keyboard, Standalone Resetprop) khi cắm máy\n- Đồng bộ song song gói Portable và Setup Installer v2.4.9",
-  "changelog": "- [HOTFIX v2.4.9] Sửa lỗi quét không thấy thiết bị: loại bỏ lệnh continue vứt bỏ máy thật khi gặp cảnh báo getprop, tăng timeout lên 4000ms và tự động reconnect/start-server.\n- [PULSE GLOW] Khôi phục hiệu ứng nút Cập nhật tự sáng nhấp nháy luân phiên màu Cam Neon và Đỏ Tươi cực kỳ nổi bật khi có bản mới.\n- [TIMER 90S] Tự động kiểm tra OTA ngầm định kỳ mỗi 90 giây trong nền.\n- [ĐA CDN] Quét song song Fastly, GitHub Raw, GitHub Main, jsDelivr và luôn chọn phiên bản phát hành cao nhất trên mạng.",
+  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.5.0.exe",
+  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.5.0.exe",
+  "download_url_setup": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.5.0_Setup.exe",
+  "features": "- Sửa triệt để Tên máy (About phone Device name): can thiệp toàn diện các khóa Samsung và Settings XML, tự động áp dụng 100% không cần sửa tay\n- Tự động nạp trọn bộ môi trường Magisk, Zygisk, LSPosed, Spoofer, DeviceInfo, Keyboard khi cắm máy\n- Tự động tải file từ GitHub OTA nếu máy tính người dùng thiếu file\n- Bảo vệ Baseband chip Modem Samsung: chống mất IMEI 00000 và bảo toàn 100% sóng SIM",
+  "changelog": "- [ĐỘT PHÁ v2.5.0] Sửa lỗi Tên máy (Device Name) trên Samsung One UI và Android 10: tự động can thiệp Settings System, Global, Secure và sửa trực tiếp database XML, nạp sạch cache.\n- [AUTO PROVISIONING] Khi cắm máy: tự động phát hiện và nạp trọn bộ Magisk.apk, kích hoạt Zygisk, module LSPosed, LSPosed Manager, Spoofer, Keyboard và Standalone Resetprop.\n- [BẢO VỆ BASEBAND] Loại bỏ lệnh resetprop can thiệp vào gsm.version.baseband, cứu hộ triệt để hiện tượng mất IMEI 000000000000000 và SIM Not Available trên Samsung S9.\n- [AUTO DOWNLOAD] Tool tự động tải các file APK/Module cần thiết từ GitHub nếu máy tính người dùng chạy file exe đơn lẻ.",
   "force_update": false,
   "require_data_reset": false,
   "reset_reason": "",
-  "release_date": "22/10/2026 18:38 (Bản cập nhật v2.4.9 Hotfix Quét Máy & Tự Sáng Nút)"
+  "release_date": "22/10/2026 20:50 (Bản phát hành chính thức v2.5.0 Toàn Diện)"
 }
