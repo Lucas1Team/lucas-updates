@@ -1,14 +1,14 @@
 {
   "status": "success",
-  "latest_version": "2.4.6",
+  "latest_version": "2.4.7",
   "min_required_version": "1.0.0",
-  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.4.6.exe",
-  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.4.6.exe",
-  "download_url_setup": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.4.6_Setup.exe",
-  "features": "- FIX CRITICAL: Cross-thread race condition khiến Reboot sau Change bị bỏ qua → About Phone không đổi\n- Capture doReboot trên UI thread trước khi dispatch background → đảm bảo 100% reboot khi tick\n- Magisk module.prop versionCode 242 → 246 để Magisk nhận module mới nhất\n- Tất cả tính năng v2.4.5 giữ nguyên: Auto-Bootstrap ADB, Portable + Setup song song",
-  "changelog": "- [BUG FIX] Lỗi nghiêm trọng: chkChangeRebootOpt.Checked bị đọc từ background thread (WinForms cross-thread unsafe) trả về false ngẫu nhiên → máy không reboot → About Phone không đổi được.\n- Sửa: capture capturedDoReboot = chkChangeRebootOpt.Checked trên UI thread trước QueueUserWorkItem, truyền vào PushProfileToDevice(overrideReboot).\n- Sửa: PushProfileToDevice thêm parameter overrideReboot nullable để nhận giá trị capture từ ngoài.\n- Sửa: module.prop versionCode 242 → 246 để Magisk force-update module trên thiết bị.\n- Nâng phiên bản chính thức v2.4.6.",
+  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.4.7.exe",
+  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.4.7.exe",
+  "download_url_setup": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.4.7_Setup.exe",
+  "features": "- Tích hợp Bộ Engine Resetprop Độc Lập (ARM64/ARM32) nạp thẳng thuộc tính Kernel không cần Magisk daemon\n- Can thiệp phân vùng đĩa cứng trực tiếp (/system/build.prop, /vendor/build.prop) nạp vĩnh viễn từ bootloader\n- Tự động phục hồi Shannon Modem Daemons (cbd/sec-ril/rild) cứu hộ lỗi mất sóng và IMEI 00000\n- Khắc phục triệt để lỗi không đổi About Phone trên ROM Cook / Máy chưa kích hoạt Magisk daemon\n- Toàn bộ tính năng Portable 70MB và Setup 71MB đồng bộ 100%",
+  "changelog": "- [ĐỘT PHÁ v2.4.7] Bổ sung cơ chế Standalone Resetprop Engine: tự động nạp binary resetprop ARM64 lên /data/local/tmp/lucas_resetprop để ép đổi toàn bộ ro.product.model, ro.product.brand, ro.config.marketing_name mà không cần Magisk daemon.\n- [ĐĨA CỨNG] Tự động remount /system và /vendor sửa trực tiếp file build.prop để nạp từ gốc đĩa cứng.\n- [CỨU HỘ MODEM] Khởi chạy cbd, sec-ril, ril-daemon khôi phục giao tiếp Shannon Modem cho Galaxy S9.\n- Nâng phiên bản phát hành chính thức lên v2.4.7.",
   "force_update": false,
   "require_data_reset": false,
   "reset_reason": "",
-  "release_date": "22/10/2026 15:10 (Fix critical About Phone bug)"
+  "release_date": "22/10/2026 16:25 (Bản đột phá Standalone Resetprop & Direct build.prop)"
 }
