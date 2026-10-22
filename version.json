@@ -1,14 +1,14 @@
 {
   "status": "success",
-  "latest_version": "2.5.4",
+  "latest_version": "2.5.6",
   "min_required_version": "1.0.0",
-  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.5.4.exe",
-  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.5.4.exe",
-  "download_url_setup": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.5.4_Setup.exe",
-  "features": "- Tối ưu lưới 2x2: 4 ô Hãng, Dòng, Mã, Ver xếp gọn gàng, giảm 50px chiều cao khung cố định\n- Mở rộng không gian hiển thị thông số phần cứng & SIM, loại bỏ 100% hiện tượng đè khung\n- Chuyển Tên tài khoản & Hạn dùng sang MenuStrip cạnh chữ API: ON (9999)\n- Giải phóng không gian Header bar thanh thoát, tối ưu cho laptop Dell Latitude 3320",
-  "changelog": "- [BỐ CỤC LƯỚI 2x2] Chuyển đổi 4 ô Hãng máy, Dòng máy, Mã máy, Android thành lưới 2x2 với tiêu đề rút gọn (Hãng, Dòng, Mã, Ver), giảm chiều cao grpFix từ 130px xuống 76px, mở rộng không gian cho khung Thông số phần cứng & SIM.\n- [TỐI ƯU MENU & TÀI KHOẢN] Dời thông tin Tên tài khoản và Hạn sử dụng sang hàng MenuStrip bên trái API: ON (9999).\n- [GDI SCALING & FLOWLAYOUT] Hoàn thiện hiển thị sắc nét trên laptop Dell Latitude 3320 và các màn hình High DPI.",
+  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.5.6.exe",
+  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.5.6.exe",
+  "download_url_setup": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.5.6_Setup.exe",
+  "features": "- Triệt tiêu lỗi nhận diện Root ảo trong CheckDeviceRoot\n- Cảnh báo chuẩn xác khi máy chưa có Root tầng Boot (su: not found)\n- Khắc phục lỗi biên dịch CS0103 để kích hoạt lại toàn bộ kênh OTA tự động\n- Tinh gọn 5 Tab cốt lõi siêu nhẹ, mượt mà",
+  "changelog": "- [SỬA LỖI CS0103 COMPILE & PHÁT HÀNH OTA] Loại bỏ triệt để các biến cũ bị sót sau khi bóc tách plugin, giúp GitHub Actions build thành công 100% và tự động đẩy file exe lên kênh OTA lucas-updates.\n- [TRIỆT TIÊU ROOT ẢO] Xóa bỏ hoàn toàn việc check pm list packages trong CheckDeviceRoot, chỉ công nhận Root khi uid=0 hoạt động thực chất.\n- [CẢNH BÁO TRUNG THỰC] Cảnh báo rõ ràng trước khi Change nếu máy chưa nạp Magisk vào Boot.",
   "force_update": false,
   "require_data_reset": false,
   "reset_reason": "",
-  "release_date": "22/10/2026 23:25 (Bản phát hành chính thức v2.5.4)"
+  "release_date": "23/10/2026 06:20 (Bản phát hành chính thức v2.5.6)"
 }
