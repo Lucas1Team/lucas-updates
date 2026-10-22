@@ -1,12 +1,12 @@
 {
   "status": "success",
-  "latest_version": "2.4.2",
+  "latest_version": "2.4.3",
   "min_required_version": "1.0.0",
-  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.4.2.exe",
-  "features": "- Hook System Server & IPC (Fake IMEI/MEID/IMSI Framework)\n- Đồng bộ About Phone (Chuẩn Cài đặt gốc AOSP & One UI)\n- Safe Zygote Restart (Bảo toàn Modem Baseband máy thật)\n- Nạp tự động lõi LucasSpoofer v2.4.2 qua OTA\n- Menu Cứu hộ mạng & VPN 1-Click (/dev/net/tun, Iptables)",
-  "changelog": "- Tối ưu lõi Android Framework & System Server.\n- Nâng cấp cơ chế Zygote bảo vệ Baseband máy thật.\n- Bổ sung Menu Cứu hộ hệ thống 1-Click.\n- Tự động đồng bộ APK lõi v2.4.2 qua OTA.",
+  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.4.3.exe",
+  "features": "- Hook System Server & IPC (Fake IMEI/MEID/IMSI Framework)\n- Đồng bộ About Phone (Chuẩn Cài đặt gốc AOSP & One UI)\n- Bảo toàn Shannon Modem (Triệt tiêu lỗi mất Baseband & IMEI 000000)\n- Nạp tự động lõi LucasSpoofer v2.4.3 qua OTA\n- Menu Cứu hộ mạng & VPN 1-Click (/dev/net/tun, Iptables)",
+  "changelog": "- Khắc phục triệt để lỗi About Phone không đổi tên máy.\n- Bảo vệ vĩnh viễn chip sóng Shannon Modem trên Galaxy S9/Samsung.\n- Tự động đồng bộ SettingsProvider và patch XML bằng awk.\n- Nâng cấp phiên bản phát hành chính thức Pro v2.4.3.",
   "force_update": false,
   "require_data_reset": false,
   "reset_reason": "",
-  "release_date": "22/10/2026"
+  "release_date": "22/10/2026 11:35 (Hotfix About Phone & Modem)"
 }
