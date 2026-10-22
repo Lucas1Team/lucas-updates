@@ -1,14 +1,14 @@
 {
   "status": "success",
-  "latest_version": "2.5.6",
+  "latest_version": "2.5.7",
   "min_required_version": "1.0.0",
-  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.5.6.exe",
-  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.5.6.exe",
-  "download_url_setup": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.5.6_Setup.exe",
-  "features": "- Triệt tiêu lỗi nhận diện Root ảo trong CheckDeviceRoot\n- Cảnh báo chuẩn xác khi máy chưa có Root tầng Boot (su: not found)\n- Khắc phục lỗi biên dịch CS0103 để kích hoạt lại toàn bộ kênh OTA tự động\n- Tinh gọn 5 Tab cốt lõi siêu nhẹ, mượt mà",
-  "changelog": "- [SỬA LỖI CS0103 COMPILE & PHÁT HÀNH OTA] Loại bỏ triệt để các biến cũ bị sót sau khi bóc tách plugin, giúp GitHub Actions build thành công 100% và tự động đẩy file exe lên kênh OTA lucas-updates.\n- [TRIỆT TIÊU ROOT ẢO] Xóa bỏ hoàn toàn việc check pm list packages trong CheckDeviceRoot, chỉ công nhận Root khi uid=0 hoạt động thực chất.\n- [CẢNH BÁO TRUNG THỰC] Cảnh báo rõ ràng trước khi Change nếu máy chưa nạp Magisk vào Boot.",
+  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.5.7.exe",
+  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.5.7.exe",
+  "download_url_setup": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.5.7_Setup.exe",
+  "features": "- Tích hợp Menu Chuột Phải: 'Cứu hộ Root & Khôi phục Superuser / LSPosed' 1-Click tự động\n- Khôi phục kênh kích hoạt Superuser Request chuẩn xác (su -c id timeout dài) như bản v2.0\n- Tuyệt đối không tự ý cài đè Magisk.apk gây mất Root và treo About Phone\n- Sửa triệt để vòng lặp cập nhật OTA bằng phiên bản Assembly động",
+  "changelog": "- [1-CLICK CỨU HỘ ROOT & SUPERUSER] Thêm menu chuột phải cứu hộ thiết bị đã lỡ bị cài đè Magisk: tự dọn package xung đột, cấp quyền UID 2000, đánh thức hộp thoại Superuser Request và nạp lại LSPosed Zygisk.\n- [KHÔI PHỤC KÊNH SUPERUSER NHƯ V2.0] Trả lại lệnh su -c ưu tiên số 1, đảm bảo About Phone thay đổi 100% sau khi Change.\n- [TRIỆT TIÊU VÒNG LẶP OTA] Đồng bộ chính xác phiên bản v2.5.7 giữa mã nguồn, file exe và máy chủ OTA.",
   "force_update": false,
   "require_data_reset": false,
   "reset_reason": "",
-  "release_date": "23/10/2026 06:20 (Bản phát hành chính thức v2.5.6)"
+  "release_date": "23/10/2026 06:55 (Bản phát hành chính thức v2.5.7)"
 }
