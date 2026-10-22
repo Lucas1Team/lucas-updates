@@ -1,14 +1,14 @@
 {
   "status": "success",
-  "latest_version": "2.4.7",
+  "latest_version": "2.4.8",
   "min_required_version": "1.0.0",
-  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.4.7.exe",
-  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.4.7.exe",
-  "download_url_setup": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.4.7_Setup.exe",
-  "features": "- Tích hợp Bộ Engine Resetprop Độc Lập (ARM64/ARM32) nạp thẳng thuộc tính Kernel không cần Magisk daemon\n- Can thiệp phân vùng đĩa cứng trực tiếp (/system/build.prop, /vendor/build.prop) nạp vĩnh viễn từ bootloader\n- Tự động phục hồi Shannon Modem Daemons (cbd/sec-ril/rild) cứu hộ lỗi mất sóng và IMEI 00000\n- Khắc phục triệt để lỗi không đổi About Phone trên ROM Cook / Máy chưa kích hoạt Magisk daemon\n- Toàn bộ tính năng Portable 70MB và Setup 71MB đồng bộ 100%",
-  "changelog": "- [ĐỘT PHÁ v2.4.7] Bổ sung cơ chế Standalone Resetprop Engine: tự động nạp binary resetprop ARM64 lên /data/local/tmp/lucas_resetprop để ép đổi toàn bộ ro.product.model, ro.product.brand, ro.config.marketing_name mà không cần Magisk daemon.\n- [ĐĨA CỨNG] Tự động remount /system và /vendor sửa trực tiếp file build.prop để nạp từ gốc đĩa cứng.\n- [CỨU HỘ MODEM] Khởi chạy cbd, sec-ril, ril-daemon khôi phục giao tiếp Shannon Modem cho Galaxy S9.\n- Nâng phiên bản phát hành chính thức lên v2.4.7.",
+  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.4.8.exe",
+  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.4.8.exe",
+  "download_url_setup": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.4.8_Setup.exe",
+  "features": "- Tự Động Nạp Môi Trường 100% (Autonomous Zero-Touch Provisioning): Tự nạp Magisk, Zygisk, LSPosed framework zip, LSPosed Manager, Spoofer, DeviceInfo, ADBKeyboard và Standalone Resetprop ngay khi cắm máy\n- Người dùng không cần hiểu kỹ thuật hay thao tác tay bất kỳ bước nào\n- Tích hợp sẵn trọn bộ binary và module nhúng trực tiếp trong gói phân phối\n- Tự động phục hồi Shannon Modem (cbd/sec-ril) chống mất sóng và IMEI 00000\n- Phát hành đồng bộ song song bản Portable và Setup Installer v2.4.8",
+  "changelog": "- [ĐỘT PHÁ v2.4.8] Cơ chế Tự động thiết lập 100% (Zero-Touch Provisioning): Tự kiểm tra và tự nạp toàn bộ thành phần còn thiếu (Magisk app, Zygisk config, LSPosed-zygisk framework module, LSPosed Manager, Spoofer v2.4.2, DeviceInfo, ADBKeyboard, standalone resetprop engine) khi cắm điện thoại hoặc khi Change.\n- [1-CLICK SETUP] Nâng cấp bộ cài Phone Farm 1-Click: Tự động flash module ZIP LSPosed vào Magisk và nạp cấu hình Scope tự động kể cả khi LSPosed chưa từng mở.\n- [CHUẨN HÓA FILE] Đóng gói trọn vẹn toàn bộ module ZIP, extracted folder và ELF binaries vào Resources để khách hàng tải về là sẵn sàng sử dụng 100%.",
   "force_update": false,
   "require_data_reset": false,
   "reset_reason": "",
-  "release_date": "22/10/2026 16:25 (Bản đột phá Standalone Resetprop & Direct build.prop)"
+  "release_date": "22/10/2026 18:15 (Bản đột phá Autonomous Zero-Touch Provisioning)"
 }
