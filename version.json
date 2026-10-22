@@ -1,14 +1,14 @@
 {
   "status": "success",
-  "latest_version": "2.5.2",
+  "latest_version": "2.5.3",
   "min_required_version": "1.0.0",
-  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.5.2.exe",
-  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.5.2.exe",
-  "download_url_setup": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.5.2_Setup.exe",
-  "features": "- Fix triệt để lỗi xô lệch giao diện High DPI: DWM GDI Scaling siêu nét, chuẩn xác 100% trên laptop Dell Latitude 3320\n- Dải nút Toolbar FlowLayoutPanel: Tự động co giãn mượt mà, không bao giờ bị đè nút\n- Sửa dứt điểm Tên máy Samsung (About phone Device Name) tự động 100%\n- Fast Zygote Restart (2-3s) nạp mới Android Version và LSPosed Hooks tức thời\n- Cứu hộ Shannon Modem: khôi phục sóng mạng và IMEI S9",
-  "changelog": "- [FIX HIGH DPI & GDI SCALING] Kích hoạt DPI Awareness Context Unaware GDI Scaled (-5) và AutoScale None, DWM tự động scale vector font sắc nét tuyệt đối, giữ trọn vẹn 100% tọa độ gốc trên màn hình Dell Latitude 3320 @ 125%-150% Scale.\n- [TOOLBAR FLOWLAYOUT] Thay thế toàn bộ tọa độ tuyệt đối pnlMultiBar bằng FlowLayoutPanel co giãn tự động, các nút Quét máy, Chọn tất cả, Change tất cả hiển thị ngay ngắn chuẩn chỉnh.\n- [FIX TÊN MÁY SAMSUNG] Đồng bộ toàn diện Settings Provider, Bluetooth Name, XML storage và broadcast com.samsung.settings.DEVICE_NAME_CHANGED.\n- [FAST ZYGOTE RESTART] Tự động khởi động lại Zygote sau Change, nạp mới Android Version và toàn bộ hook của LucasSpoofer vào System Server và Settings.",
+  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.5.3.exe",
+  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.5.3.exe",
+  "download_url_setup": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.5.3_Setup.exe",
+  "features": "- Tối ưu bố cục: Chuyển Tên tài khoản & Hạn dùng xuống hàng MenuStrip cạnh chữ API: ON (9999)\n- Giải phóng không gian Header bar thanh thoát, hiển thị tối ưu trên laptop màn hình nhỏ\n- Fix triệt để lỗi xô lệch giao diện High DPI (GDI Scaling) trên Dell Latitude 3320\n- FlowLayoutPanel dải nút Toolbar co giãn mượt mà, không đè nút\n- Tự động đồng bộ Tên máy Samsung và Zygote Soft Reboot",
+  "changelog": "- [TỐI ƯU MENU & TÀI KHOẢN] Chuyển thông tin Tên tài khoản và Hạn sử dụng từ Header xuống dải MenuStrip nằm ngay bên trái chữ API: ON (9999), tận dụng hoàn hảo khoảng trống và giúp Header trên cùng thoáng đãng, gọn gàng.\n- [FIX HIGH DPI & GDI SCALING] Kích hoạt DPI Awareness Context Unaware GDI Scaled (-5) và AutoScale None, DWM tự động scale vector font sắc nét tuyệt đối, giữ trọn vẹn 100% tọa độ gốc trên màn hình Dell Latitude 3320 @ 125%-150% Scale.\n- [TOOLBAR FLOWLAYOUT] Thay thế toàn bộ tọa độ tuyệt đối pnlMultiBar bằng FlowLayoutPanel co giãn tự động, các nút Quét máy, Chọn tất cả, Change tất cả hiển thị ngay ngắn chuẩn chỉnh.\n- [FIX TÊN MÁY SAMSUNG] Đồng bộ toàn diện Settings Provider, Bluetooth Name, XML storage và broadcast com.samsung.settings.DEVICE_NAME_CHANGED.\n- [FAST ZYGOTE RESTART] Tự động khởi động lại Zygote sau Change, nạp mới Android Version và toàn bộ hook của LucasSpoofer vào System Server và Settings.",
   "force_update": false,
   "require_data_reset": false,
   "reset_reason": "",
-  "release_date": "22/10/2026 23:15 (Bản phát hành chính thức v2.5.2)"
+  "release_date": "22/10/2026 23:20 (Bản phát hành chính thức v2.5.3)"
 }
