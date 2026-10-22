@@ -1,12 +1,12 @@
 {
   "status": "success",
-  "latest_version": "2.4.3",
+  "latest_version": "2.4.4",
   "min_required_version": "1.0.0",
-  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.4.3.exe",
-  "features": "- Hook System Server & IPC (Fake IMEI/MEID/IMSI Framework)\n- Đồng bộ About Phone (Chuẩn Cài đặt gốc AOSP & One UI)\n- Bảo toàn Shannon Modem (Triệt tiêu lỗi mất Baseband & IMEI 000000)\n- Nạp tự động lõi LucasSpoofer v2.4.3 qua OTA\n- Menu Cứu hộ mạng & VPN 1-Click (/dev/net/tun, Iptables)",
-  "changelog": "- Khắc phục triệt để lỗi About Phone không đổi tên máy.\n- Bảo vệ vĩnh viễn chip sóng Shannon Modem trên Galaxy S9/Samsung.\n- Tự động đồng bộ SettingsProvider và patch XML bằng awk.\n- Nâng cấp phiên bản phát hành chính thức Pro v2.4.3.",
+  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.4.4.exe",
+  "features": "- Tự động Reboot sau Change (Nạp 100% About Phone & Khôi phục Sóng)\n- Khắc phục triệt để treo Shannon Modem máy thật Galaxy S9 (Mất sóng / IMEI 000)\n- Đồng bộ chuẩn LineageOS (device_hostname & lineagesettings)\n- Loại bỏ nghẽn timeout lệnh root, tăng tốc độ Change tức thì\n- Tương thích 100% Cài đặt gốc Android (Settings -> About Phone)",
+  "changelog": "- Bổ sung tùy chọn 'Reboot sau Change' nạp mới Model/Brand vào nhân hệ thống.\n- Tối ưu lệnh root không còn bị ngắt giữa chừng bởi timeout.\n- Tự phục hồi Baseband/IMEI thật của modem chip Exynos Shannon.\n- Nâng cấp phiên bản phát hành chính thức Pro v2.4.4.",
   "force_update": false,
   "require_data_reset": false,
   "reset_reason": "",
-  "release_date": "22/10/2026 11:35 (Hotfix About Phone & Modem)"
+  "release_date": "22/10/2026 12:45 (Official Fix About Phone & Shannon Modem)"
 }
