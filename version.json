@@ -1,14 +1,14 @@
 {
   "status": "success",
-  "latest_version": "2.4.5",
+  "latest_version": "2.4.6",
   "min_required_version": "1.0.0",
-  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.4.5.exe",
-  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.4.5.exe",
-  "download_url_setup": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.4.5_Setup.exe",
-  "features": "- Tùy chọn 2 phiên bản song song: Bản Cài đặt (Setup) & Bản Di động (Portable)\n- Tự động Reboot sau Change (Nạp 100% About Phone & Khôi phục Sóng)\n- Khắc phục triệt để treo Shannon Modem máy thật Galaxy S9 (Mất sóng / IMEI 000)\n- Đồng bộ chuẩn LineageOS (device_hostname & lineagesettings)\n- Loại bỏ nghẽn timeout lệnh root, tăng tốc độ Change tức thì\n- Tương thích 100% Cài đặt gốc Android (Settings -> About Phone)",
-  "changelog": "- Phát hành song song 2 bản: Portable (cơ động) và Setup (cài ổ cứng).\n- Bổ sung tùy chọn 'Reboot sau Change' nạp mới Model/Brand vào nhân hệ thống.\n- Tối ưu lệnh root không còn bị ngắt giữa chừng bởi timeout.\n- Tự phục hồi Baseband/IMEI thật của modem chip Exynos Shannon.\n- Nâng cấp phiên bản phát hành chính thức Pro v2.4.5.",
+  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.4.6.exe",
+  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.4.6.exe",
+  "download_url_setup": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.4.6_Setup.exe",
+  "features": "- FIX CRITICAL: Cross-thread race condition khiến Reboot sau Change bị bỏ qua → About Phone không đổi\n- Capture doReboot trên UI thread trước khi dispatch background → đảm bảo 100% reboot khi tick\n- Magisk module.prop versionCode 242 → 246 để Magisk nhận module mới nhất\n- Tất cả tính năng v2.4.5 giữ nguyên: Auto-Bootstrap ADB, Portable + Setup song song",
+  "changelog": "- [BUG FIX] Lỗi nghiêm trọng: chkChangeRebootOpt.Checked bị đọc từ background thread (WinForms cross-thread unsafe) trả về false ngẫu nhiên → máy không reboot → About Phone không đổi được.\n- Sửa: capture capturedDoReboot = chkChangeRebootOpt.Checked trên UI thread trước QueueUserWorkItem, truyền vào PushProfileToDevice(overrideReboot).\n- Sửa: PushProfileToDevice thêm parameter overrideReboot nullable để nhận giá trị capture từ ngoài.\n- Sửa: module.prop versionCode 242 → 246 để Magisk force-update module trên thiết bị.\n- Nâng phiên bản chính thức v2.4.6.",
   "force_update": false,
   "require_data_reset": false,
   "reset_reason": "",
-  "release_date": "22/10/2026 13:20 (Phát hành song song Portable & Setup)"
+  "release_date": "22/10/2026 15:10 (Fix critical About Phone bug)"
 }
