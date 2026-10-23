@@ -1,14 +1,14 @@
 {
   "status": "success",
-  "latest_version": "2.5.10",
+  "latest_version": "2.5.11",
   "min_required_version": "1.0.0",
-  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.5.10.exe",
-  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.5.10.exe",
-  "download_url_setup": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.5.10_Setup.exe",
-  "features": "- Chuẩn hóa và bảo mật toàn diện hộp thoại Khởi tạo & Tối ưu hóa Phone Farm 1-Click\n- Ẩn toàn bộ tên file, module và công nghệ lõi nội bộ trên giao diện người dùng, thay thế bằng thuật ngữ quản trị hệ thống chuyên nghiệp\n- Cải tiến thông báo trạng thái, thanh tiến độ và hộp thoại hoàn tất chuyên nghiệp, sang trọng, mang phong cách độc quyền",
-  "changelog": "- [BẢO MẬT GIAO DIỆN 1-CLICK] Trừu tượng hóa và ẩn toàn bộ các tên file APK/Module nội bộ trong giao diện 1-Click Setup.\n- [THUẬT NGỮ CHUYÊN NGHIỆP] Chuẩn hóa danh mục tùy chọn thành các dịch vụ quản trị hệ thống cấp cao: System Core Access, System Runtime Bridge, Device Identity Service, System Inspector, Virtual Input Engine, Clean Workspace, Farm Stay-Awake, Hot Reload Environment.\n- [TỐI ƯU TRẢI NGHIỆM] Cải tiến nhãn tiến trình, trạng thái grid và thông báo hoàn tất trực quan, đẳng cấp và bí mật tuyệt đối về giải pháp kỹ thuật.",
+  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.5.11.exe",
+  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.5.11.exe",
+  "download_url_setup": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.5.11_Setup.exe",
+  "features": "- Tự động nạp vĩnh viễn khóa xác thực RSA máy tính (adb_keys) vào thiết bị qua 1-Click Setup\n- Triệt tiêu 100% hiện tượng máy khởi động lại hoặc nạp mail xong hiện popup 'Cho phép gỡ lỗi USB?'\n- Tự động đánh thức và mở khóa màn hình vuốt khi kết nối hoặc khi quét thiết bị\n- Cơ chế Auto Reconnect thông minh tự động cứu kết nối khi thiết bị rơi vào trạng thái offline",
+  "changelog": "- [TRIỆT TIÊU POPUP CHO PHÉP USB] Tự động nạp public key RSA của máy tính vào file cấu hình hệ thống /data/misc/adb/adb_keys trên điện thoại. Điện thoại vĩnh viễn ghi nhận tin cậy máy tính mà không bao giờ hỏi lại.\n- [TỰ ĐỘNG ĐÁNH THỨC & MỞ KHÓA] Tự động phát hiện màn hình tắt để đánh thức và gỡ bỏ màn hình khóa khi quét thiết bị, khắc phục triệt để hiện tượng tắt màn hình không quét ra máy.\n- [CỨU HỘ OFFLINE TỰ ĐỘNG] Tự động phát hiện và gửi lệnh 'adb reconnect' phục hồi socket kết nối ngay khi phát hiện máy ở trạng thái offline.\n- [CÔNG CỤ TIỆN ÍCH] Thêm tùy chọn chuột phải: 'Đánh thức màn hình & Mở khóa' và 'Nạp vĩnh viễn khóa RSA máy tính'.",
   "force_update": false,
   "require_data_reset": false,
   "reset_reason": "",
-  "release_date": "23/10/2026 22:45 (Bản phát hành chính thức v2.5.10)"
+  "release_date": "23/10/2026 22:50 (Bản phát hành chính thức v2.5.11)"
 }
