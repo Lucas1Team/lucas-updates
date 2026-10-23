@@ -1,14 +1,14 @@
 {
   "status": "success",
-  "latest_version": "2.5.12",
+  "latest_version": "2.5.13",
   "min_required_version": "1.0.0",
-  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.5.12.exe",
-  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.5.12.exe",
-  "download_url_setup": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.5.12_Setup.exe",
-  "features": "- Tự động khử cạnh đen Live View Scrcpy (Auto Aspect Ratio) khớp hoàn hảo tỷ lệ màn hình điện thoại\n- Tự động co giãn theo tỷ lệ 20:9 và 19.5:9 của các dòng máy hiện đại (Pixel, Xiaomi, Samsung...)\n- Khóa chuẩn chiều cao và tự do tỷ lệ chiều rộng, loại bỏ 100% hai dải đen vô nghĩa hai bên mép\n- Tối ưu căn chỉnh vị trí cửa sổ trên Desktop không làm méo tỷ lệ hiển thị tự nhiên",
-  "changelog": "- [AUTO ASPECT RATIO] Tự động tính toán chiều rộng theo tỷ lệ gốc của điện thoại thông qua chiều cao mục tiêu (--window-height), loại bỏ triệt để hiện tượng viền đen (pillarbox) 2 bên mép cửa sổ Scrcpy.\n- [CHUẨN HÓA LƯỚI DESKTOP 20:9] Cập nhật các Preset kích thước màn hình và thuật toán căn chia lưới theo chuẩn màn hình điện thoại hiện đại 20:9 (~0.45).\n- [KHÓA TỌA ĐỘ BẢO TOÀN TỶ LỆ] Cập nhật bộ định vị vị trí cửa sổ đa nhiệm sử dụng SWP_NOSIZE, chỉ dịch chuyển tọa độ (X, Y) mà không can thiệp bóp méo kích thước tự nhiên do Scrcpy tạo ra.\n- [TÙY CHỈNH LINH HOẠT] Người dùng vẫn có thể chọn chế độ 'Tùy chỉnh (W x H)' nếu muốn ép cứng kích thước mong muốn.",
+  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.5.13.exe",
+  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.5.13.exe",
+  "download_url_setup": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.5.13_Setup.exe",
+  "features": "- Triệt tiêu 100% hiện tượng cửa sổ Scrcpy Live View đè lên nhau khi xếp lưới\n- Thuật toán căn lề con trỏ động (Dynamic Cursor Spacing) xếp đều tăm tắp theo hàng với khoảng cách 8px\n- Bỏ hoàn toàn cơ chế tự động mở DeviceInfo khi đổi máy hoặc khởi tạo hệ thống\n- Gỡ bỏ tiến trình tự nạp DeviceInfo ngầm không cần thiết khi cắm máy",
+  "changelog": "- [XẾP LƯỚI THEO HÀNG KHÔNG ĐÈ] Nâng cấp thuật toán sắp xếp cửa sổ Scrcpy đo lường kích thước khung viền Win32 thực tế của từng máy. Đặt các cửa sổ nối tiếp theo hàng với khoảng cách nhận biết 8px, 0% đè lên nhau.\n- [BỎ TỰ ĐỘNG BẬT DEVICE INFO] Gỡ bỏ triệt để lệnh tự động bật ứng dụng DeviceInfo sau mỗi lần Change/Soft Reboot Zygote và sau bước 1-Click Setup.\n- [TINH GỌN MÔI TRƯỜNG] Loại bỏ việc tự động nạp ngầm DeviceInfo.apk khi kết nối thiết bị. Khách muốn xem có thể tự mở thủ công qua menu chuột phải.\n- [AUTO ASPECT RATIO] Giữ nguyên tỷ lệ hiển thị gốc của điện thoại, không còn dải đen 2 bên mép.",
   "force_update": false,
   "require_data_reset": false,
   "reset_reason": "",
-  "release_date": "23/10/2026 23:10 (Bản phát hành chính thức v2.5.12)"
+  "release_date": "23/10/2026 23:45 (Bản phát hành chính thức v2.5.13)"
 }
