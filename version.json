@@ -1,14 +1,14 @@
 {
   "status": "success",
-  "latest_version": "2.5.8",
+  "latest_version": "2.5.9",
   "min_required_version": "1.0.0",
-  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.5.8.exe",
-  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.5.8.exe",
-  "download_url_setup": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.5.8_Setup.exe",
-  "features": "- Tự động nạp bộ giải mã Scrcpy Live View (~6.6 MB) từ CDN OTA, sửa dứt điểm lỗi 'The system cannot find the file specified'\n- Thuật toán ResolveScrcpyPath quét toàn diện mọi vị trí: Resources\\scrcpy, scrcpy, thư mục cha và PATH\n- Hộp thoại ScrcpyDownloadDialog hỗ trợ tải 1-Click tự bung nén ngay khi bấm Mở Live",
-  "changelog": "- [HOTFIX LIVE VIEW SCRCPY] Triệt tiêu tận gốc lỗi thiếu file Scrcpy khi chạy bản cập nhật lẻ hoặc chạy exe độc lập.\n- [TỰ ĐỘNG BÙ ĐẮP RUNTIME] Tự động tải gói scrcpy_runtime.zip về Resources/scrcpy trong nền và hiển thị tiến trình tải trực quan.\n- [AN TOÀN HỆ THỐNG] Kiểm tra sự tồn tại trước khi khởi chạy, không bao giờ để sập exception Process.Start.",
+  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.5.9.exe",
+  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.5.9.exe",
+  "download_url_setup": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.5.9_Setup.exe",
+  "features": "- Khóa cứng quy tắc: 1 thiết bị chỉ mở duy nhất 1 màn hình Live View, tự động kích hoạt cửa sổ cũ nếu đã mở\n- Bộ lọc chống nhấp đúp (Debounce 3.5s) triệt tiêu hoàn toàn hiện tượng bấm nhiều lần mở nhiều cửa sổ trùng lặp\n- Quản lý vòng đời Scrcpy tập trung, tự động thu hồi khi chuyển đổi giữa Lưới Farm và Phóng to",
+  "changelog": "- [GIỚI HẠN 1 MÁY = 1 LIVE VIEW] Ngăn chặn tuyệt đối việc mở nhiều cửa sổ Scrcpy cho cùng một thiết bị khi nhấp chuột liên tiếp.\n- [TỰ ĐỘNG FOCUS & RESTORE] Nếu màn hình Live của máy đã tồn tại hoặc bị thu nhỏ, hệ thống tự động đưa lên trước mặt người dùng thay vì mở thêm.\n- [DỌN DẸP TIẾN TRÌNH THÔNG MINH] Đảm bảo tiến trình Scrcpy cũ được giải phóng sạch sẽ khi đóng cửa sổ hoặc chuyển đổi chế độ xem.",
   "force_update": false,
   "require_data_reset": false,
   "reset_reason": "",
-  "release_date": "23/10/2026 22:15 (Bản phát hành chính thức v2.5.8)"
+  "release_date": "23/10/2026 22:25 (Bản phát hành chính thức v2.5.9)"
 }
