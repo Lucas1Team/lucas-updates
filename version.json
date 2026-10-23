@@ -1,14 +1,14 @@
 {
   "status": "success",
-  "latest_version": "2.5.7",
+  "latest_version": "2.5.8",
   "min_required_version": "1.0.0",
-  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.5.7.exe",
-  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.5.7.exe",
-  "download_url_setup": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.5.7_Setup.exe",
-  "features": "- Tích hợp Menu Chuột Phải: 'Cứu hộ Root & Khôi phục Superuser / LSPosed' 1-Click tự động\n- Khôi phục kênh kích hoạt Superuser Request chuẩn xác (su -c id timeout dài) như bản v2.0\n- Tuyệt đối không tự ý cài đè Magisk.apk gây mất Root và treo About Phone\n- Sửa triệt để vòng lặp cập nhật OTA bằng phiên bản Assembly động",
-  "changelog": "- [1-CLICK CỨU HỘ ROOT & SUPERUSER] Thêm menu chuột phải cứu hộ thiết bị đã lỡ bị cài đè Magisk: tự dọn package xung đột, cấp quyền UID 2000, đánh thức hộp thoại Superuser Request và nạp lại LSPosed Zygisk.\n- [KHÔI PHỤC KÊNH SUPERUSER NHƯ V2.0] Trả lại lệnh su -c ưu tiên số 1, đảm bảo About Phone thay đổi 100% sau khi Change.\n- [TRIỆT TIÊU VÒNG LẶP OTA] Đồng bộ chính xác phiên bản v2.5.7 giữa mã nguồn, file exe và máy chủ OTA.",
+  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.5.8.exe",
+  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.5.8.exe",
+  "download_url_setup": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.5.8_Setup.exe",
+  "features": "- Tự động nạp bộ giải mã Scrcpy Live View (~6.6 MB) từ CDN OTA, sửa dứt điểm lỗi 'The system cannot find the file specified'\n- Thuật toán ResolveScrcpyPath quét toàn diện mọi vị trí: Resources\\scrcpy, scrcpy, thư mục cha và PATH\n- Hộp thoại ScrcpyDownloadDialog hỗ trợ tải 1-Click tự bung nén ngay khi bấm Mở Live",
+  "changelog": "- [HOTFIX LIVE VIEW SCRCPY] Triệt tiêu tận gốc lỗi thiếu file Scrcpy khi chạy bản cập nhật lẻ hoặc chạy exe độc lập.\n- [TỰ ĐỘNG BÙ ĐẮP RUNTIME] Tự động tải gói scrcpy_runtime.zip về Resources/scrcpy trong nền và hiển thị tiến trình tải trực quan.\n- [AN TOÀN HỆ THỐNG] Kiểm tra sự tồn tại trước khi khởi chạy, không bao giờ để sập exception Process.Start.",
   "force_update": false,
   "require_data_reset": false,
   "reset_reason": "",
-  "release_date": "23/10/2026 06:55 (Bản phát hành chính thức v2.5.7)"
+  "release_date": "23/10/2026 22:15 (Bản phát hành chính thức v2.5.8)"
 }
