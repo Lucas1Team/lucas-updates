@@ -1,14 +1,14 @@
 {
   "status": "success",
-  "latest_version": "2.5.13",
+  "latest_version": "2.5.14",
   "min_required_version": "1.0.0",
-  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.5.13.exe",
-  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.5.13.exe",
-  "download_url_setup": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.5.13_Setup.exe",
-  "features": "- Triệt tiêu 100% hiện tượng cửa sổ Scrcpy Live View đè lên nhau khi xếp lưới\n- Thuật toán căn lề con trỏ động (Dynamic Cursor Spacing) xếp đều tăm tắp theo hàng với khoảng cách 8px\n- Bỏ hoàn toàn cơ chế tự động mở DeviceInfo khi đổi máy hoặc khởi tạo hệ thống\n- Gỡ bỏ tiến trình tự nạp DeviceInfo ngầm không cần thiết khi cắm máy",
-  "changelog": "- [XẾP LƯỚI THEO HÀNG KHÔNG ĐÈ] Nâng cấp thuật toán sắp xếp cửa sổ Scrcpy đo lường kích thước khung viền Win32 thực tế của từng máy. Đặt các cửa sổ nối tiếp theo hàng với khoảng cách nhận biết 8px, 0% đè lên nhau.\n- [BỎ TỰ ĐỘNG BẬT DEVICE INFO] Gỡ bỏ triệt để lệnh tự động bật ứng dụng DeviceInfo sau mỗi lần Change/Soft Reboot Zygote và sau bước 1-Click Setup.\n- [TINH GỌN MÔI TRƯỜNG] Loại bỏ việc tự động nạp ngầm DeviceInfo.apk khi kết nối thiết bị. Khách muốn xem có thể tự mở thủ công qua menu chuột phải.\n- [AUTO ASPECT RATIO] Giữ nguyên tỷ lệ hiển thị gốc của điện thoại, không còn dải đen 2 bên mép.",
+  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.5.14.exe",
+  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.5.14.exe",
+  "download_url_setup": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.5.14_Setup.exe",
+  "features": "- Khắc phục triệt để tính năng Dán Email & Khôi Phục: nạp chuẩn xác vào đúng máy được tick chọn hoặc chọn từ ComboBox\n- Bổ sung ComboBox chọn máy trực quan kèm danh sách đánh dấu tick ☑/☐\n- Chống tắt gỡ lỗi USB (ADB) khi nạp bản sao lưu (Backup Restore)\n- Cưỡng chế bật vĩnh viễn ADB và nạp khóa RSA máy tính tự động sau khi bung dữ liệu",
+  "changelog": "- [DÁN MAIL & KHÔI PHỤC CHUẨN XÁC] Khi dán 1 email vào, công cụ tự động nhận diện và nạp chuẩn xác vào máy đang được tick chọn trong danh sách hoặc click chọn, không còn bị ép mặc định về máy đầu tiên (#1).\n- [COMBOBOX CHỌN MÁY TRỰC QUAN] Tích hợp menu dropdown hiển thị model, serial và trạng thái tick chọn (☑/☐) ngay cạnh tùy chọn nạp 1 máy.\n- [CHỐNG TỰ TẮT ADB KHI RESTORE] Khắc phục triệt để lỗi vô tình ẩn Developer Options và tắt adb_enabled khi nạp bản sao lưu. Tự động cưỡng chế kích hoạt lại adb_enabled = 1 và development_settings_enabled = 1.\n- [DUY TRÌ VĨNH VIỄN KHÓA RSA] Tự động nạp public key RSA của máy tính vào /data/misc/adb/adb_keys sau khi restore và sau khi reboot, không bao giờ bị ngắt kết nối hay hỏi lại quyền USB debugging.",
   "force_update": false,
   "require_data_reset": false,
   "reset_reason": "",
-  "release_date": "23/10/2026 23:45 (Bản phát hành chính thức v2.5.13)"
+  "release_date": "24/10/2026 00:05 (Bản phát hành chính thức v2.5.14)"
 }
