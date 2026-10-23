@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "latest_version": "2.5.14.1-TEST",
+  "min_required_version": "1.0.0",
+  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Test.exe",
+  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Test.exe",
+  "download_url_setup": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Test.exe",
+  "features": "- [TEST FUNCTION CHANNEL] Kênh thử nghiệm tính năng độc lập\n- Thử nghiệm các giải pháp vượt Play Integrity API (MEETS_DEVICE_INTEGRITY)\n- Kênh cập nhật OTA riêng biệt, độc lập 100% với bản chính thức v2.5.14",
+  "changelog": "- Khởi tạo kênh TEST FUNCTION độc lập từ bản v2.5.14.\n- Dành riêng để thử nghiệm và hoàn thiện tính năng mới trước khi đưa sang bản chính thức.",
+  "force_update": false,
+  "require_data_reset": false,
+  "reset_reason": "",
+  "release_date": "24/10/2026 00:25 (Bản thử nghiệm Test Function)"
+}
