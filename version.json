@@ -1,14 +1,14 @@
 {
   "status": "success",
-  "latest_version": "2.5.9",
+  "latest_version": "2.5.10",
   "min_required_version": "1.0.0",
-  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.5.9.exe",
-  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.5.9.exe",
-  "download_url_setup": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.5.9_Setup.exe",
-  "features": "- Khóa cứng quy tắc: 1 thiết bị chỉ mở duy nhất 1 màn hình Live View, tự động kích hoạt cửa sổ cũ nếu đã mở\n- Bộ lọc chống nhấp đúp (Debounce 3.5s) triệt tiêu hoàn toàn hiện tượng bấm nhiều lần mở nhiều cửa sổ trùng lặp\n- Quản lý vòng đời Scrcpy tập trung, tự động thu hồi khi chuyển đổi giữa Lưới Farm và Phóng to",
-  "changelog": "- [GIỚI HẠN 1 MÁY = 1 LIVE VIEW] Ngăn chặn tuyệt đối việc mở nhiều cửa sổ Scrcpy cho cùng một thiết bị khi nhấp chuột liên tiếp.\n- [TỰ ĐỘNG FOCUS & RESTORE] Nếu màn hình Live của máy đã tồn tại hoặc bị thu nhỏ, hệ thống tự động đưa lên trước mặt người dùng thay vì mở thêm.\n- [DỌN DẸP TIẾN TRÌNH THÔNG MINH] Đảm bảo tiến trình Scrcpy cũ được giải phóng sạch sẽ khi đóng cửa sổ hoặc chuyển đổi chế độ xem.",
+  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.5.10.exe",
+  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.5.10.exe",
+  "download_url_setup": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.5.10_Setup.exe",
+  "features": "- Chuẩn hóa và bảo mật toàn diện hộp thoại Khởi tạo & Tối ưu hóa Phone Farm 1-Click\n- Ẩn toàn bộ tên file, module và công nghệ lõi nội bộ trên giao diện người dùng, thay thế bằng thuật ngữ quản trị hệ thống chuyên nghiệp\n- Cải tiến thông báo trạng thái, thanh tiến độ và hộp thoại hoàn tất chuyên nghiệp, sang trọng, mang phong cách độc quyền",
+  "changelog": "- [BẢO MẬT GIAO DIỆN 1-CLICK] Trừu tượng hóa và ẩn toàn bộ các tên file APK/Module nội bộ trong giao diện 1-Click Setup.\n- [THUẬT NGỮ CHUYÊN NGHIỆP] Chuẩn hóa danh mục tùy chọn thành các dịch vụ quản trị hệ thống cấp cao: System Core Access, System Runtime Bridge, Device Identity Service, System Inspector, Virtual Input Engine, Clean Workspace, Farm Stay-Awake, Hot Reload Environment.\n- [TỐI ƯU TRẢI NGHIỆM] Cải tiến nhãn tiến trình, trạng thái grid và thông báo hoàn tất trực quan, đẳng cấp và bí mật tuyệt đối về giải pháp kỹ thuật.",
   "force_update": false,
   "require_data_reset": false,
   "reset_reason": "",
-  "release_date": "23/10/2026 22:25 (Bản phát hành chính thức v2.5.9)"
+  "release_date": "23/10/2026 22:45 (Bản phát hành chính thức v2.5.10)"
 }
