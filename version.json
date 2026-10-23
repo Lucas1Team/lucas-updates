@@ -1,14 +1,14 @@
 {
   "status": "success",
-  "latest_version": "2.5.11",
+  "latest_version": "2.5.12",
   "min_required_version": "1.0.0",
-  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.5.11.exe",
-  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.5.11.exe",
-  "download_url_setup": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.5.11_Setup.exe",
-  "features": "- Tự động nạp vĩnh viễn khóa xác thực RSA máy tính (adb_keys) vào thiết bị qua 1-Click Setup\n- Triệt tiêu 100% hiện tượng máy khởi động lại hoặc nạp mail xong hiện popup 'Cho phép gỡ lỗi USB?'\n- Tự động đánh thức và mở khóa màn hình vuốt khi kết nối hoặc khi quét thiết bị\n- Cơ chế Auto Reconnect thông minh tự động cứu kết nối khi thiết bị rơi vào trạng thái offline",
-  "changelog": "- [TRIỆT TIÊU POPUP CHO PHÉP USB] Tự động nạp public key RSA của máy tính vào file cấu hình hệ thống /data/misc/adb/adb_keys trên điện thoại. Điện thoại vĩnh viễn ghi nhận tin cậy máy tính mà không bao giờ hỏi lại.\n- [TỰ ĐỘNG ĐÁNH THỨC & MỞ KHÓA] Tự động phát hiện màn hình tắt để đánh thức và gỡ bỏ màn hình khóa khi quét thiết bị, khắc phục triệt để hiện tượng tắt màn hình không quét ra máy.\n- [CỨU HỘ OFFLINE TỰ ĐỘNG] Tự động phát hiện và gửi lệnh 'adb reconnect' phục hồi socket kết nối ngay khi phát hiện máy ở trạng thái offline.\n- [CÔNG CỤ TIỆN ÍCH] Thêm tùy chọn chuột phải: 'Đánh thức màn hình & Mở khóa' và 'Nạp vĩnh viễn khóa RSA máy tính'.",
+  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.5.12.exe",
+  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.5.12.exe",
+  "download_url_setup": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.5.12_Setup.exe",
+  "features": "- Tự động khử cạnh đen Live View Scrcpy (Auto Aspect Ratio) khớp hoàn hảo tỷ lệ màn hình điện thoại\n- Tự động co giãn theo tỷ lệ 20:9 và 19.5:9 của các dòng máy hiện đại (Pixel, Xiaomi, Samsung...)\n- Khóa chuẩn chiều cao và tự do tỷ lệ chiều rộng, loại bỏ 100% hai dải đen vô nghĩa hai bên mép\n- Tối ưu căn chỉnh vị trí cửa sổ trên Desktop không làm méo tỷ lệ hiển thị tự nhiên",
+  "changelog": "- [AUTO ASPECT RATIO] Tự động tính toán chiều rộng theo tỷ lệ gốc của điện thoại thông qua chiều cao mục tiêu (--window-height), loại bỏ triệt để hiện tượng viền đen (pillarbox) 2 bên mép cửa sổ Scrcpy.\n- [CHUẨN HÓA LƯỚI DESKTOP 20:9] Cập nhật các Preset kích thước màn hình và thuật toán căn chia lưới theo chuẩn màn hình điện thoại hiện đại 20:9 (~0.45).\n- [KHÓA TỌA ĐỘ BẢO TOÀN TỶ LỆ] Cập nhật bộ định vị vị trí cửa sổ đa nhiệm sử dụng SWP_NOSIZE, chỉ dịch chuyển tọa độ (X, Y) mà không can thiệp bóp méo kích thước tự nhiên do Scrcpy tạo ra.\n- [TÙY CHỈNH LINH HOẠT] Người dùng vẫn có thể chọn chế độ 'Tùy chỉnh (W x H)' nếu muốn ép cứng kích thước mong muốn.",
   "force_update": false,
   "require_data_reset": false,
   "reset_reason": "",
-  "release_date": "23/10/2026 22:50 (Bản phát hành chính thức v2.5.11)"
+  "release_date": "23/10/2026 23:10 (Bản phát hành chính thức v2.5.12)"
 }
