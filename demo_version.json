@@ -1,14 +1,14 @@
 {
   "status": "success",
-  "latest_version": "1.0",
+  "latest_version": "1.1",
   "min_required_version": "1.0",
-  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger-DEMO%20V1.0.exe",
-  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger-DEMO%20V1.0.exe",
+  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger-DEMO%20V1.1.exe",
+  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger-DEMO%20V1.1.exe",
   "download_url_setup": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Test_Full_Package.zip",
-  "features": "- [DEMO V1.0] Kênh thử nghiệm độc lập, chạy song song 100% với bản chính thức Stable.\n- Sửa dứt điểm About Phone hiển thị đồng bộ qua nạp tức thì system.prop & Soft Reboot Zygote.\n- Sửa dứt điểm lỗi VPN/Socks5 đa ROM (Xiaomi, OPPO, Vivo, Samsung, Stock): Khởi tạo driver TUN, bypass popup ACTIVATE_VPN và chống kill ngầm.",
-  "changelog": "- Khởi tạo phiên bản LucasChanger-DEMO V1.0 độc lập từ trong ra ngoài.\n- Tách riêng Mutex hệ thống cho phép mở song song cả bản DEMO lẫn Stable trên cùng 1 máy tính.\n- Sửa dứt điểm package name com.mi.utility và các Intent Extra Keys cho SOCKS5.\n- Tối ưu chu trình cập nhật About Phone chuẩn hóa parity với DomaphoneS.",
+  "features": "- [DEMO V1.1] Cho phép tự do chọn thư mục lưu trữ file Backup dữ liệu với nút chọn thư mục, hiển thị đường dẫn rõ ràng và nút quay lại mặc định.\n- Ghi nhớ toàn diện lựa chọn cuối cùng khi dùng Màn hình Farm (kích thước khung hình Live ra Desktop, độ nét 1080p/720p/Gốc/480p, bật/tắt màn hình điện thoại, Eco FPS, Zoom width).\n- Tự động nạp lại toàn bộ cấu hình đã lưu mỗi khi khởi động lại ứng dụng, không bị đưa về mặc định.",
+  "changelog": "- Nâng cấp phiên bản lên LucasChanger-DEMO V1.1.\n- Hỗ trợ chọn thư mục lưu file backup tự do, lưu cấu hình custom_backup_dir trong app_settings.json.\n- Dialog Xếp lưới Desktop tự động ghi nhớ kích thước màn hình, độ nét và tuỳ chọn tắt màn hình điện thoại của lần gần nhất.\n- Lưu và nạp trạng thái Eco FPS và Zoom width của màn Farm.\n- Cập nhật cơ chế OTA tự động dọn dẹp các bản exe cũ và chạy mượt mà bản mới.",
   "force_update": false,
   "require_data_reset": false,
   "reset_reason": "",
-  "release_date": "24/10/2026 23:20 (Phiên bản LucasChanger-DEMO V1.0)"
+  "release_date": "24/10/2026 23:45 (Phiên bản LucasChanger-DEMO V1.1)"
 }
