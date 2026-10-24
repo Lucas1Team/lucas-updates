@@ -1,14 +1,14 @@
 {
   "status": "success",
-  "latest_version": "1.1",
+  "latest_version": "1.2",
   "min_required_version": "1.0",
-  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger-DEMO%20V1.1.exe",
-  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger-DEMO%20V1.1.exe",
+  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger-DEMO%20V1.2.exe",
+  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger-DEMO%20V1.2.exe",
   "download_url_setup": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Test_Full_Package.zip",
-  "features": "- [DEMO V1.1] Cho phép tự do chọn thư mục lưu trữ file Backup dữ liệu với nút chọn thư mục, hiển thị đường dẫn rõ ràng và nút quay lại mặc định.\n- Ghi nhớ toàn diện lựa chọn cuối cùng khi dùng Màn hình Farm (kích thước khung hình Live ra Desktop, độ nét 1080p/720p/Gốc/480p, bật/tắt màn hình điện thoại, Eco FPS, Zoom width).\n- Tự động nạp lại toàn bộ cấu hình đã lưu mỗi khi khởi động lại ứng dụng, không bị đưa về mặc định.",
-  "changelog": "- Nâng cấp phiên bản lên LucasChanger-DEMO V1.1.\n- Hỗ trợ chọn thư mục lưu file backup tự do, lưu cấu hình custom_backup_dir trong app_settings.json.\n- Dialog Xếp lưới Desktop tự động ghi nhớ kích thước màn hình, độ nét và tuỳ chọn tắt màn hình điện thoại của lần gần nhất.\n- Lưu và nạp trạng thái Eco FPS và Zoom width của màn Farm.\n- Cập nhật cơ chế OTA tự động dọn dẹp các bản exe cũ và chạy mượt mà bản mới.",
+  "features": "- [DEMO V1.2] Giải quyết triệt để lỗi About Phone (Thông tin điện thoại / Cài đặt) theo chuẩn DomaphoneS Parity 100%.\n- Ép nạp tức thì system.prop vào PropertyService RAM kernel bằng resetprop --file.\n- Đặt sys.boot_completed=0 và Soft Reboot Zygote chuẩn thứ tự, polling service check activity chờ Zygote & System Server sẵn sàng.\n- Đồng bộ Device Name vào file XML lưu trữ và broadcast Samsung, force-stop Settings sau khi Zygote hoàn tất.",
+  "changelog": "- Nâng cấp phiên bản lên LucasChanger-DEMO V1.2.\n- Chuẩn hóa cơ chế cập nhật About Phone giống 100% DomaphoneS.\n- Tự động nạp system.prop ngay lập tức qua resetprop độc lập hoặc Magisk/KernelSU/APatch.\n- Khắc phục triệt để tình trạng force-stop Settings trước khi Zygote reboot.\n- Đảm bảo tên thiết bị và Model hiển thị chính xác trên cả Samsung One UI và Android gốc mà không phụ thuộc LSPosed.",
   "force_update": false,
   "require_data_reset": false,
   "reset_reason": "",
-  "release_date": "24/10/2026 23:45 (Phiên bản LucasChanger-DEMO V1.1)"
+  "release_date": "25/10/2026 00:35 (Phiên bản LucasChanger-DEMO V1.2)"
 }
