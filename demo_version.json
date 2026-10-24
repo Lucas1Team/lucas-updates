@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "latest_version": "2.5.15-DEMO-V1.0",
+  "min_required_version": "1.0.0",
+  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger-DEMO.exe",
+  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger-DEMO.exe",
+  "download_url_setup": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Test_Full_Package.zip",
+  "features": "- [DEMO V1.0 CHANNEL] Kênh thử nghiệm độc lập, chạy song song 100% với bản chính thức Stable.\n- Sửa dứt điểm About Phone hiển thị đồng bộ qua nạp tức thì system.prop & Soft Reboot Zygote.\n- Sửa dứt điểm lỗi VPN/Socks5 đa ROM (Xiaomi, OPPO, Vivo, Samsung, Stock): Khởi tạo driver TUN, bypass popup ACTIVATE_VPN và chống kill ngầm.",
+  "changelog": "- Khởi tạo phiên bản LucasChanger-DEMO V1.0 độc lập.\n- Tách riêng Mutex hệ thống cho phép mở song song cả bản DEMO lẫn Stable trên cùng 1 máy tính.\n- Sửa dứt điểm package name com.mi.utility và các Intent Extra Keys cho SOCKS5.\n- Tối ưu chu trình cập nhật About Phone chuẩn hóa parity với DomaphoneS.",
+  "force_update": false,
+  "require_data_reset": false,
+  "reset_reason": "",
+  "release_date": "24/10/2026 22:55 (Phiên bản LucasChanger-DEMO V1.0)"
+}
