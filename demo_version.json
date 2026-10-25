@@ -1,14 +1,14 @@
 {
   "status": "success",
-  "latest_version": "1.2",
+  "latest_version": "1.3",
   "min_required_version": "1.0",
-  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger-DEMO%20V1.2.exe",
-  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger-DEMO%20V1.2.exe",
+  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger-DEMO%20V1.3.exe",
+  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger-DEMO%20V1.3.exe",
   "download_url_setup": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Test_Full_Package.zip",
-  "features": "- [DEMO V1.2] Giải quyết triệt để lỗi About Phone (Thông tin điện thoại / Cài đặt) theo chuẩn DomaphoneS Parity 100%.\n- Ép nạp tức thì system.prop vào PropertyService RAM kernel bằng resetprop --file.\n- Đặt sys.boot_completed=0 và Soft Reboot Zygote chuẩn thứ tự, polling service check activity chờ Zygote & System Server sẵn sàng.\n- Đồng bộ Device Name vào file XML lưu trữ và broadcast Samsung, force-stop Settings sau khi Zygote hoàn tất.",
-  "changelog": "- Nâng cấp phiên bản lên LucasChanger-DEMO V1.2.\n- Chuẩn hóa cơ chế cập nhật About Phone giống 100% DomaphoneS.\n- Tự động nạp system.prop ngay lập tức qua resetprop độc lập hoặc Magisk/KernelSU/APatch.\n- Khắc phục triệt để tình trạng force-stop Settings trước khi Zygote reboot.\n- Đảm bảo tên thiết bị và Model hiển thị chính xác trên cả Samsung One UI và Android gốc mà không phụ thuộc LSPosed.",
+  "features": "- [DEMO V1.3] Giải quyết triệt để lỗi About Phone trên Samsung Galaxy S9 Stock ROM.\n- Tắt mặc định 'Reboot sau Change' để dùng Soft Reboot Zygote tức thì (2-3s Domaphone Parity).\n- Ép nạp system.prop và ro.* properties qua resetprop -n (bỏ qua init property_service).\n- Ưu tiên Magisk gốc tại /data/adb/magisk/magisk, loại bỏ hoàn toàn lỗi Permission denied của /data/local/tmp noexec.\n- Bổ sung sec.product.model, ro.boot.em.model và dọn sạch cache Settings Provider.",
+  "changelog": "- Nâng cấp phiên bản lên LucasChanger-DEMO V1.3.\n- Trị dứt điểm lỗi Thông tin điện thoại (About Phone) trên Samsung Galaxy S9 ROM gốc.\n- Mặc định Change nhanh Soft Reboot Zygote không cần khởi động lại toàn bộ máy.\n- Nạp trực tiếp vào RAM kernel bằng resetprop -n.\n- Đồng bộ Model, Brand, Serial, Device Name trên cả Samsung One UI và Android gốc.",
   "force_update": false,
   "require_data_reset": false,
   "reset_reason": "",
-  "release_date": "25/10/2026 00:35 (Phiên bản LucasChanger-DEMO V1.2)"
+  "release_date": "25/10/2026 08:40 (Phiên bản LucasChanger-DEMO V1.3)"
 }
