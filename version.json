@@ -1,14 +1,14 @@
 {
   "status": "success",
-  "latest_version": "2.5.14",
+  "latest_version": "2.5.15",
   "min_required_version": "1.0.0",
-  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.5.14.exe",
-  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.5.14.exe",
-  "download_url_setup": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.5.14_Setup.exe",
-  "features": "- Khắc phục triệt để tính năng Dán Email & Khôi Phục: nạp chuẩn xác vào đúng máy được tick chọn hoặc chọn từ ComboBox\n- Bổ sung ComboBox chọn máy trực quan kèm danh sách đánh dấu tick ☑/☐\n- Chống tắt gỡ lỗi USB (ADB) khi nạp bản sao lưu (Backup Restore)\n- Cưỡng chế bật vĩnh viễn ADB và nạp khóa RSA máy tính tự động sau khi bung dữ liệu",
-  "changelog": "- [DÁN MAIL & KHÔI PHỤC CHUẨN XÁC] Khi dán 1 email vào, công cụ tự động nhận diện và nạp chuẩn xác vào máy đang được tick chọn trong danh sách hoặc click chọn, không còn bị ép mặc định về máy đầu tiên (#1).\n- [COMBOBOX CHỌN MÁY TRỰC QUAN] Tích hợp menu dropdown hiển thị model, serial và trạng thái tick chọn (☑/☐) ngay cạnh tùy chọn nạp 1 máy.\n- [CHỐNG TỰ TẮT ADB KHI RESTORE] Khắc phục triệt để lỗi vô tình ẩn Developer Options và tắt adb_enabled khi nạp bản sao lưu. Tự động cưỡng chế kích hoạt lại adb_enabled = 1 và development_settings_enabled = 1.\n- [DUY TRÌ VĨNH VIỄN KHÓA RSA] Tự động nạp public key RSA của máy tính vào /data/misc/adb/adb_keys sau khi restore và sau khi reboot, không bao giờ bị ngắt kết nối hay hỏi lại quyền USB debugging.",
+  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.5.15.exe",
+  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.5.15.exe",
+  "download_url_setup": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LucasChanger_Pro_v2.5.15_Setup.exe",
+  "features": "- Khôi phục NGUYÊN TRẠNG 100% cấu hình máy đã lưu từ file backup (duma.prop, profile.json, info.txt)\n- Tuyệt đối cấm tự ý sinh thông số máy ngẫu nhiên (chống biến Restore thành Change máy)\n- Khắc phục triệt để lỗi không vào được Google Chrome (sửa quyền UID/GID, SELinux và SingletonLock)\n- Tích hợp 1-Click 'Sửa lỗi Chrome & Phục hồi mạng' trên menu chuột phải thiết bị",
+  "changelog": "- [KHÔI PHỤC NGUYÊN TRẠNG CẤU HÌNH] Đọc triệt để mọi định dạng backup: duma.prop, profile.json, config.json, info.txt, device.json. Bản backup lưu thông số nào thì khôi phục chuẩn xác 100% thông số đó, loại bỏ hoàn toàn việc tự ý sinh cấu hình ngẫu nhiên.\n- [KHẮC PHỤC TRIỆT ĐỂ LỖI CHROME] Đưa Chrome vào danh sách sửa quyền tự động, phân quyền UID/GID và SELinux chuẩn xác; quét sạch Chromium SingletonLock và dọn dẹp http_proxy rác giúp Chrome mở mượt mà và thông mạng 100%.\n- [1-CLICK CỨU HỘ CHROME & MẠNG] Bổ sung tính năng cứu hộ Chrome trực tiếp trên menu chuột phải của danh sách thiết bị.\n- [BẢO VỆ DỮ LIỆU BACKUP] Tự động bóc tách chuỗi dán email kèm password (email|pass|recovery) và đọc thông số phần cứng thực tế sống khi tạo backup, chống ghi nhầm thông số máy khác.",
   "force_update": false,
   "require_data_reset": false,
   "reset_reason": "",
-  "release_date": "24/10/2026 00:05 (Bản phát hành chính thức v2.5.14)"
+  "release_date": "27/10/2026 12:45 (Bản phát hành chính thức v2.5.15)"
 }
