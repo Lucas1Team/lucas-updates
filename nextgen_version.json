@@ -1,15 +1,15 @@
 {
   "status": "success",
   "product": "Lucas NextGen",
-  "latest_version": "1.5",
+  "latest_version": "1.6",
   "min_required_version": "1.0",
-  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/Lucas nextgen 1.5.exe",
-  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/Lucas nextgen 1.5.exe",
-  "download_url_setup": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/Lucas nextgen 1.5.exe",
-  "features": "- [NEXTGEN 1.5 BETA] Bản phát hành chính thức thế hệ mới Lucas NextGen.\n- Kênh cập nhật OTA In-Place 1-Click tự động thay thế file chạy và shortcut desktop.\n- Tùy chọn 'Thoát tài khoản Google' khi Change máy.\n- Tự động căn chỉnh màn hình scrcpy 0px viền đen.\n- Kế thừa trọn vẹn sức mạnh thuật toán Change Core.",
-  "changelog": "- Chốt mốc phát hành NextGen 1.5 Beta.\n- Hoàn thiện Auto Updater 1-Click, bảo toàn 100% License máy khách.\n- Thoát tài khoản Google tự động khi Change giữ máy, đổi máy, backup&change.\n- Tự động đo tỷ lệ màn hình điện thoại loại bỏ viền đen scrcpy.\n- Đồng bộ hoàn hảo thông số phần cứng và tài khoản.",
+  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/Lucas nextgen 1.6.exe",
+  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/Lucas nextgen 1.6.exe",
+  "download_url_setup": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/Lucas nextgen 1.6.exe",
+  "features": "- [NEXTGEN 1.6 UPDATE] Bản nâng cấp giao diện & độ chuẩn hóa Phone Farm.\n- Sửa lỗi căn giao diện nút 'THỰC HIỆN KHÔI PHỤC NGAY' trong hộp thoại Dán Email Hàng Loạt.\n- Nâng cấp cơ chế Change nhiều máy đồng thời: Sinh độc bản riêng biệt cả SIM, Số điện thoại, ICCID, IMSI, IMEI, Android ID, MAC cho từng máy (chống trùng lặp profile SIM).\n- Tối ưu hóa OTA In-Place 1-Click.",
+  "changelog": "- Fix hiển thị nút bấm Khôi phục hàng loạt theo Email (chuẩn hóa Anchor WinForms).\n- Hoàn thiện thuật toán sinh số điện thoại & SIM độc lập khi Change hàng loạt dàn máy (Phone Farm Parity).\n- Bảo toàn 100% License máy khách và cập nhật tự động mượt mà.",
   "force_update": false,
   "require_data_reset": false,
   "reset_reason": "",
-  "release_date": "04/11/2026 22:45 (Phiên bản NextGen 1.5 Beta)"
+  "release_date": "04/11/2026 23:45 (Phiên bản NextGen 1.6)"
 }
