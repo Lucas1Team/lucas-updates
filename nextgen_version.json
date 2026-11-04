@@ -1,15 +1,15 @@
 {
   "status": "success",
   "product": "Lucas NextGen",
-  "latest_version": "1.6",
+  "latest_version": "1.5.1",
   "min_required_version": "1.0",
-  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/Lucas nextgen 1.6.exe",
-  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/Lucas nextgen 1.6.exe",
-  "download_url_setup": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/Lucas nextgen 1.6.exe",
-  "features": "- [NEXTGEN 1.6 UPDATE] Bản nâng cấp giao diện & độ chuẩn hóa Phone Farm.\n- Sửa lỗi căn giao diện nút 'THỰC HIỆN KHÔI PHỤC NGAY' trong hộp thoại Dán Email Hàng Loạt.\n- Nâng cấp cơ chế Change nhiều máy đồng thời: Sinh độc bản riêng biệt cả SIM, Số điện thoại, ICCID, IMSI, IMEI, Android ID, MAC cho từng máy (chống trùng lặp profile SIM).\n- Tối ưu hóa OTA In-Place 1-Click.",
-  "changelog": "- Fix hiển thị nút bấm Khôi phục hàng loạt theo Email (chuẩn hóa Anchor WinForms).\n- Hoàn thiện thuật toán sinh số điện thoại & SIM độc lập khi Change hàng loạt dàn máy (Phone Farm Parity).\n- Bảo toàn 100% License máy khách và cập nhật tự động mượt mà.",
+  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/Lucas nextgen 1.5.1.exe",
+  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/Lucas nextgen 1.5.1.exe",
+  "download_url_setup": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/Lucas nextgen 1.5.1.exe",
+  "features": "- [NEXTGEN 1.5.1 UPDATE] Bản phát hành chính thức ổn định cao nhất (Đã thu hồi v1.6).\n- Khắc phục triệt để nguy cơ văng Android Recovery khi Change máy bằng việc loại bỏ sed -i vào file XML hệ thống.\n- Tối ưu hóa thuật toán sinh SIM, số điện thoại, ICCID, IMSI độc bản 100% khi Change nhiều máy đồng thời (Phone Farm Parity).\n- Hiển thị số phiên bản Android OS chuẩn (dạng số nguyên bản 14, 13, 11...).\n- Căn chỉnh hoàn hảo layout và nút bấm trong hộp thoại Dán Email Hàng Loạt.",
+  "changelog": "- Thu hồi phiên bản v1.6, thiết lập v1.5.1 là bản chính thức mới nhất.\n- [FIX ROM RECOVERY] Bỏ triệt để lệnh sed -i ghi đè XML Settings Provider, chống lỗi phân quyền và RescueParty văng Recovery.\n- [UNIQUE SIM MULTI-DEVICE] Độc bản hóa SIM và SĐT khi Change farm nhiều thiết bị song song.\n- [NUMERIC OS VERSION] Bóc tách phiên bản Android chuẩn số.\n- [UI POLISH] Sửa layout hộp thoại Dán Mail Khôi phục.",
   "force_update": false,
   "require_data_reset": false,
   "reset_reason": "",
-  "release_date": "04/11/2026 23:45 (Phiên bản NextGen 1.6)"
+  "release_date": "05/11/2026 02:45 (Phiên bản NextGen 1.5.1)"
 }
