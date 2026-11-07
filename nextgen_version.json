@@ -1,15 +1,15 @@
 {
   "status": "success",
-  "product": "LUCAS v1.8",
-  "latest_version": "1.8",
+  "product": "LUCAS v1.8.1",
+  "latest_version": "1.8.1",
   "min_required_version": "1.0",
-  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS v1.8.exe",
-  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS v1.8.exe",
-  "download_url_setup": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS v1.8.exe",
-  "features": "- [LUCAS v1.8 OFFICIAL] Nâng cấp giao diện điều khiển Phone Farm hiện đại, logo mới và tên thương hiệu LUCAS v1.8.\n- [HOTFIX ABOUT PHONE] Tự động hiển thị tên thân thiện của thiết bị (Galaxy S23, Xiaomi 13...) trong mục Cài đặt máy thật (Giới thiệu về điện thoại & Tên thiết bị) thay vì mã model phần cứng.\n- [INTEGRATED CARD CHECKER] Tích hợp trực tiếp công cụ Lucas Card & BIN Checker (kiểm tra thuật toán Luhn, tra cứu ngân hàng toàn cầu, lọc thẻ Live/Die hàng loạt, hỗ trợ $0 Auth Stripe) ngay trên menu Cockpit.\n- [CAPTCHA RADAR] Radar phát hiện Captcha thông minh và giải mã 1-click.\n- [SECURITY] Tăng cường 10 Khối Lõi Khóa Bảo Vệ toàn vẹn hệ sinh thái.",
-  "changelog": "- [HOTFIX] Đồng bộ tên thân thiện thiết bị vào Settings Provider máy thật (About Phone & Device Name).\n- [FEATURE] Tích hợp bộ công cụ kiểm tra thẻ Live & tra cứu BIN hàng loạt (Lucas Card & BIN Checker).\n- [BRANDING] Chuyển đổi toàn diện sang nhận diện thương hiệu LUCAS v1.8.",
+  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS v1.8.1.exe",
+  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS v1.8.1.exe",
+  "download_url_setup": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS v1.8.1.exe",
+  "features": "- [LUCAS v1.8.1 HOTFIX] Nâng cấp tự động kích hoạt OTA cho toàn bộ máy khách đang chạy bản v1.8.\n- [HOTFIX ABOUT PHONE] Tự động hiển thị tên thân thiện của thiết bị (Galaxy S23, Xiaomi 13...) trong mục Cài đặt máy thật (Giới thiệu về điện thoại & Tên thiết bị) thay vì mã model phần cứng.\n- [INTEGRATED CARD CHECKER] Tích hợp trực tiếp công cụ Lucas Card & BIN Checker độc lập (Native C# thuần, kiểm tra thuật toán Luhn, tra cứu ngân hàng toàn cầu, huy hiệu [LIVE] nổi bật) không cần server ngoài.\n- [OTA OPTIMIZATION] Tối ưu kết nối cập nhật trực tiếp raw GitHub chống kẹt cache CDN.",
+  "changelog": "- [HOTFIX] Đồng bộ tên thân thiện thiết bị vào Settings Provider máy thật (About Phone & Device Name).\n- [FEATURE] Tích hợp bộ công cụ kiểm tra thẻ Live & tra cứu BIN hàng loạt (Lucas Card & BIN Checker Native).\n- [OTA] Nâng cấp phiên bản v1.8.1 kích hoạt thông báo cập nhật 1-Click cho toàn bộ hệ thống.",
   "force_update": false,
   "require_data_reset": false,
   "reset_reason": "",
-  "release_date": "07/11/2026 23:45 (Phiên bản LUCAS v1.8 Official)"
+  "release_date": "08/11/2026 00:08 (Phiên bản LUCAS v1.8.1 Hotfix)"
 }
