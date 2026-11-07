@@ -1,15 +1,15 @@
 {
   "status": "success",
-  "product": "LUCAS v1.8.1",
-  "latest_version": "1.8.1",
+  "product": "LUCAS v1.8.2",
+  "latest_version": "1.8.2",
   "min_required_version": "1.0",
-  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS v1.8.1.exe",
-  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS v1.8.1.exe",
-  "download_url_setup": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS v1.8.1.exe",
-  "features": "- [LUCAS v1.8.1 HOTFIX] Nâng cấp tự động kích hoạt OTA cho toàn bộ máy khách đang chạy bản v1.8.\n- [HOTFIX ABOUT PHONE] Tự động hiển thị tên thân thiện của thiết bị (Galaxy S23, Xiaomi 13...) trong mục Cài đặt máy thật (Giới thiệu về điện thoại & Tên thiết bị) thay vì mã model phần cứng.\n- [INTEGRATED CARD CHECKER] Tích hợp trực tiếp công cụ Lucas Card & BIN Checker độc lập (Native C# thuần, kiểm tra thuật toán Luhn, tra cứu ngân hàng toàn cầu, huy hiệu [LIVE] nổi bật) không cần server ngoài.\n- [OTA OPTIMIZATION] Tối ưu kết nối cập nhật trực tiếp raw GitHub chống kẹt cache CDN.",
-  "changelog": "- [HOTFIX] Đồng bộ tên thân thiện thiết bị vào Settings Provider máy thật (About Phone & Device Name).\n- [FEATURE] Tích hợp bộ công cụ kiểm tra thẻ Live & tra cứu BIN hàng loạt (Lucas Card & BIN Checker Native).\n- [OTA] Nâng cấp phiên bản v1.8.1 kích hoạt thông báo cập nhật 1-Click cho toàn bộ hệ thống.",
+  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS v1.8.2.exe",
+  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS v1.8.2.exe",
+  "download_url_setup": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS v1.8.2.exe",
+  "features": "- [HOTFIX CAPTCHA RADAR] Sửa triệt để lỗi báo động giả nhấp nháy khi vừa cắm máy: radar chỉ kích hoạt khi thiết bị thực sự mở trang đăng nhập/trình duyệt/WebView có Captcha.\n- [OPTIMIZE RADAR I/O] Chống kẹt và tràn luồng ADB ngầm khi cắm nhiều máy; tự động dọn cache file dump giao diện.\n- [HOTFIX ABOUT PHONE] Tự động hiển thị tên thân thiện của thiết bị (Galaxy S23, Xiaomi 13...) trong mục Cài đặt máy thật (Giới thiệu về điện thoại & Tên thiết bị) thay vì mã model phần cứng.\n- [INTEGRATED CARD CHECKER] Tích hợp trực tiếp công cụ Lucas Card & BIN Checker độc lập (Native C# thuần, kiểm tra thuật toán Luhn, tra cứu ngân hàng toàn cầu, huy hiệu [LIVE] nổi bật) không cần server ngoài.",
+  "changelog": "- [HOTFIX] Sửa triệt để lỗi nút Tự Giải Captcha nhấp nháy báo ảo khi vừa cắm máy.\n- [PERFORMANCE] Tối ưu I/O ADB và chống chồng luồng cho Radar Captcha.\n- [OTA] Nâng cấp phiên bản chính thức v1.8.2 kích hoạt tự động cập nhật 1-Click cho toàn hệ thống.",
   "force_update": false,
   "require_data_reset": false,
   "reset_reason": "",
-  "release_date": "08/11/2026 00:08 (Phiên bản LUCAS v1.8.1 Hotfix)"
+  "release_date": "08/11/2026 01:40 (Phiên bản LUCAS v1.8.2 Hotfix)"
 }
