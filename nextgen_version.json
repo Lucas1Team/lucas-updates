@@ -1,15 +1,15 @@
 {
   "status": "success",
-  "product": "Lucas NextGen",
-  "latest_version": "1.5.1",
+  "product": "LUCAS v1.8",
+  "latest_version": "1.8",
   "min_required_version": "1.0",
-  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/Lucas nextgen 1.5.1.exe",
-  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/Lucas nextgen 1.5.1.exe",
-  "download_url_setup": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/Lucas nextgen 1.5.1.exe",
-  "features": "- [NEXTGEN 1.5.1 UPDATE] Bản phát hành chính thức ổn định cao nhất (Đã thu hồi v1.6).\n- Khắc phục triệt để nguy cơ văng Android Recovery khi Change máy bằng việc loại bỏ sed -i vào file XML hệ thống.\n- Tối ưu hóa thuật toán sinh SIM, số điện thoại, ICCID, IMSI độc bản 100% khi Change nhiều máy đồng thời (Phone Farm Parity).\n- Hiển thị số phiên bản Android OS chuẩn (dạng số nguyên bản 14, 13, 11...).\n- Căn chỉnh hoàn hảo layout và nút bấm trong hộp thoại Dán Email Hàng Loạt.",
-  "changelog": "- Thu hồi phiên bản v1.6, thiết lập v1.5.1 là bản chính thức mới nhất.\n- [FIX ROM RECOVERY] Bỏ triệt để lệnh sed -i ghi đè XML Settings Provider, chống lỗi phân quyền và RescueParty văng Recovery.\n- [UNIQUE SIM MULTI-DEVICE] Độc bản hóa SIM và SĐT khi Change farm nhiều thiết bị song song.\n- [NUMERIC OS VERSION] Bóc tách phiên bản Android chuẩn số.\n- [UI POLISH] Sửa layout hộp thoại Dán Mail Khôi phục.",
+  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS v1.8.exe",
+  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS v1.8.exe",
+  "download_url_setup": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS v1.8.exe",
+  "features": "- [LUCAS v1.8 OFFICIAL] Nâng cấp giao diện điều khiển Phone Farm hiện đại, logo mới và tên thương hiệu LUCAS v1.8.\n- [HOTFIX ABOUT PHONE] Tự động hiển thị tên thân thiện của thiết bị (Galaxy S23, Xiaomi 13...) trong mục Cài đặt máy thật (Giới thiệu về điện thoại & Tên thiết bị) thay vì mã model phần cứng.\n- [INTEGRATED CARD CHECKER] Tích hợp trực tiếp công cụ Lucas Card & BIN Checker (kiểm tra thuật toán Luhn, tra cứu ngân hàng toàn cầu, lọc thẻ Live/Die hàng loạt, hỗ trợ $0 Auth Stripe) ngay trên menu Cockpit.\n- [CAPTCHA RADAR] Radar phát hiện Captcha thông minh và giải mã 1-click.\n- [SECURITY] Tăng cường 10 Khối Lõi Khóa Bảo Vệ toàn vẹn hệ sinh thái.",
+  "changelog": "- [HOTFIX] Đồng bộ tên thân thiện thiết bị vào Settings Provider máy thật (About Phone & Device Name).\n- [FEATURE] Tích hợp bộ công cụ kiểm tra thẻ Live & tra cứu BIN hàng loạt (Lucas Card & BIN Checker).\n- [BRANDING] Chuyển đổi toàn diện sang nhận diện thương hiệu LUCAS v1.8.",
   "force_update": false,
   "require_data_reset": false,
   "reset_reason": "",
-  "release_date": "05/11/2026 02:45 (Phiên bản NextGen 1.5.1)"
+  "release_date": "07/11/2026 23:45 (Phiên bản LUCAS v1.8 Official)"
 }
