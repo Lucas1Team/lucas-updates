@@ -1,15 +1,15 @@
 {
   "status": "success",
-  "product": "LUCAS v1.8.6",
-  "latest_version": "1.8.6",
+  "product": "LUCAS v1.8.7",
+  "latest_version": "1.8.7",
   "min_required_version": "1.0",
-  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS%20v1.8.6.exe",
-  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS%20v1.8.6.exe",
-  "download_url_setup": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS%20v1.8.6.exe",
-  "features": "- [BATCH MAIL BACKGROUND 6 LUỒNG] Bấm Nạp & Khôi Phục theo danh sách tự động đóng bảng về màn hình chính, chạy ngầm đa luồng siêu tốc và báo tiến trình trực tiếp ở thanh trạng thái + bảng Nhật ký (Log).\n- [PURGE GOOGLE ACCOUNT & FIX DELETED FD] Xử lý triệt để lỗi email cũ bị kẹt trong RAM File Descriptor (accounts_ce.db deleted) của system_server; cấp phát sqlite3 ARM64 xóa sạch 100% tài khoản cũ trên cả 3 DB (CE, DE, Legacy).\n- [ĐỒNG BỘ MÁY THẬT ↔ TOOL 100%] Tự động đối chiếu /data/system/lucas_config.json với getprop thực tế và ép đồng bộ thông số xuống Kernel RAM qua Root Script (uid=0).\n- [UI PHÂN BỔ EMAIL & LIVE GRID] Thu gọn khung dán danh sách mail nhường tối đa không gian cho Bảng Ánh Xạ Phân Bổ; sửa dứt điểm lỗi font tiếng Việt cửa sổ Xếp Lưới Desktop và chuẩn hóa thương hiệu LUCAS v1.8.6.\n- [TASKBAR LIVE MASTER/SLAVE & ZERO-LAG] Gắn nút chọn Master và ô tick Slave ngay trên đỉnh từng cửa sổ Live Scrcpy, đồng bộ tọa độ Win32 Client Area mượt mà không độ trễ.",
+  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS%20v1.8.7.exe",
+  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS%20v1.8.7.exe",
+  "download_url_setup": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS%20v1.8.7.exe",
+  "features": "- [BATCH MAIL BACKGROUND 6 LUỒNG] Bấm Nạp & Khôi Phục theo danh sách tự động đóng bảng về màn hình chính, chạy ngầm đa luồng siêu tốc và báo tiến trình trực tiếp ở thanh trạng thái + bảng Nhật ký (Log).\n- [PURGE GOOGLE ACCOUNT & FIX DELETED FD] Xử lý triệt để lỗi email cũ bị kẹt trong RAM File Descriptor (accounts_ce.db deleted) của system_server; cấp phát sqlite3 ARM64 xóa sạch 100% tài khoản cũ trên cả 3 DB (CE, DE, Legacy).\n- [ĐỒNG BỘ MÁY THẬT ↔ TOOL 100%] Tự động đối chiếu /data/system/lucas_config.json với getprop thực tế và ép đồng bộ thông số xuống Kernel RAM qua Root Script (uid=0).\n- [UI PHÂN BỔ EMAIL & LIVE GRID] Thu gọn khung dán danh sách mail nhường tối đa không gian cho Bảng Ánh Xạ Phân Bổ; sửa dứt điểm lỗi font tiếng Việt cửa sổ Xếp Lưới Desktop và chuẩn hóa thương hiệu LUCAS v1.8.7.\n- [TASKBAR LIVE MASTER/SLAVE & ZERO-LAG] Gắn nút chọn Master và ô tick Slave ngay trên đỉnh từng cửa sổ Live Scrcpy, đồng bộ tọa độ Win32 Client Area mượt mà không độ trễ.",
   "changelog": "- [BATCH MAIL NGẦM] Đóng bảng ngay khi bấm nạp, chạy ngầm 6 luồng song song, báo tiến trình ở Log màn hình chính.\n- [SẠCH MAIL CŨ 100%] Khắc phục lỗi kẹt mail cũ trong FD RAM system_server & dọn sạch GMS token DB.\n- [ĐỒNG BỘ THÔNG SỐ] Đồng bộ tức thì thông số giữa máy thật và giao diện Tool qua Root Script.\n- [GIAO DIỆN & LIVE SYNC] Mở rộng Bảng Ánh Xạ Phân Bổ, sửa font tiếng Việt Xếp Lưới Desktop, nút Master/Slave trên taskbar cửa sổ Live.",
   "force_update": true,
   "require_data_reset": false,
   "reset_reason": "",
-  "release_date": "09/11/2026 00:09 (LUCAS v1.8.6 Official Cumulative Hotfix)"
+  "release_date": "09/11/2026 00:53 (LUCAS v1.8.7 Official Cumulative Hotfix)"
 }
