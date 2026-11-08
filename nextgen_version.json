@@ -1,15 +1,15 @@
 {
   "status": "success",
-  "product": "LUCAS v1.8.2",
-  "latest_version": "1.8.2",
+  "product": "LUCAS v1.8.3",
+  "latest_version": "1.8.3",
   "min_required_version": "1.0",
-  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS v1.8.2.exe",
-  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS v1.8.2.exe",
-  "download_url_setup": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS v1.8.2.exe",
-  "features": "- [HOTFIX CAPTCHA RADAR] Sửa triệt để lỗi báo động giả nhấp nháy khi vừa cắm máy: radar chỉ kích hoạt khi thiết bị thực sự mở trang đăng nhập/trình duyệt/WebView có Captcha.\n- [OPTIMIZE RADAR I/O] Chống kẹt và tràn luồng ADB ngầm khi cắm nhiều máy; tự động dọn cache file dump giao diện.\n- [HOTFIX ABOUT PHONE] Tự động hiển thị tên thân thiện của thiết bị (Galaxy S23, Xiaomi 13...) trong mục Cài đặt máy thật (Giới thiệu về điện thoại & Tên thiết bị) thay vì mã model phần cứng.\n- [INTEGRATED CARD CHECKER] Tích hợp trực tiếp công cụ Lucas Card & BIN Checker độc lập (Native C# thuần, kiểm tra thuật toán Luhn, tra cứu ngân hàng toàn cầu, huy hiệu [LIVE] nổi bật) không cần server ngoài.",
-  "changelog": "- [HOTFIX] Sửa triệt để lỗi nút Tự Giải Captcha nhấp nháy báo ảo khi vừa cắm máy.\n- [PERFORMANCE] Tối ưu I/O ADB và chống chồng luồng cho Radar Captcha.\n- [OTA] Nâng cấp phiên bản chính thức v1.8.2 kích hoạt tự động cập nhật 1-Click cho toàn hệ thống.",
+  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS v1.8.3.exe",
+  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS v1.8.3.exe",
+  "download_url_setup": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS v1.8.3.exe",
+  "features": "- [BẢO TOÀN PHIÊN ĐĂNG NHẬP APP BÊN THỨ 3] Xóa sạch triệt để tài khoản Google khi Change/Restore nhưng bảo toàn 100% session đăng nhập của Telegram, Zalo, FB, TikTok, Game... không phải đăng nhập lại tốn thời gian.\n- [KHÔNG GHI ĐÈ KEYSTORE & SSAID] Bảo vệ vĩnh viễn Master Keystore (/data/misc/keystore) và định danh SSAID máy thật, chống văng ứng dụng bảo mật.\n- [ĐỒNG BỘ THAO TÁC MASTER #1] Sửa lỗi mở Scrcpy thiếu máy #1 khi tích chọn Master; truyền đồng loạt click/vuốt từ máy #1 sang tất cả các máy phụ qua Windows Mouse Hook.\n- [TỰ ĐỘNG GIẢI CAPTCHA] Nâng cấp radar nhận diện checkbox reCAPTCHA v2 / WebView và tự động bấm Tiếp theo.\n- [SCALE TỰ ĐỘNG 50 MÁY] Tự động cài đặt và kích hoạt Scope Spoofer v2.4.2 cho toàn bộ dàn máy khi bấm Khởi Tạo 1-Click.",
+  "changelog": "- [HOTFIX RESTORE & CHANGE] Bảo toàn 100% phiên đăng nhập app thứ 3 (Zalo, FB, Telegram, TikTok...) khi Change và Restore.\n- [SYNC SCREEN] Sửa lỗi hiển thị Scrcpy máy #1 Master và đồng bộ thao tác đa luồng.\n- [CAPTCHA] Tự động giải reCAPTCHA v2 trên WebView.\n- [FARM SCALE] Tự động hóa thiết lập đồng loạt cho dàn 50+ máy.",
   "force_update": false,
   "require_data_reset": false,
   "reset_reason": "",
-  "release_date": "08/11/2026 01:40 (Phiên bản LUCAS v1.8.2 Hotfix)"
+  "release_date": "08/11/2026 15:35 (Phiên bản LUCAS v1.8.3 Official)"
 }
