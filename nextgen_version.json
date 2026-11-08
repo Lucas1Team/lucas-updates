@@ -1,4 +1,4 @@
-{
+﻿{
   "status": "success",
   "product": "LUCAS v1.8.3",
   "latest_version": "1.8.3",
@@ -6,10 +6,10 @@
   "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS v1.8.3.exe",
   "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS v1.8.3.exe",
   "download_url_setup": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS v1.8.3.exe",
-  "features": "- [BẢO TOÀN PHIÊN ĐĂNG NHẬP APP BÊN THỨ 3] Xóa sạch triệt để tài khoản Google khi Change/Restore nhưng bảo toàn 100% session đăng nhập của Telegram, Zalo, FB, TikTok, Game... không phải đăng nhập lại tốn thời gian.\n- [KHÔNG GHI ĐÈ KEYSTORE & SSAID] Bảo vệ vĩnh viễn Master Keystore (/data/misc/keystore) và định danh SSAID máy thật, chống văng ứng dụng bảo mật.\n- [ĐỒNG BỘ THAO TÁC MASTER #1] Sửa lỗi mở Scrcpy thiếu máy #1 khi tích chọn Master; truyền đồng loạt click/vuốt từ máy #1 sang tất cả các máy phụ qua Windows Mouse Hook.\n- [TỰ ĐỘNG GIẢI CAPTCHA] Nâng cấp radar nhận diện checkbox reCAPTCHA v2 / WebView và tự động bấm Tiếp theo.\n- [SCALE TỰ ĐỘNG 50 MÁY] Tự động cài đặt và kích hoạt Scope Spoofer v2.4.2 cho toàn bộ dàn máy khi bấm Khởi Tạo 1-Click.",
-  "changelog": "- [HOTFIX RESTORE & CHANGE] Bảo toàn 100% phiên đăng nhập app thứ 3 (Zalo, FB, Telegram, TikTok...) khi Change và Restore.\n- [SYNC SCREEN] Sửa lỗi hiển thị Scrcpy máy #1 Master và đồng bộ thao tác đa luồng.\n- [CAPTCHA] Tự động giải reCAPTCHA v2 trên WebView.\n- [FARM SCALE] Tự động hóa thiết lập đồng loạt cho dàn 50+ máy.",
+  "features": "- [TASKBAR LIVE MASTER/SLAVE] Gan truc tiep nut chon Master va o tick Slave ngay tren dinh tung cua so Live Scrcpy. Khi chon 1 may lam Master, tat ca cac may khac tu dong an nut Master va chuyen sang hien o tick Slave. May bo tick khong bi sync nhung van mo man hinh binh thuong.\n- [ZERO-LAG & HIGH-PRECISION SYNC] Toi uu toa do bang Win32 Client Area chuan xac tung diem anh va phat lenh bat dong bo Fire & Forget xoa so 100% do tre (lag).\n- [BAO TOAN PHIEN DANG NHAP APP BEN THU 3] Xoa sach triet de tai khoan Google khi Change/Restore nhung bao toan 100% session dang nhap Telegram, Zalo, FB, TikTok, Game.\n- [DYNAMIC VERSION UI] Dong bo hien thi phien ban dong v1.8.3 tren tieu de cua so va badge sidebar.",
+  "changelog": "- [TASKBAR LIVE SYNC] Tich hop nut Master & CheckBox Slave ngay tren taskbar cua so Live.\n- [INPUT ZERO-LAG] Triet tieu do tre, chuan hoa toa do Win32 Client Area.\n- [SESSION SHIELD] Bao toan phien dang nhap app khac khi change/restore.\n- [VERSION DYNAMIC] Tu dong cap nhat so phien ban tren toan bo giao dien.",
   "force_update": false,
   "require_data_reset": false,
   "reset_reason": "",
-  "release_date": "08/11/2026 15:35 (Phiên bản LUCAS v1.8.3 Official)"
+  "release_date": "08/11/2026 21:25 (LUCAS v1.8.3 Fast-Sync Update)"
 }
