@@ -1,15 +1,15 @@
-﻿{
+{
   "status": "success",
-  "product": "LUCAS v1.8.3",
-  "latest_version": "1.8.3",
+  "product": "LUCAS v1.8.4",
+  "latest_version": "1.8.4",
   "min_required_version": "1.0",
-  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS v1.8.3.exe",
-  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS v1.8.3.exe",
-  "download_url_setup": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS v1.8.3.exe",
-  "features": "- [TASKBAR LIVE MASTER/SLAVE] Gan truc tiep nut chon Master va o tick Slave ngay tren dinh tung cua so Live Scrcpy. Khi chon 1 may lam Master, tat ca cac may khac tu dong an nut Master va chuyen sang hien o tick Slave. May bo tick khong bi sync nhung van mo man hinh binh thuong.\n- [ZERO-LAG & HIGH-PRECISION SYNC] Toi uu toa do bang Win32 Client Area chuan xac tung diem anh va phat lenh bat dong bo Fire & Forget xoa so 100% do tre (lag).\n- [BAO TOAN PHIEN DANG NHAP APP BEN THU 3] Xoa sach triet de tai khoan Google khi Change/Restore nhung bao toan 100% session dang nhap Telegram, Zalo, FB, TikTok, Game.\n- [DYNAMIC VERSION UI] Dong bo hien thi phien ban dong v1.8.3 tren tieu de cua so va badge sidebar.",
-  "changelog": "- [TASKBAR LIVE SYNC] Tich hop nut Master & CheckBox Slave ngay tren taskbar cua so Live.\n- [INPUT ZERO-LAG] Triet tieu do tre, chuan hoa toa do Win32 Client Area.\n- [SESSION SHIELD] Bao toan phien dang nhap app khac khi change/restore.\n- [VERSION DYNAMIC] Tu dong cap nhat so phien ban tren toan bo giao dien.",
+  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS v1.8.4.exe",
+  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS v1.8.4.exe",
+  "download_url_setup": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS v1.8.4.exe",
+  "features": "- [PURGE GOOGLE ACCOUNT 100%] Tu dong cap phat sqlite3 ARM64 portable, xoa sach triet de moi bang accounts, authtokens, grants, extras va xoa truc tiep DB token GMS (auth.db, signin.db), giai phong cache RAM AccountManagerService.\n- [TASKBAR LIVE MASTER/SLAVE] Gan truc tiep nut chon Master va o tick Slave ngay tren dinh tung cua so Live Scrcpy. Nhan dien Master qua nut do ruc [MASTER] tren taskbar, bo vien do overlay.\n- [ZERO-LAG & HIGH-PRECISION SYNC] Toi uu toa do bang Win32 Client Area chuan xac tung diem anh va phat lenh bat dong bo Fire & Forget xoa so 100% do tre (lag).\n- [DYNAMIC VERSION UI] Dong bo hien thi phien ban dong v1.8.4 tren tieu de cua so va badge sidebar.",
+  "changelog": "- [PURGE ACC 100%] Sach mail cu triet de voi binary sqlite3 ARM64 tu dong & don truc tiep GMS token DB.\n- [TASKBAR LIVE SYNC] Tich hop nut Master & CheckBox Slave ngay tren taskbar cua so Live, bo vien do overlay.\n- [INPUT ZERO-LAG] Triet tieu do tre, chuan hoa toa do Win32 Client Area.\n- [VERSION v1.8.4] Tu dong cap nhat so phien ban tren toan bo giao dien.",
   "force_update": false,
   "require_data_reset": false,
   "reset_reason": "",
-  "release_date": "08/11/2026 21:25 (LUCAS v1.8.3 Fast-Sync Update)"
+  "release_date": "08/11/2026 22:00 (LUCAS v1.8.4 OTA Update)"
 }
