@@ -1,15 +1,15 @@
 {
   "status": "success",
-  "product": "LUCAS v1.8.4",
-  "latest_version": "1.8.4",
+  "product": "LUCAS v1.8.5",
+  "latest_version": "1.8.5",
   "min_required_version": "1.0",
-  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS v1.8.4.exe",
-  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS v1.8.4.exe",
-  "download_url_setup": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS v1.8.4.exe",
-  "features": "- [HOTFIX FONT] Khắc phục triệt để 100% lỗi font tiếng Việt & icon trên cửa sổ Xếp Lưới Màn Hình Live Ra Desktop.\n- [PURGE GOOGLE ACCOUNT 100%] Tự động cấp phát sqlite3 ARM64 portable, xóa sạch triệt để mọi bảng accounts, authtokens, grants, extras và xóa trực tiếp DB token GMS (auth.db, signin.db), giải phóng cache RAM AccountManagerService.\n- [TASKBAR LIVE MASTER/SLAVE] Gắn trực tiếp nút chọn Master và ô tick Slave ngay trên đỉnh từng cửa sổ Live Scrcpy. Nhận diện Master qua nút đỏ rực [MASTER] trên taskbar, bỏ viền đỏ overlay.\n- [ZERO-LAG & HIGH-PRECISION SYNC] Tối ưu tọa độ bằng Win32 Client Area chuẩn xác từng điểm ảnh và phát lệnh bất đồng bộ Fire & Forget xóa sổ 100% độ trễ (lag).\n- [DYNAMIC VERSION UI] Đồng bộ hiển thị phiên bản động v1.8.4 trên tiêu đề cửa sổ và badge sidebar.",
-  "changelog": "- [HOTFIX FONT] Chuẩn hóa UTF-8 tiếng Việt sắc nét cho cửa sổ Xếp Lưới Desktop.\n- [PURGE ACC 100%] Sạch mail cũ triệt để với binary sqlite3 ARM64 tự động & dọn trực tiếp GMS token DB.\n- [TASKBAR LIVE SYNC] Tích hợp nút Master & CheckBox Slave ngay trên taskbar cửa sổ Live, bỏ viền đỏ overlay.\n- [INPUT ZERO-LAG] Triệt tiêu độ trễ, chuẩn hóa tọa độ Win32 Client Area.\n- [VERSION v1.8.4] Tự động cập nhật số phiên bản trên toàn bộ giao diện.",
-  "force_update": false,
+  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS%20v1.8.5.exe",
+  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS%20v1.8.5.exe",
+  "download_url_setup": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS%20v1.8.5.exe",
+  "features": "- [HOTFIX FONT] Khắc phục triệt để 100% lỗi font tiếng Việt & icon trên cửa sổ Xếp Lưới Màn Hình Live Ra Desktop.\n- [PURGE GOOGLE ACCOUNT 100%] Tự động cấp phát sqlite3 ARM64 portable, xóa sạch triệt để mọi bảng accounts, authtokens, grants, extras và xóa trực tiếp DB token GMS (auth.db, signin.db), giải phóng cache RAM AccountManagerService.\n- [TASKBAR LIVE MASTER/SLAVE] Gắn trực tiếp nút chọn Master và ô tick Slave ngay trên đỉnh từng cửa sổ Live Scrcpy. Nhận diện Master qua nút đỏ rực [MASTER] trên taskbar, bỏ viền đỏ overlay.\n- [ZERO-LAG & HIGH-PRECISION SYNC] Tối ưu tọa độ bằng Win32 Client Area chuẩn xác từng điểm ảnh và phát lệnh bất đồng bộ Fire & Forget xóa sổ 100% độ trễ (lag).\n- [DYNAMIC VERSION UI] Đồng bộ hiển thị phiên bản động v1.8.5 trên tiêu đề cửa sổ và badge sidebar.",
+  "changelog": "- [HOTFIX FONT] Chuẩn hóa UTF-8 tiếng Việt sắc nét cho cửa sổ Xếp Lưới Desktop.\n- [PURGE ACC 100%] Sạch mail cũ triệt để với binary sqlite3 ARM64 tự động & dọn trực tiếp GMS token DB.\n- [TASKBAR LIVE SYNC] Tích hợp nút Master & CheckBox Slave ngay trên taskbar cửa sổ Live, bỏ viền đỏ overlay.\n- [INPUT ZERO-LAG] Triệt tiêu độ trễ, chuẩn hóa tọa độ Win32 Client Area.\n- [VERSION v1.8.5] Tự động cập nhật số phiên bản trên toàn bộ giao diện.",
+  "force_update": true,
   "require_data_reset": false,
   "reset_reason": "",
-  "release_date": "08/11/2026 23:15 (LUCAS v1.8.4 Hotfix Font)"
+  "release_date": "08/11/2026 23:22 (LUCAS v1.8.5 Official Release)"
 }
