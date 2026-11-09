@@ -1,15 +1,15 @@
 {
   "status": "success",
-  "product": "LUCAS v1.8.8",
-  "latest_version": "1.8.8",
+  "product": "LUCAS v1.8.8.1 (Hotfix)",
+  "latest_version": "1.8.8.1",
   "min_required_version": "1.0",
-  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS%20v1.8.8.exe",
-  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS%20v1.8.8.exe",
-  "download_url_setup": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS%20v1.8.8.exe",
-  "features": "- [CHANGE CHUẨN XÁC 100%] Triệt tiêu 7 thuộc tính rò rỉ máy cũ (ro.build.description, ro.build.flavor, ro.odm.build.version.incremental, ro.bootimage.build.version.incremental, ro.bootloader, ro.boot.bootloader, ril.product_code).\n- [PHẦN CỨNG THẬT & KHÓA CARRIER] Sinh MAC Address phần cứng thật từ 16 dải OUI vendor lớn, loại bỏ hoàn toàn tiền tố ảo 02:. Khóa chặt tương quan Quốc gia ↔ Nhà mạng (chọn VN luôn cấp nhà mạng Viettel/Vina/Mobi).\n- [FULL REBOOT HỆ THỐNG] Tích hợp tùy chọn Full Reboot hệ thống khởi động lại sạch 100% bên cạnh chế độ Soft Reboot Zygote siêu tốc.\n- [DỌN TÀI KHOẢN GOOGLE CHỌN LỌC] Bộ lọc dọn tài khoản Google độc lập (chỉ xóa com.google), bảo vệ toàn vẹn 100% tài khoản và dữ liệu ứng dụng bên thứ 3 (TikTok, Zalo, Telegram, Facebook, Banking...).\n- [KHÓA LỖI MODEL UI] Tách biệt Model kỹ thuật và Tên thương mại trên giao diện Cockpit, triệt tiêu lỗi text ComboBox đè hỏng mã Model thiết bị.",
-  "changelog": "- [CHANGE ĐỒNG BỘ 100%] Khớp 9 phân vùng props, triệt tiêu rò rỉ props ngầm máy cũ.\n- [MAC & CARRIER THẬT] OUI vendor phần cứng chuẩn & khóa chặt nhà mạng theo quốc gia.\n- [FULL REBOOT] Tùy chọn khởi động lại hệ thống sạch 100% khi change máy.\n- [BẢO TOÀN TÀI KHOẢN APP THỨ 3] Chỉ dọn tài khoản com.google, giữ nguyên session TikTok, Zalo, Facebook.\n- [CHUẨN HÓA MODEL COCKPIT] Phân tách chuẩn xác mã Model kỹ thuật và tên thương mại.",
+  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS%20v1.8.8.1.exe",
+  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS%20v1.8.8.1.exe",
+  "download_url_setup": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS%20v1.8.8.1.exe",
+  "features": "- [HOTFIX LIVE SCREEN] Triệt tiêu hoàn toàn 2 dải viền đen (letterboxing) trên cửa sổ Live Screen Scrcpy. Tự động khớp chính xác theo tỉ lệ vật lý màn hình (18.5:9 Samsung S9...).\n- [CHANGE CHUẨN XÁC 100%] Triệt tiêu 7 thuộc tính rò rỉ máy cũ (ro.build.description, ro.build.flavor, ro.odm.build.version.incremental, ro.bootimage.build.version.incremental, ro.bootloader, ro.boot.bootloader, ril.product_code).\n- [PHẦN CỨNG THẬT & KHÓA CARRIER] Sinh MAC Address phần cứng thật từ 16 dải OUI vendor lớn, loại bỏ hoàn toàn tiền tố ảo 02:. Khóa chặt tương quan Quốc gia ↔ Nhà mạng (chọn VN luôn cấp nhà mạng Viettel/Vina/Mobi).\n- [FULL REBOOT HỆ THỐNG] Tích hợp tùy chọn Full Reboot hệ thống khởi động lại sạch 100% bên cạnh chế độ Soft Reboot Zygote siêu tốc.\n- [DỌN TÀI KHOẢN GOOGLE CHỌN LỌC] Bộ lọc dọn tài khoản Google độc lập (chỉ xóa com.google), bảo vệ toàn vẹn 100% tài khoản và dữ liệu ứng dụng bên thứ 3 (TikTok, Zalo, Telegram, Facebook, Banking...).\n- [KHÓA LỖI MODEL UI] Tách biệt Model kỹ thuật và Tên thương mại trên giao diện Cockpit, triệt tiêu lỗi text ComboBox đè hỏng mã Model thiết bị.",
+  "changelog": "- [HOTFIX LIVE SCREEN] Triệt tiêu viền đen Scrcpy, tự khớp tỉ lệ vật lý thiết bị.\n- [CHANGE ĐỒNG BỘ 100%] Khớp 9 phân vùng props, triệt tiêu rò rỉ props ngầm máy cũ.\n- [MAC & CARRIER THẬT] OUI vendor phần cứng chuẩn & khóa chặt nhà mạng theo quốc gia.\n- [FULL REBOOT] Tùy chọn khởi động lại hệ thống sạch 100% khi change máy.\n- [BẢO TOÀN TÀI KHOẢN APP THỨ 3] Chỉ dọn tài khoản com.google, giữ nguyên session TikTok, Zalo, Facebook.\n- [CHUẨN HÓA MODEL COCKPIT] Phân tách chuẩn xác mã Model kỹ thuật và tên thương mại.",
   "force_update": true,
   "require_data_reset": false,
   "reset_reason": "",
-  "release_date": "09/11/2026 23:29 (LUCAS v1.8.8 Official Release)"
+  "release_date": "10/11/2026 01:45 (LUCAS v1.8.8.1 Hotfix)"
 }
