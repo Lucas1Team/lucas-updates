@@ -1,15 +1,15 @@
 {
   "status": "success",
-  "product": "LUCAS v1.8.7",
-  "latest_version": "1.8.7",
+  "product": "LUCAS v1.8.8",
+  "latest_version": "1.8.8",
   "min_required_version": "1.0",
-  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS%20v1.8.7.exe",
-  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS%20v1.8.7.exe",
-  "download_url_setup": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS%20v1.8.7.exe",
-  "features": "- [BATCH MAIL BACKGROUND 6 LUỒNG] Bấm Nạp & Khôi Phục theo danh sách tự động đóng bảng về màn hình chính, chạy ngầm đa luồng siêu tốc và báo tiến trình trực tiếp ở thanh trạng thái + bảng Nhật ký (Log).\n- [PURGE GOOGLE ACCOUNT & FIX DELETED FD] Xử lý triệt để lỗi email cũ bị kẹt trong RAM File Descriptor (accounts_ce.db deleted) của system_server; cấp phát sqlite3 ARM64 xóa sạch 100% tài khoản cũ trên cả 3 DB (CE, DE, Legacy).\n- [ĐỒNG BỘ MÁY THẬT ↔ TOOL 100%] Tự động đối chiếu /data/system/lucas_config.json với getprop thực tế và ép đồng bộ thông số xuống Kernel RAM qua Root Script (uid=0).\n- [UI PHÂN BỔ EMAIL & LIVE GRID] Thu gọn khung dán danh sách mail nhường tối đa không gian cho Bảng Ánh Xạ Phân Bổ; sửa dứt điểm lỗi font tiếng Việt cửa sổ Xếp Lưới Desktop và chuẩn hóa thương hiệu LUCAS v1.8.7.\n- [TASKBAR LIVE MASTER/SLAVE & ZERO-LAG] Gắn nút chọn Master và ô tick Slave ngay trên đỉnh từng cửa sổ Live Scrcpy, đồng bộ tọa độ Win32 Client Area mượt mà không độ trễ.",
-  "changelog": "- [BATCH MAIL NGẦM] Đóng bảng ngay khi bấm nạp, chạy ngầm 6 luồng song song, báo tiến trình ở Log màn hình chính.\n- [SẠCH MAIL CŨ 100%] Khắc phục lỗi kẹt mail cũ trong FD RAM system_server & dọn sạch GMS token DB.\n- [ĐỒNG BỘ THÔNG SỐ] Đồng bộ tức thì thông số giữa máy thật và giao diện Tool qua Root Script.\n- [GIAO DIỆN & LIVE SYNC] Mở rộng Bảng Ánh Xạ Phân Bổ, sửa font tiếng Việt Xếp Lưới Desktop, nút Master/Slave trên taskbar cửa sổ Live.",
+  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS%20v1.8.8.exe",
+  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS%20v1.8.8.exe",
+  "download_url_setup": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS%20v1.8.8.exe",
+  "features": "- [CHANGE CHUẨN XÁC 100%] Triệt tiêu 7 thuộc tính rò rỉ máy cũ (ro.build.description, ro.build.flavor, ro.odm.build.version.incremental, ro.bootimage.build.version.incremental, ro.bootloader, ro.boot.bootloader, ril.product_code).\n- [PHẦN CỨNG THẬT & KHÓA CARRIER] Sinh MAC Address phần cứng thật từ 16 dải OUI vendor lớn, loại bỏ hoàn toàn tiền tố ảo 02:. Khóa chặt tương quan Quốc gia ↔ Nhà mạng (chọn VN luôn cấp nhà mạng Viettel/Vina/Mobi).\n- [FULL REBOOT HỆ THỐNG] Tích hợp tùy chọn Full Reboot hệ thống khởi động lại sạch 100% bên cạnh chế độ Soft Reboot Zygote siêu tốc.\n- [DỌN TÀI KHOẢN GOOGLE CHỌN LỌC] Bộ lọc dọn tài khoản Google độc lập (chỉ xóa com.google), bảo vệ toàn vẹn 100% tài khoản và dữ liệu ứng dụng bên thứ 3 (TikTok, Zalo, Telegram, Facebook, Banking...).\n- [KHÓA LỖI MODEL UI] Tách biệt Model kỹ thuật và Tên thương mại trên giao diện Cockpit, triệt tiêu lỗi text ComboBox đè hỏng mã Model thiết bị.",
+  "changelog": "- [CHANGE ĐỒNG BỘ 100%] Khớp 9 phân vùng props, triệt tiêu rò rỉ props ngầm máy cũ.\n- [MAC & CARRIER THẬT] OUI vendor phần cứng chuẩn & khóa chặt nhà mạng theo quốc gia.\n- [FULL REBOOT] Tùy chọn khởi động lại hệ thống sạch 100% khi change máy.\n- [BẢO TOÀN TÀI KHOẢN APP THỨ 3] Chỉ dọn tài khoản com.google, giữ nguyên session TikTok, Zalo, Facebook.\n- [CHUẨN HÓA MODEL COCKPIT] Phân tách chuẩn xác mã Model kỹ thuật và tên thương mại.",
   "force_update": true,
   "require_data_reset": false,
   "reset_reason": "",
-  "release_date": "09/11/2026 01:12 (LUCAS v1.8.7 Official Cumulative Hotfix)"
+  "release_date": "09/11/2026 23:29 (LUCAS v1.8.8 Official Release)"
 }
