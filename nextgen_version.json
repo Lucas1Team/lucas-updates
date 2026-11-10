@@ -6,10 +6,10 @@
   "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS%20v1.8.9.exe",
   "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS%20v1.8.9.exe",
   "download_url_setup": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS%20v1.8.9.exe",
-  "features": "- [KERNEL / SCRCPY] Surface lock 230x480px, triệt tiêu letterbox rasterization, tối ưu H.264 pipeline stream.\n- [INPUT IPC] 3-Zone Anchor normalization (Top/Body/Bottom) bù trừ aspect ratio 16:9 vs 20:9 qua socket ADB event tap/swipe.\n- [UI ENGINE] Dynamic viewport reflow breakpoint <880px (56px icon) & <680px, tối ưu GDI+ double-buffered pump.\n- [ROUTING / SEC] Cô lập routing layer CC/BIN auth module phục vụ upgrade cryptographic handshake.\n- [SYS PROPS / KERNEL] Triệt tiêu prop leakage 9-partition & sandbox SQLite accounts_ce.db isolated uid.",
-  "changelog": "- [KERNEL / SCRCPY] Surface lock 230x480px, triệt tiêu letterbox rasterization.\n- [INPUT IPC] 3-Zone Anchor normalization bù trừ aspect ratio 16:9 vs 20:9.\n- [UI ENGINE] Dynamic viewport reflow breakpoint <880px (56px) & <680px.\n- [ROUTING / SEC] Cô lập routing layer CC/BIN auth module.\n- [SYS PROPS / KERNEL] Triệt tiêu prop leakage 9-partition & isolator accounts_ce.db.",
+  "features": "- [VIEWPORT / GDI+] Cố định MinimumSize 1160x700px, triệt tiêu reflow truncation trên layout panel.\n- [KERNEL / SCRCPY] Surface lock 230x480px, triệt tiêu letterbox rasterization 100%.\n- [INPUT IPC] 3-Zone Anchor normalization bù trừ aspect ratio 16:9 vs 20:9.\n- [TOOLBAR ENGINE] Tối ưu hóa padding & bounds cho cụm 10 controls thao tác phone farm.\n- [SECURITY] Khóa luồng CC/BIN routing layer an toàn 🔒.",
+  "changelog": "- [VIEWPORT / GDI+] Cố định MinimumSize 1160x700px, chống vỡ layout.\n- [KERNEL / SCRCPY] Surface lock 230x480px, triệt tiêu letterbox.\n- [INPUT IPC] 3-Zone Anchor normalization Master-Slave.\n- [TOOLBAR ENGINE] Tối ưu bounds cụm 10 controls.\n- [SECURITY] Khóa Check BIN routing layer 🔒.",
   "force_update": true,
   "require_data_reset": false,
   "reset_reason": "",
-  "release_date": "10/11/2026 19:55 (LUCAS v1.8.9 Hotfix)"
+  "release_date": "10/11/2026 20:46 (LUCAS v1.8.9 Hotfix)"
 }
