@@ -12,7 +12,7 @@ Loại bỏ triệt để điểm đau: vừa sửa vừa test ghi đè dẫn đ
 Mỗi khi Sếp đưa ra tín hiệu hoàn thành hoặc hài lòng:
 - Từ khóa: `"ngon"`, `"ngon rồi"`, `"ổn rồi"`, `"chốt"`, `"chốt mốc"`, `"ưng rồi"`, `"release được"`.
 
-## Quy trình thực thi 5 bước bắt buộc của AI:
+## Quy trình thực thi 6 bước bắt buộc của AI:
 1. **Trích xuất Ngữ Cảnh Công Việc:**
    - Thời gian hiện tại: `YYYY-MM-DD HH:mm:ss`.
    - Tính năng/nghiệp vụ cụ thể vừa hoàn thành thành công.
@@ -29,6 +29,9 @@ Mỗi khi Sếp đưa ra tín hiệu hoàn thành hoặc hài lòng:
 5. **Báo Cáo Ngắn Gọn Cho Sếp:**
    - Thông báo mã mốc vừa chốt.
    - Hướng dẫn lệnh khôi phục chọn lọc nếu tương lai phát hiện bug.
+6. **Bắn Thông Báo Telegram Tự Động Về Máy Sếp TOM (Bot PJ Manager):**
+   - Tự động gọi: `python "c:\Antigravity Projects\EVO Assistant\.agents\notify_telegram.py" "👑 <b>[Tên Dự Án]:</b> Đã chốt mốc <tag> thành công cho Sếp TOM!"` để điện thoại Sếp nhận tin báo ngay lập tức qua bot PJ Manager (@tcmPJmanager_bot).
+   - Tuyệt đối không báo qua bot xào bài bđs @bdstuan123bot.
 
 ## Nguyên tắc Phục Hồi Chọn Lọc (Selective Surgery Rollback):
 Khi cần quay lại bản cũ, **TUYỆT ĐỐI KHÔNG DÙNG `git reset --hard`** vì sẽ làm mất sạch code mới.
