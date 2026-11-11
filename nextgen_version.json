@@ -1,15 +1,15 @@
 {
   "status": "success",
-  "product": "LUCAS v1.8.9 (Official Release)",
-  "latest_version": "1.8.9",
+  "product": "LUCAS v1.8.9.2 (Official Release)",
+  "latest_version": "1.8.9.2",
   "min_required_version": "1.0",
-  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS%20v1.8.9.exe",
-  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS%20v1.8.9.exe",
-  "download_url_setup": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS%20v1.8.9.exe",
-  "features": "- [HOTFIX SCRCPY] Triệt tiêu 100% viền đen (Letterbox): Tự động ôm sát tỉ lệ thực 9:20 của Pixel 7/Xiaomi.\n- [HOTFIX UI] Nâng Companion Bar nổi trên nóc cửa sổ, không che thanh trạng thái (pin/giờ/sóng) của điện thoại.\n- [HOTFIX ENCODING] Khôi phục toàn bộ bảng mã UTF-8 with BOM tiếng Việt trên hộp thoại Xếp Lưới Màn Hình Live Ra Desktop, triệt tiêu hoàn toàn lỗi Mojibake.\n- [ANTI-LOOP SHIELD] Tích hợp OtaStateManager triệt tiêu vĩnh viễn lỗi vòng lặp hiện lại popup cập nhật.",
-  "changelog": "- [HOTFIX] Triệt tiêu 100% viền đen Live View khi xếp lưới Desktop.\n- [HOTFIX] Nâng Companion Bar không che mép trên màn hình điện thoại.\n- [HOTFIX] Khôi phục font tiếng Việt UTF-8 with BOM.\n- [HOTFIX] Khắc phục triệt để lỗi vòng lặp hiện lại bảng thông báo cập nhật.",
+  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS%20v1.8.9.2.exe",
+  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS%20v1.8.9.2.exe",
+  "download_url_setup": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS%20v1.8.9.2.exe",
+  "features": "- [BACKUP RECOVERY] Khắc phục triệt để lỗi không khớp thông tin file backup: Đọc active profile qua Root, tự động phát hiện và bóc tách đúng dòng máy.\n- [PROFILE DEEP MERGE] Universal Profile Deep Merge 5 tầng (profile.json -> duma.prop -> config.json -> lucas_hardware_meta.prop -> info.txt), dập tắt vĩnh viễn fake Pixel 8 Pro mặc định.\n- [CH PLAY BILLING] Tích hợp nút Cứu Hộ CH Play & Mua Hàng (Billing) 1-Click tự động reset cache gms/vending và cấp quyền IPC.\n- [INTEGRITY SHIELD] Chống ghi đè file rỗng và bảo vệ toàn vẹn thư mục backup của khách hàng.\n- [ANTI-LOOP SHIELD] Tích hợp OtaStateManager triệt tiêu vĩnh viễn lỗi vòng lặp hiện lại popup cập nhật.",
+  "changelog": "- [HOTFIX] Khắc phục triệt để lỗi lệch thông tin backup và file rỗng.\n- [HOTFIX] Universal Profile Deep Merge 5 tầng đọc chuẩn 100% profile cũ.\n- [FEATURE] Nút Cứu Hộ CH Play & Mua Hàng (Billing) 1-Click.\n- [PERM] Stage backup qua /data/local/tmp chống lỗi Permission denied.\n- [OTA] Dập tắt vòng lặp popup thông báo cập nhật.",
   "force_update": false,
   "require_data_reset": false,
   "reset_reason": "",
-  "release_date": "11/11/2026 11:45 (Bản Ổn Định)"
+  "release_date": "11/11/2026 12:45 (Bản Ổn Định)"
 }
