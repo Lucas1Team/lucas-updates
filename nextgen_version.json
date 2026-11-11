@@ -1,15 +1,15 @@
 {
   "status": "success",
-  "product": "LUCAS v1.8.9 (Official Release)",
-  "latest_version": "1.8.9",
+  "product": "LUCAS v1.8.9.1 (Official Hotfix)",
+  "latest_version": "1.8.9.1",
   "min_required_version": "1.0",
-  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS%20v1.8.9.exe",
-  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS%20v1.8.9.exe",
-  "download_url_setup": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS%20v1.8.9.exe",
-  "features": "- [BOOT ENGINE] Thiết lập Soft Reboot Nhanh (2-3s) làm mặc định toàn bộ luồng Change & Restore, tối ưu throughput phone farm.\n- [VIEWPORT / GDI+] Cố định MinimumSize 1160x700px, triệt tiêu reflow truncation trên layout panel.\n- [KERNEL / SCRCPY] Surface lock 230x480px, triệt tiêu letterbox rasterization 100%.\n- [INPUT IPC] 3-Zone Anchor normalization bù trừ aspect ratio 16:9 vs 20:9.\n- [SECURITY] Khóa luồng CC/BIN routing layer an toàn 🔒.",
-  "changelog": "- [BOOT ENGINE] Soft Reboot Nhanh 2-3s mặc định Change & Restore.\n- [VIEWPORT / GDI+] Cố định MinimumSize 1160x700px.\n- [KERNEL / SCRCPY] Surface lock 230x480px triệt tiêu letterbox.\n- [INPUT IPC] 3-Zone Anchor normalization bù trừ 16:9 vs 20:9.\n- [SECURITY] Khóa Check BIN routing layer 🔒.",
+  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS%20v1.8.9.1.exe",
+  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS%20v1.8.9.1.exe",
+  "download_url_setup": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS%20v1.8.9.1.exe",
+  "features": "- [HOTFIX SCRCPY] Triệt tiêu 100% viền đen (Letterbox): Tự động ôm sát tỉ lệ thực 9:20 của Pixel 7/Xiaomi.\n- [HOTFIX UI] Nâng Companion Bar nổi trên nóc cửa sổ, không che thanh trạng thái (pin/giờ/sóng) của điện thoại.\n- [HOTFIX ENCODING] Khôi phục toàn bộ bảng mã UTF-8 with BOM tiếng Việt trên hộp thoại Xếp Lưới Màn Hình Live Ra Desktop, triệt tiêu hoàn toàn lỗi Mojibake.\n- [BOOT ENGINE] Soft Reboot Nhanh 2-3s mặc định Change & Restore.",
+  "changelog": "- [HOTFIX v1.8.9.1] Triệt tiêu 100% viền đen Live View khi xếp lưới Desktop.\n- [HOTFIX v1.8.9.1] Nâng vị trí Companion Bar không che mép trên màn hình điện thoại.\n- [HOTFIX v1.8.9.1] Khôi phục font tiếng Việt UTF-8 with BOM cho hộp thoại Xếp Lưới Desktop.",
   "force_update": true,
   "require_data_reset": false,
   "reset_reason": "",
-  "release_date": "11/11/2026 00:39 (LUCAS v1.8.9 Hotfix)"
+  "release_date": "11/11/2026 11:20 (LUCAS v1.8.9.1 Hotfix)"
 }
