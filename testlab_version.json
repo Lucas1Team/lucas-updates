@@ -1,14 +1,14 @@
 {
   "status": "success",
   "product": "LUCAS 5S [TEST-LAB]",
-  "latest_version": "5.0.1",
+  "latest_version": "5.0.2",
   "min_required_version": "5.0.0",
   "package_type": "zip",
-  "sha256": "d64e4f17c5c42f457d7af97a353cf47586c90d0cde5246c31a2ba858c59b169b",
-  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/Lucas_TEST_LAB_OTA_v5.0.1.zip",
-  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/Lucas_TEST_LAB_OTA_v5.0.1.zip",
-  "features": "- [TEST-LAB OTA] Kenh cap nhat OTA rieng qua goi ZIP da module (11 DLL + EXE).\n- [LICENSE] Mo khoa ban quyen TEST-LAB khong gioi han thiet bi & khong can dang nhap lai tren may khac.\n- [1-CLICK] Dong goi san vpn_dlg.dat offline, khoa luong giai ma va siet kiem tra Root uid=0.",
-  "changelog": "- Kenh OTA Test-Lab (ZIP 11 DLL)\n- Mo khoa ban quyen cho may Test-Lab\n- Fix 1-Click VPN offline, khoa luong & chan fake Root",
+  "sha256": "edd5a6d22aac1b32dfe8f74f6c84e549cc85a5ef40a5befb9033a0bdd8dc52b1",
+  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/Lucas_TEST_LAB_OTA_v5.0.2.zip",
+  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/Lucas_TEST_LAB_OTA_v5.0.2.zip",
+  "features": "- [RESTORE] Fix treo [Don tai khoan] va tranh deadlock pipe ADB/pm clear trong GoogleAccountEngine/AdbTransport.\n- [SOFT REBOOT] Tu dong don dex2oat/dex2oat32/dex2oat64 & restart installd chong ket BOOT=0 khi Restore.\n- [TEST-LAB OTA] Goi ZIP da module (11 DLL + EXE) tu dong ap dung cho ban TEST-LAB.",
+  "changelog": "- Fix ket [Don tai khoan] khi Restore (AdbTransport + GoogleAccountEngine)\n- Sua Soft Reboot kill dex2oat* + restart installd chong treo boot\n- Ban Test-Lab v5.0.2",
   "force_update": false,
-  "release_date": "14/11/2026 01:49 (TEST-LAB v5.0.1)"
+  "release_date": "14/11/2026 02:25 (TEST-LAB v5.0.2)"
 }
