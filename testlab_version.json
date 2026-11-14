@@ -1,14 +1,14 @@
 {
   "status": "success",
   "product": "LUCAS 5S [TEST-LAB]",
-  "latest_version": "5.0.2",
+  "latest_version": "5.0.3",
   "min_required_version": "5.0.0",
   "package_type": "zip",
-  "sha256": "edd5a6d22aac1b32dfe8f74f6c84e549cc85a5ef40a5befb9033a0bdd8dc52b1",
-  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/Lucas_TEST_LAB_OTA_v5.0.2.zip",
-  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/Lucas_TEST_LAB_OTA_v5.0.2.zip",
-  "features": "- [RESTORE] Fix treo [Don tai khoan] va tranh deadlock pipe ADB/pm clear trong GoogleAccountEngine/AdbTransport.\n- [SOFT REBOOT] Tu dong don dex2oat/dex2oat32/dex2oat64 & restart installd chong ket BOOT=0 khi Restore.\n- [TEST-LAB OTA] Goi ZIP da module (11 DLL + EXE) tu dong ap dung cho ban TEST-LAB.",
-  "changelog": "- Fix ket [Don tai khoan] khi Restore (AdbTransport + GoogleAccountEngine)\n- Sua Soft Reboot kill dex2oat* + restart installd chong treo boot\n- Ban Test-Lab v5.0.2",
+  "sha256": "40490688c4fa5a1403eb73383808e57bc106c0c40bbe8aa799f3917b6c180885",
+  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/Lucas_TEST_LAB_OTA_v5.0.3.zip",
+  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/Lucas_TEST_LAB_OTA_v5.0.3.zip",
+  "features": "- [VA LOI IDENTITY/PROP] Fix triet de lech Android release/security_patch giua lucas_config.json va system.prop/resetprop (May #2/#5 ANDROID: 10).\n- [SPOOF VAULT & BT CRASH] Fix lucas_boot.sh + Doctor Level2 phuc hoi day du module.prop/system.prop/lucas_config.json khi thu muc rong & ngat Bluetooth SIGABRT crash loop.\n- [TEST-LAB OTA] Goi ZIP da module (11 DLL + EXE) tu dong ap dung cho ban TEST-LAB.",
+  "changelog": "- Fix lech release & security_patch trong HealSpooferConfigAndSystemPropMismatch + DeviceHealthDoctor\n- Fix phuc hoi day du lucas_spoofer khi module.prop/system.prop bi mat (lucas_boot.sh + Doctor)\n- Tu dong ngat Bluetooth crash loop (SIGABRT/startup_timer_expired) trong service.sh & 1-Click Setup\n- Ban Test-Lab v5.0.3",
   "force_update": false,
-  "release_date": "14/11/2026 02:25 (TEST-LAB v5.0.2)"
+  "release_date": "14/11/2026 09:20 (TEST-LAB v5.0.3)"
 }
