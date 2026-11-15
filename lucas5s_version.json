@@ -1,14 +1,15 @@
 {
   "status": "success",
   "product": "LUCAS 5S",
-  "latest_version": "5.0.4",
+  "version": "5.0.5",
+  "latest_version": "5.0.5.0",
   "min_required_version": "5.0.0",
   "package_type": "zip",
-  "sha256": "06261dff501106d36330c84d654ef551973d93e408744d49d16ede0a3209c58a",
-  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS_5S_OTA_v5.0.4.zip",
-  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS_5S_OTA_v5.0.4.zip",
-  "features": "- [ADB & MULTI-INSTANCE] Chuan hoa co che van hanh dong thoi va cap quyen kenh ADB Transport (TCP 5037), loai bo xung dot daemon giua cac phien ban tren cung may tram.\n- [TELEMETRY & UI] Toi uu luong nhat ky thoi gian thuc (Compact Telemetry Stream) va chuan hoa thong diep chan doan tren cac module Change/Backup/Restore/Proxy, giam tai UI thread khi chay Phone Farm.\n- [STABILITY & INTEGRITY] Cai thien do on dinh giao thuc Play Services handshake va kiem toan toan ven he sinh thai 11 Standalone DLL Modules.",
-  "changelog": "- [ADB & MULTI-INSTANCE] Chuan hoa co che van hanh dong thoi va cap quyen kenh ADB Transport (TCP 5037), loai bo xung dot daemon giua cac phien ban tren cung may tram.\n- [TELEMETRY & UI] Toi uu luong nhat ky thoi gian thuc (Compact Telemetry Stream) va chuan hoa thong diep chan doan tren cac module Change/Backup/Restore/Proxy, giam tai UI thread khi chay Phone Farm.\n- [STABILITY & INTEGRITY] Cai thien do on dinh giao thuc Play Services handshake va kiem toan toan ven he sinh thai 11 Standalone DLL Modules.",
-  "force_update": false,
-  "release_date": "15/11/2026 17:11 (5S v5.0.4)"
+  "sha256": "711a79c991633e97c4a4ae8861514d61e7aa03525ad2c6471d6febbf2175a420",
+  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS_5S_OTA_v5.0.5.zip",
+  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS_5S_OTA_v5.0.5.zip",
+  "features": "- Ho tro tu dong nhan dien & kich hoat Magisk Built-in Zygisk khi khong cai Zygisk Next\n- Dinh tuyen ADB theo TransportId chong xung dot cung serial va tu dong reconnect thiet bi offline\n- Bo dem tham chieu da luong DeferBroadcastForSoftReboot va cho su/SELinux san sang sau Soft Reboot\n- Toi uu cache 30s RootEnvAdapter va pre-compiled Regex log UI giam tai CPU Phone Farm\n- Dong nhat nap runtime DLL tu Resources/runtime va tu dong don sach file thua goc",
+  "changelog": "- Ho tro tu dong nhan dien & kich hoat Magisk Built-in Zygisk khi khong cai Zygisk Next\n- Dinh tuyen ADB theo TransportId chong xung dot cung serial va tu dong reconnect thiet bi offline\n- Bo dem tham chieu da luong DeferBroadcastForSoftReboot va cho su/SELinux san sang sau Soft Reboot\n- Toi uu cache 30s RootEnvAdapter va pre-compiled Regex log UI giam tai CPU Phone Farm\n- Dong nhat nap runtime DLL tu Resources/runtime va tu dong don sach file thua goc",
+  "force_update": true,
+  "release_date": "16/11/2026 01:04 (5S v5.0.5)"
 }
