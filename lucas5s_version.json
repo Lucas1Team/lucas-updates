@@ -1,14 +1,14 @@
 {
   "status": "success",
   "product": "LUCAS 5S",
-  "latest_version": "5.0.4",
+  "latest_version": "5.0.5",
   "min_required_version": "5.0.0",
   "package_type": "zip",
-  "sha256": "06261dff501106d36330c84d654ef551973d93e408744d49d16ede0a3209c58a",
-  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS_5S_OTA_v5.0.4.zip",
-  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS_5S_OTA_v5.0.4.zip",
-  "features": "- [ADB & MULTI-INSTANCE] Chuan hoa co che van hanh dong thoi va cap quyen kenh ADB Transport (TCP 5037), loai bo xung dot daemon giua cac phien ban tren cung may tram.\n- [TELEMETRY & UI] Toi uu luong nhat ky thoi gian thuc (Compact Telemetry Stream) va chuan hoa thong diep chan doan tren cac module Change/Backup/Restore/Proxy, giam tai UI thread khi chay Phone Farm.\n- [STABILITY & INTEGRITY] Cai thien do on dinh giao thuc Play Services handshake va kiem toan toan ven he sinh thai 11 Standalone DLL Modules.",
-  "changelog": "- [ADB & MULTI-INSTANCE] Chuan hoa co che van hanh dong thoi va cap quyen kenh ADB Transport (TCP 5037), loai bo xung dot daemon giua cac phien ban tren cung may tram.\n- [TELEMETRY & UI] Toi uu luong nhat ky thoi gian thuc (Compact Telemetry Stream) va chuan hoa thong diep chan doan tren cac module Change/Backup/Restore/Proxy, giam tai UI thread khi chay Phone Farm.\n- [STABILITY & INTEGRITY] Cai thien do on dinh giao thuc Play Services handshake va kiem toan toan ven he sinh thai 11 Standalone DLL Modules.",
+  "sha256": "73724a76583a49265310cfc792a45e47864549736397e0e58b630a193766f6bc",
+  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS_5S_OTA_v5.0.5.zip",
+  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS_5S_OTA_v5.0.5.zip",
+  "features": "- [ADB & MULTI-DEVICE] Co lap ket noi ADB theo transport_id, giu nguyen serial phan cung USB de tranh trung/nham thiet bi va tu dong khoi phuc thiet bi offline.\n- [MAGISK & ZYGISK] Chuan hoa kiem tra Zygisk built-in cua Magisk (--sqlite value=1, /debug_ramdisk/magisk, pidof zygiskd) va tu dong kich hoat Zygisk khi thieu zygisksu.\n- [RESTORE & PLAY INTEGRITY] Chong nghen/timeout su sau Soft Reboot Zygote khi chay nhieu may song song, ref-count co defer va bo sung retry kiem tra Play Integrity.",
+  "changelog": "- [ADB & MULTI-DEVICE] Co lap ket noi ADB theo transport_id, giu nguyen serial phan cung USB de tranh trung/nham thiet bi va tu dong khoi phuc thiet bi offline.\n- [MAGISK & ZYGISK] Chuan hoa kiem tra Zygisk built-in cua Magisk (--sqlite value=1, /debug_ramdisk/magisk, pidof zygiskd) va tu dong kich hoat Zygisk khi thieu zygisksu.\n- [RESTORE & PLAY INTEGRITY] Chong nghen/timeout su sau Soft Reboot Zygote khi chay nhieu may song song, ref-count co defer va bo sung retry kiem tra Play Integrity.",
   "force_update": false,
-  "release_date": "15/11/2026 17:11 (5S v5.0.4)"
+  "release_date": "15/11/2026 19:58 (5S v5.0.5)"
 }
