@@ -4,11 +4,11 @@
   "latest_version": "5.0.5",
   "min_required_version": "5.0.0",
   "package_type": "zip",
-  "sha256": "73724a76583a49265310cfc792a45e47864549736397e0e58b630a193766f6bc",
+  "sha256": "557f90b3390b80cd093ffc24f4896fb7141dac18bee6718e0ae9ef744ed211f1",
   "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS_5S_OTA_v5.0.5.zip",
   "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS_5S_OTA_v5.0.5.zip",
   "features": "- [ADB & MULTI-DEVICE] Co lap ket noi ADB theo transport_id, giu nguyen serial phan cung USB de tranh trung/nham thiet bi va tu dong khoi phuc thiet bi offline.\n- [MAGISK & ZYGISK] Chuan hoa kiem tra Zygisk built-in cua Magisk (--sqlite value=1, /debug_ramdisk/magisk, pidof zygiskd) va tu dong kich hoat Zygisk khi thieu zygisksu.\n- [RESTORE & PLAY INTEGRITY] Chong nghen/timeout su sau Soft Reboot Zygote khi chay nhieu may song song, ref-count co defer va bo sung retry kiem tra Play Integrity.",
   "changelog": "- [ADB & MULTI-DEVICE] Co lap ket noi ADB theo transport_id, giu nguyen serial phan cung USB de tranh trung/nham thiet bi va tu dong khoi phuc thiet bi offline.\n- [MAGISK & ZYGISK] Chuan hoa kiem tra Zygisk built-in cua Magisk (--sqlite value=1, /debug_ramdisk/magisk, pidof zygiskd) va tu dong kich hoat Zygisk khi thieu zygisksu.\n- [RESTORE & PLAY INTEGRITY] Chong nghen/timeout su sau Soft Reboot Zygote khi chay nhieu may song song, ref-count co defer va bo sung retry kiem tra Play Integrity.",
   "force_update": true,
-  "release_date": "15/11/2026 19:58 (5S v5.0.5)"
+  "release_date": "15/11/2026 20:19 (5S v5.0.5)"
 }
