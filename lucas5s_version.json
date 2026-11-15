@@ -1,14 +1,14 @@
 {
   "status": "success",
   "product": "LUCAS 5S",
-  "latest_version": "5.0.2",
+  "latest_version": "5.0.3",
   "min_required_version": "5.0.0",
   "package_type": "zip",
-  "sha256": "85474b916a8d62b9dc78a9fa1ef768d1c5e62267d0e0cc90f57caae1025548c5",
-  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS_5S_OTA_v5.0.2.zip",
-  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS_5S_OTA_v5.0.2.zip",
-  "features": "﻿- [BAN VA UI v5.0.2] Them hop thoai xac nhan truoc khi tat LUCAS 5S, tranh bam nham lam dong Scrcpy dang chay.\n- [EDGE MENU 5 SLOT] Tu dong quet danh sach app qua ADB ngay khi bam Sua, cho phep chon & thay ca 5 nut menu ben phai (Slot #1..#5 / chuot phai) va luu ben vung.\n- [KHO PLUG-IN & ICON] Lam gon giao dien Kho Plug-in va khoa cung bo icon chinh thuc LUCAS 5S trong goi OTA.\n- [PHONE FARM & PI] Giu nguyen toan bo ban va duma.prop, Play Integrity 2/3, Zone.Identifier va UnsafeLoadFrom DLL tu v5.0.1.",
-  "changelog": "﻿- [BAN VA UI v5.0.2] Them hop thoai xac nhan truoc khi tat LUCAS 5S, tranh bam nham lam dong Scrcpy dang chay.\n- [EDGE MENU 5 SLOT] Tu dong quet danh sach app qua ADB ngay khi bam Sua, cho phep chon & thay ca 5 nut menu ben phai (Slot #1..#5 / chuot phai) va luu ben vung.\n- [KHO PLUG-IN & ICON] Lam gon giao dien Kho Plug-in va khoa cung bo icon chinh thuc LUCAS 5S trong goi OTA.\n- [PHONE FARM & PI] Giu nguyen toan bo ban va duma.prop, Play Integrity 2/3, Zone.Identifier va UnsafeLoadFrom DLL tu v5.0.1.",
+  "sha256": "de172708d5ec153bdfbdf1c009385c6571594e8b9a55ae2559f5f9a522da64b6",
+  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS_5S_OTA_v5.0.3.zip",
+  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS_5S_OTA_v5.0.3.zip",
+  "features": "- [CONG 2 MAC DINH & UU TIEN ADB 5037] Chuyen mac dinh Cong 2 sang FIXED_THROTTLE (uu tien CPU cho LUCAS, ep tool ngoai 30%); tu dong thu hoi & giu cong ADB 5037 cho adb.exe cua LUCAS ngay khi khoi dong UI, luc Quet may, Restart ADB va truoc khi Change, tranh loi xung dot khong change duoc do tool ngoai giu cong.\n- [SERVICE CHAY NGAM TRUNG TINH] Bo sung DeviceRuntimeHost.exe (tich hop niem phong runtime_seal.dat & BitMono), tach hoan toan tien trinh ngam 24/24 khoi giao dien va tu don cau hinh khoi dong cu.\n- [KHOA ICON & TOAN VEN 11 DLL] Bao ve BitMono GD 3 tren toan bo 11 DLL, LUCAS 5S.exe va DeviceRuntimeHost.exe kem kiem dinh CoreInvariantGuard va Play Integrity 2/3 (MEETS_BASIC_INTEGRITY + MEETS_DEVICE_INTEGRITY).",
+  "changelog": "- [CONG 2 MAC DINH & UU TIEN ADB 5037] Chuyen mac dinh Cong 2 sang FIXED_THROTTLE (uu tien CPU cho LUCAS, ep tool ngoai 30%); tu dong thu hoi & giu cong ADB 5037 cho adb.exe cua LUCAS ngay khi khoi dong UI, luc Quet may, Restart ADB va truoc khi Change, tranh loi xung dot khong change duoc do tool ngoai giu cong.\n- [SERVICE CHAY NGAM TRUNG TINH] Bo sung DeviceRuntimeHost.exe (tich hop niem phong runtime_seal.dat & BitMono), tach hoan toan tien trinh ngam 24/24 khoi giao dien va tu don cau hinh khoi dong cu.\n- [KHOA ICON & TOAN VEN 11 DLL] Bao ve BitMono GD 3 tren toan bo 11 DLL, LUCAS 5S.exe va DeviceRuntimeHost.exe kem kiem dinh CoreInvariantGuard va Play Integrity 2/3 (MEETS_BASIC_INTEGRITY + MEETS_DEVICE_INTEGRITY).",
   "force_update": false,
-  "release_date": "15/11/2026 14:14 (5S v5.0.2)"
+  "release_date": "15/11/2026 16:15 (5S v5.0.3)"
 }
