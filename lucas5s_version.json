@@ -1,14 +1,14 @@
 {
   "status": "success",
   "product": "LUCAS 5S",
-  "latest_version": "5.0.1",
+  "latest_version": "5.0.2",
   "min_required_version": "5.0.0",
   "package_type": "zip",
-  "sha256": "e1d7832209d19eaa5a5be4d36762a4fdaa859efa6b7fcbc4e2204947f2912006",
-  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS_5S_OTA_v5.0.1.zip",
-  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS_5S_OTA_v5.0.1.zip",
-  "features": "- [BAN VA PHONE FARM] Dong bo duma.prop chuan key=value, don sach tan du /data/domaconf & device.json, giam loi tre ADB va SIGABRT Bluetooth khi Change/Restore hang loat.\n- [PLAY INTEGRITY & SPOOFER] Toi uu khieng bao ve Play Integrity (dat chuan MEETS_BASIC + MEETS_DEVICE) va tu dong phuc hoi cau hinh lucas_spoofer khi mat dong bo.\n- [WINDOWS SECURITY & DLL] Tu dong go khoa Zone.Identifier va nap DLL an toan khi giai nen goi ZIP tren Windows, chong loi crash khi khoi dong.\n- [OTA 5S v5.0.1] Dong goi chuan Resources/runtime (11 Standalone DLL + CLI + HMAC-SHA256 runtime_seal.dat) va cap nhat nhan dien phien ban 5.0.1.",
-  "changelog": "- [BAN VA PHONE FARM] Dong bo duma.prop chuan key=value, don sach tan du /data/domaconf & device.json, giam loi tre ADB va SIGABRT Bluetooth khi Change/Restore hang loat.\n- [PLAY INTEGRITY & SPOOFER] Toi uu khieng bao ve Play Integrity (dat chuan MEETS_BASIC + MEETS_DEVICE) va tu dong phuc hoi cau hinh lucas_spoofer khi mat dong bo.\n- [WINDOWS SECURITY & DLL] Tu dong go khoa Zone.Identifier va nap DLL an toan khi giai nen goi ZIP tren Windows, chong loi crash khi khoi dong.\n- [OTA 5S v5.0.1] Dong goi chuan Resources/runtime (11 Standalone DLL + CLI + HMAC-SHA256 runtime_seal.dat) va cap nhat nhan dien phien ban 5.0.1.",
+  "sha256": "85474b916a8d62b9dc78a9fa1ef768d1c5e62267d0e0cc90f57caae1025548c5",
+  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS_5S_OTA_v5.0.2.zip",
+  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS_5S_OTA_v5.0.2.zip",
+  "features": "﻿- [BAN VA UI v5.0.2] Them hop thoai xac nhan truoc khi tat LUCAS 5S, tranh bam nham lam dong Scrcpy dang chay.\n- [EDGE MENU 5 SLOT] Tu dong quet danh sach app qua ADB ngay khi bam Sua, cho phep chon & thay ca 5 nut menu ben phai (Slot #1..#5 / chuot phai) va luu ben vung.\n- [KHO PLUG-IN & ICON] Lam gon giao dien Kho Plug-in va khoa cung bo icon chinh thuc LUCAS 5S trong goi OTA.\n- [PHONE FARM & PI] Giu nguyen toan bo ban va duma.prop, Play Integrity 2/3, Zone.Identifier va UnsafeLoadFrom DLL tu v5.0.1.",
+  "changelog": "﻿- [BAN VA UI v5.0.2] Them hop thoai xac nhan truoc khi tat LUCAS 5S, tranh bam nham lam dong Scrcpy dang chay.\n- [EDGE MENU 5 SLOT] Tu dong quet danh sach app qua ADB ngay khi bam Sua, cho phep chon & thay ca 5 nut menu ben phai (Slot #1..#5 / chuot phai) va luu ben vung.\n- [KHO PLUG-IN & ICON] Lam gon giao dien Kho Plug-in va khoa cung bo icon chinh thuc LUCAS 5S trong goi OTA.\n- [PHONE FARM & PI] Giu nguyen toan bo ban va duma.prop, Play Integrity 2/3, Zone.Identifier va UnsafeLoadFrom DLL tu v5.0.1.",
   "force_update": false,
-  "release_date": "15/11/2026 10:49 (5S v5.0.1)"
+  "release_date": "15/11/2026 14:14 (5S v5.0.2)"
 }
