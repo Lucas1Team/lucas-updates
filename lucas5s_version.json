@@ -9,6 +9,6 @@
   "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS_5S_OTA_v5.0.5.zip",
   "features": "- [ADB & MULTI-DEVICE] Co lap ket noi ADB theo transport_id, giu nguyen serial phan cung USB de tranh trung/nham thiet bi va tu dong khoi phuc thiet bi offline.\n- [MAGISK & ZYGISK] Chuan hoa kiem tra Zygisk built-in cua Magisk (--sqlite value=1, /debug_ramdisk/magisk, pidof zygiskd) va tu dong kich hoat Zygisk khi thieu zygisksu.\n- [RESTORE & PLAY INTEGRITY] Chong nghen/timeout su sau Soft Reboot Zygote khi chay nhieu may song song, ref-count co defer va bo sung retry kiem tra Play Integrity.",
   "changelog": "- [ADB & MULTI-DEVICE] Co lap ket noi ADB theo transport_id, giu nguyen serial phan cung USB de tranh trung/nham thiet bi va tu dong khoi phuc thiet bi offline.\n- [MAGISK & ZYGISK] Chuan hoa kiem tra Zygisk built-in cua Magisk (--sqlite value=1, /debug_ramdisk/magisk, pidof zygiskd) va tu dong kich hoat Zygisk khi thieu zygisksu.\n- [RESTORE & PLAY INTEGRITY] Chong nghen/timeout su sau Soft Reboot Zygote khi chay nhieu may song song, ref-count co defer va bo sung retry kiem tra Play Integrity.",
-  "force_update": false,
+  "force_update": true,
   "release_date": "15/11/2026 19:58 (5S v5.0.5)"
 }
