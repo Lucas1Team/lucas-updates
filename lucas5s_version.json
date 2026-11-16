@@ -1,15 +1,15 @@
 {
   "status": "success",
   "product": "LUCAS 5S",
-  "version": "5.0.8",
-  "latest_version": "5.0.8.0",
+  "version": "5.0.9",
+  "latest_version": "5.0.9.0",
   "min_required_version": "5.0.0",
   "package_type": "zip",
-  "sha256": "f53f56cac2f799d90f2fe4fffb469c062c4cc2682bbe25e868543e33630b2638",
-  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS_5S_OTA_v5.0.8.zip?v=f53f56ca",
-  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS_5S_OTA_v5.0.8.zip?v=f53f56ca",
-  "features": "- CloudLibraryManager v2: tự động tải ngầm ADB/Scrcpy & tài nguyên thiếu qua 4 CDN mirrors + SHA-256 + HTML portal guard\n- PcEnvironmentDoctor & Guide Dialog: tự sửa ngầm PC (.NET/Temp/VC++/USB driver/ADB port 5037) + hướng dẫn chi tiết tải tay nếu máy cũ lỗi tải ngầm\n- PIF v37.0 nâng cấp an toàn (lọc Pixel 10/11 SDK>=36 khỏi autopif4, vá xung đột pihooks/pixelprops trên ROM mod không ghi thêm prop lên Stock)\n- Keybox thủ công an toàn + đồng bộ FarmTrafficArbiter & Lifetime License UI",
-  "changelog": "- CloudLibraryManager v2: tự động tải ngầm ADB/Scrcpy & tài nguyên thiếu qua 4 CDN mirrors + SHA-256 + HTML portal guard\n- PcEnvironmentDoctor & Guide Dialog: tự sửa ngầm PC (.NET/Temp/VC++/USB driver/ADB port 5037) + hướng dẫn chi tiết tải tay nếu máy cũ lỗi tải ngầm\n- PIF v37.0 nâng cấp an toàn (lọc Pixel 10/11 SDK>=36 khỏi autopif4, vá xung đột pihooks/pixelprops trên ROM mod không ghi thêm prop lên Stock)\n- Keybox thủ công an toàn + đồng bộ FarmTrafficArbiter & Lifetime License UI",
+  "sha256": "70e44e60e468770959085b14b674e57c1f9962945a29ca5c0eb311eb8885cca6",
+  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS_5S_OTA_v5.0.9.zip?v=70e44e60",
+  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS_5S_OTA_v5.0.9.zip?v=70e44e60",
+  "features": "- Android <= 11 Play Integrity 2-Tick (PlayIntegrityFork v16): dọn/tắt Magisk DenyList GMS/Vending/GSF, bật spoofProvider=1 + tự dò test-keys/otacerts.zip bật spoofSignature, khóa spoofProps=0 (tránh UNEVALUATED) và kiểm tra PIF/maps thực tế trên Magisk\n- Cold Reboot & Fast Health Check: theo dõi cả ADB serial cũ lẫn serial mới sau Cold Reboot + kiểm tra lspd/Zygisk thực tế\n- Tách cứng module độc lập LucasGridLayoutModule.dll (12th DLL, Invariant #11) cho Xếp lưới & Scrcpy Live\n- Bổ sung Khóa tính năng từ xa (RemoteFeatureLocks), chia nhỏ gói log Farm + sửa cụt log DOC_LOG_THIET_BI.bat, và dọn tiến trình/ADB/folder lock an toàn",
+  "changelog": "- Android <= 11 Play Integrity 2-Tick (PlayIntegrityFork v16): dọn/tắt Magisk DenyList GMS/Vending/GSF, bật spoofProvider=1 + tự dò test-keys/otacerts.zip bật spoofSignature, khóa spoofProps=0 (tránh UNEVALUATED) và kiểm tra PIF/maps thực tế trên Magisk\n- Cold Reboot & Fast Health Check: theo dõi cả ADB serial cũ lẫn serial mới sau Cold Reboot + kiểm tra lspd/Zygisk thực tế\n- Tách cứng module độc lập LucasGridLayoutModule.dll (12th DLL, Invariant #11) cho Xếp lưới & Scrcpy Live\n- Bổ sung Khóa tính năng từ xa (RemoteFeatureLocks), chia nhỏ gói log Farm + sửa cụt log DOC_LOG_THIET_BI.bat, và dọn tiến trình/ADB/folder lock an toàn",
   "force_update": false,
-  "release_date": "16/11/2026 09:31 (5S v5.0.8)"
+  "release_date": "16/11/2026 11:11 (5S v5.0.9)"
 }
