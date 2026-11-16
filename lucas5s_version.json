@@ -1,15 +1,15 @@
 {
   "status": "success",
   "product": "LUCAS 5S",
-  "version": "5.0.5",
-  "latest_version": "5.0.5.0",
+  "version": "5.0.8",
+  "latest_version": "5.0.8.0",
   "min_required_version": "5.0.0",
   "package_type": "zip",
-  "sha256": "711a79c991633e97c4a4ae8861514d61e7aa03525ad2c6471d6febbf2175a420",
-  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS_5S_OTA_v5.0.5.zip?v=711a79c9",
-  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS_5S_OTA_v5.0.5.zip?v=711a79c9",
-  "features": "- Ho tro tu dong nhan dien & kich hoat Magisk Built-in Zygisk khi khong cai Zygisk Next\n- Dinh tuyen ADB theo TransportId chong xung dot cung serial va tu dong reconnect thiet bi offline\n- Bo dem tham chieu da luong DeferBroadcastForSoftReboot va cho su/SELinux san sang sau Soft Reboot\n- Toi uu cache 30s RootEnvAdapter va pre-compiled Regex log UI giam tai CPU Phone Farm\n- Dong nhat nap runtime DLL tu Resources/runtime va tu dong don sach file thua goc",
-  "changelog": "- Ho tro tu dong nhan dien & kich hoat Magisk Built-in Zygisk khi khong cai Zygisk Next\n- Dinh tuyen ADB theo TransportId chong xung dot cung serial va tu dong reconnect thiet bi offline\n- Bo dem tham chieu da luong DeferBroadcastForSoftReboot va cho su/SELinux san sang sau Soft Reboot\n- Toi uu cache 30s RootEnvAdapter va pre-compiled Regex log UI giam tai CPU Phone Farm\n- Dong nhat nap runtime DLL tu Resources/runtime va tu dong don sach file thua goc",
-  "force_update": true,
-  "release_date": "16/11/2026 01:04 (5S v5.0.5)"
+  "sha256": "f53f56cac2f799d90f2fe4fffb469c062c4cc2682bbe25e868543e33630b2638",
+  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS_5S_OTA_v5.0.8.zip?v=f53f56ca",
+  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS_5S_OTA_v5.0.8.zip?v=f53f56ca",
+  "features": "- CloudLibraryManager v2: tự động tải ngầm ADB/Scrcpy & tài nguyên thiếu qua 4 CDN mirrors + SHA-256 + HTML portal guard\n- PcEnvironmentDoctor & Guide Dialog: tự sửa ngầm PC (.NET/Temp/VC++/USB driver/ADB port 5037) + hướng dẫn chi tiết tải tay nếu máy cũ lỗi tải ngầm\n- PIF v37.0 nâng cấp an toàn (lọc Pixel 10/11 SDK>=36 khỏi autopif4, vá xung đột pihooks/pixelprops trên ROM mod không ghi thêm prop lên Stock)\n- Keybox thủ công an toàn + đồng bộ FarmTrafficArbiter & Lifetime License UI",
+  "changelog": "- CloudLibraryManager v2: tự động tải ngầm ADB/Scrcpy & tài nguyên thiếu qua 4 CDN mirrors + SHA-256 + HTML portal guard\n- PcEnvironmentDoctor & Guide Dialog: tự sửa ngầm PC (.NET/Temp/VC++/USB driver/ADB port 5037) + hướng dẫn chi tiết tải tay nếu máy cũ lỗi tải ngầm\n- PIF v37.0 nâng cấp an toàn (lọc Pixel 10/11 SDK>=36 khỏi autopif4, vá xung đột pihooks/pixelprops trên ROM mod không ghi thêm prop lên Stock)\n- Keybox thủ công an toàn + đồng bộ FarmTrafficArbiter & Lifetime License UI",
+  "force_update": false,
+  "release_date": "16/11/2026 09:31 (5S v5.0.8)"
 }

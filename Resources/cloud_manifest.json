@@ -1,0 +1,138 @@
+{
+  "schema_version": 2,
+  "generated_at": "2026-11-16T02:23:41Z",
+  "product": "LUCAS 5S",
+  "version": "5.0.8",
+  "excluded_legacy": [
+    "dev_diag.dat",
+    "poleds_runtime.pak"
+  ],
+  "assets": {
+    "adb_runtime.zip": {
+      "path": "adb_runtime.zip",
+      "sha256": "29f445970b4d893f52fc5f960a9c0831f5d8c35ba738a96d5c564fb1f949d8d5",
+      "min_bytes": 2600413,
+      "size": 2889348
+    },
+    "scrcpy_runtime.zip": {
+      "path": "scrcpy_runtime.zip",
+      "sha256": "36451fabfa6617cc34a40a8ea43743d70f419e253cb78ec495c2772cd412acf9",
+      "min_bytes": 6184540,
+      "size": 6871712
+    },
+    "Resources/core/bbx_x64.bin": {
+      "path": "Resources/core/bbx_x64.bin",
+      "sha256": "7f21e3757d44866a24b36e11608bbee95d8663f1198bb0f57c90cb02be6d535c",
+      "min_bytes": 1897063,
+      "size": 2107848
+    },
+    "Resources/core/drv_patch_lvl.dat": {
+      "path": "Resources/core/drv_patch_lvl.dat",
+      "sha256": "0095e11e4e4a73a0b505a8fa57bc11bfdea75c768d96771f8f09d9b3ab18a369",
+      "min_bytes": 15,
+      "size": 15
+    },
+    "Resources/core/kbd_drv.sys": {
+      "path": "Resources/core/kbd_drv.sys",
+      "sha256": "6467ee22b5a664d5a3455b89a298b1f22acaf6b019ddafa8848a8165c7806ed5",
+      "min_bytes": 15636,
+      "size": 17374
+    },
+    "Resources/core/kit_core.dat": {
+      "path": "Resources/core/kit_core.dat",
+      "sha256": "838c9fadbb55509d60a28a70ba00be9fe095222deb0c145214f7ada5f298a175",
+      "min_bytes": 11493578,
+      "size": 12770643
+    },
+    "Resources/core/lc_engine.pak": {
+      "path": "Resources/core/lc_engine.pak",
+      "sha256": "3f7f7a803a44e048fec6671e9a3bdcef144ef1eb4aac89aa9060add04eb1918b",
+      "min_bytes": 2149122,
+      "size": 2387914
+    },
+    "Resources/core/mcore_svc.dat": {
+      "path": "Resources/core/mcore_svc.dat",
+      "sha256": "3fa7a13b70e23a371eadbdcf08963f5227d8d4950b227e614afc83640bfe9761",
+      "min_bytes": 11248916,
+      "size": 12498796
+    },
+    "Resources/core/net_guard_cfg.dat": {
+      "path": "Resources/core/net_guard_cfg.dat",
+      "sha256": "5006cf58ce89c756bdf82f8e4777424b4a13d3fad173006b5e58cf1401126271",
+      "min_bytes": 18001,
+      "size": 20002
+    },
+    "Resources/core/net_sock.dat": {
+      "path": "Resources/core/net_sock.dat",
+      "sha256": "0c599910d3c553163178eb0dc991a722aa8a405094f762ab71b152b10152447b",
+      "min_bytes": 1381370,
+      "size": 1534856
+    },
+    "Resources/core/pif_classes.dex": {
+      "path": "Resources/core/pif_classes.dex",
+      "sha256": "efa3554b84c47c0902eed3222d7c43d4e63adb383a5689da96804e6199e2b21f",
+      "min_bytes": 19227,
+      "size": 21364
+    },
+    "Resources/core/pif_mod_04.dat": {
+      "path": "Resources/core/pif_mod_04.dat",
+      "sha256": "8376bf3a256b15d244f1b4ab5282324e6eae4565da6000145d0b19223b5d621f",
+      "min_bytes": 260472,
+      "size": 289414
+    },
+    "Resources/core/poleds_core.bin": {
+      "path": "Resources/core/poleds_core.bin",
+      "sha256": "6af438e170d4fe530e2ddbaf93ef0b52cdcf30c8b39448a5585bfcbc315ea918",
+      "min_bytes": 2215849,
+      "size": 2462055
+    },
+    "Resources/core/poleds_mgr.pak": {
+      "path": "Resources/core/poleds_mgr.pak",
+      "sha256": "d178dfce925859b68a132daf25c6f025cc64f59047c01b86d165bf22c3c9a201",
+      "min_bytes": 2457949,
+      "size": 2731055
+    },
+    "Resources/core/rprop_x64.bin": {
+      "path": "Resources/core/rprop_x64.bin",
+      "sha256": "406b0340cbc065cd96447036aca20e7ec65868865a691e573cebd7746bc23a4c",
+      "min_bytes": 278452,
+      "size": 309392
+    },
+    "Resources/core/rprop_x86.bin": {
+      "path": "Resources/core/rprop_x86.bin",
+      "sha256": "84bc69d92c2b198c294a1ef8451714834198cdb9154dd373d46c8957892889bf",
+      "min_bytes": 175633,
+      "size": 195148
+    },
+    "Resources/core/sham_mod_02.dat": {
+      "path": "Resources/core/sham_mod_02.dat",
+      "sha256": "85f1d1530638957f089023c008f751ca63478c1109c1a517f9fd0be9bbb1c7f1",
+      "min_bytes": 5871542,
+      "size": 6523936
+    },
+    "Resources/core/sql_drv.bin": {
+      "path": "Resources/core/sql_drv.bin",
+      "sha256": "5a0213dbd755c9e7c44ec4c5a94392056d1a891a8b418cf8a2f923f96d97a3b3",
+      "min_bytes": 638640,
+      "size": 709600
+    },
+    "Resources/core/trky_mod_03.dat": {
+      "path": "Resources/core/trky_mod_03.dat",
+      "sha256": "9a9279eb7056a7a99d270201e0a5714125755e1dc4725db8920b6efdc7c7ed65",
+      "min_bytes": 2556540,
+      "size": 2840600
+    },
+    "Resources/core/vpn_dlg.dat": {
+      "path": "Resources/core/vpn_dlg.dat",
+      "sha256": "1ef9be2a63fc44729a560984dda88afc326f8c9668b93baec9e169b86921b8e5",
+      "min_bytes": 162838,
+      "size": 180932
+    },
+    "Resources/core/zyg_mod_01.dat": {
+      "path": "Resources/core/zyg_mod_01.dat",
+      "sha256": "1cadc29f8856226038b6ae9b509497f1363d7951bf971942215d750aa4ad2348",
+      "min_bytes": 5097332,
+      "size": 5663703
+    }
+  }
+}
