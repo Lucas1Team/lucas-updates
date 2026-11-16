@@ -1,15 +1,15 @@
 {
   "status": "success",
   "product": "LUCAS 5S",
-  "version": "5.0.9",
-  "latest_version": "5.0.9.0",
+  "version": "5.0.9.1",
+  "latest_version": "5.0.9.1",
   "min_required_version": "5.0.0",
   "package_type": "zip",
-  "sha256": "70e44e60e468770959085b14b674e57c1f9962945a29ca5c0eb311eb8885cca6",
-  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS_5S_OTA_v5.0.9.zip?v=70e44e60",
-  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS_5S_OTA_v5.0.9.zip?v=70e44e60",
-  "features": "- Tối ưu Play Integrity Shield & Hardware Attestation Bypass tầng nhân cho Android 10–11 (KernelSU, Zygisk Next & Magisk).\n- Nâng cấp ADB Socket Transport Router & Cold-Reboot Serial Recovery đảm bảo tái đồng bộ đa luồng Phone Farm.\n- Cô lập kiến trúc 12 Standalone DLL với LucasGridLayoutModule.dll, tối ưu render Scrcpy 20:9 & đồng bộ Master–Slave.\n- Tối ưu hóa Diagnostic Telemetry Pipeline & cơ chế quản lý phiên thực thi đa tiến trình.",
-  "changelog": "- Tối ưu Play Integrity Shield & Hardware Attestation Bypass tầng nhân cho Android 10–11 (KernelSU, Zygisk Next & Magisk).\n- Nâng cấp ADB Socket Transport Router & Cold-Reboot Serial Recovery đảm bảo tái đồng bộ đa luồng Phone Farm.\n- Cô lập kiến trúc 12 Standalone DLL với LucasGridLayoutModule.dll, tối ưu render Scrcpy 20:9 & đồng bộ Master–Slave.\n- Tối ưu hóa Diagnostic Telemetry Pipeline & cơ chế quản lý phiên thực thi đa tiến trình.",
+  "sha256": "0f303eb2302ca04cc407a4beba703a41f819bbce8ca5206f98042ea17d014797",
+  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS_5S_OTA_v5.0.9.1.zip?v=0f303eb2",
+  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS_5S_OTA_v5.0.9.1.zip?v=0f303eb2",
+  "features": "- Tối ưu Trial Onboarding Pipeline & License Slot Allocation (3/5/7 ngày, giới hạn đa thiết bị theo phiên đồng bộ).\n- Bổ sung kênh điều hướng hỗ trợ trực tiếp Telegram & Omnix Portal ngay trong DeviceLicenseDialog.\n- Giữ nguyên lõi Play Integrity Shield, Hardware Attestation Bypass & kiến trúc 12 Standalone DLL độc lập.",
+  "changelog": "- Tối ưu Trial Onboarding Pipeline & License Slot Allocation (3/5/7 ngày, giới hạn đa thiết bị theo phiên đồng bộ).\n- Bổ sung kênh điều hướng hỗ trợ trực tiếp Telegram & Omnix Portal ngay trong DeviceLicenseDialog.\n- Giữ nguyên lõi Play Integrity Shield, Hardware Attestation Bypass & kiến trúc 12 Standalone DLL độc lập.",
   "force_update": false,
-  "release_date": "16/11/2026 11:11 (5S v5.0.9)"
+  "release_date": "16/11/2026 12:26 (5S v5.0.9.1)"
 }
