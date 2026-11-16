@@ -1,18 +1,18 @@
 {
   "status": "success",
   "product": "LUCAS 5S",
-  "version": "5.0.9.4",
-  "latest_version": "5.0.9.4",
+  "version": "5.0.9.5",
+  "latest_version": "5.0.9.5",
   "min_required_version": "5.0.0",
   "ota_mode": "hotfix",
   "package_type": "zip",
-  "sha256": "9c5ea9eb81dd44f862213fe105e5de536a1820d1c25c6aba222069931396e5f8",
-  "download_url": "https://cdn.jsdelivr.net/gh/Lucas1Team/lucas-updates@main/LUCAS_5S_HOTFIX_v5.0.9.4.zip?v=9c5ea9eb",
-  "download_url_portable": "https://cdn.jsdelivr.net/gh/Lucas1Team/lucas-updates@main/LUCAS_5S_HOTFIX_v5.0.9.4.zip?v=9c5ea9eb",
-  "download_url_full": "https://github.com/Lucas1Team/lucas-updates/releases/download/v5.0.9.4/LUCAS_5S_OTA_v5.0.9.4.zip",
-  "full_sha256": "b952188863aed377982e3c61fcae6360d170abe96c1c35c6c16b0185fbf0ebc6",
-  "features": "- Tối ưu quy trình cấp phát và đồng bộ License Token đa thiết bị (Multi-Device Slot Allocation Engine) ngay sau khởi tạo tài khoản.\n- Nâng cấp giao diện điều phối Key bản quyền: tự động nạp Key chờ kích hoạt và tính toán chính xác slot khả dụng trên từng thiết bị.\n- Cải thiện luồng xác thực RSA-2048 Offline Lease & đồng bộ metadata tài khoản từ Cloud API.",
-  "changelog": "- Tối ưu quy trình cấp phát và đồng bộ License Token đa thiết bị (Multi-Device Slot Allocation Engine) ngay sau khởi tạo tài khoản.\n- Nâng cấp giao diện điều phối Key bản quyền: tự động nạp Key chờ kích hoạt và tính toán chính xác slot khả dụng trên từng thiết bị.\n- Cải thiện luồng xác thực RSA-2048 Offline Lease & đồng bộ metadata tài khoản từ Cloud API.",
+  "sha256": "0a8c5a0052b10f6356a6636cdde33cde0831b27fb254c0e2500e54185e23d3dd",
+  "download_url": "https://cdn.jsdelivr.net/gh/Lucas1Team/lucas-updates@main/LUCAS_5S_HOTFIX_v5.0.9.5.zip?v=0a8c5a00",
+  "download_url_portable": "https://cdn.jsdelivr.net/gh/Lucas1Team/lucas-updates@main/LUCAS_5S_HOTFIX_v5.0.9.5.zip?v=0a8c5a00",
+  "download_url_full": "https://github.com/Lucas1Team/lucas-updates/releases/download/v5.0.9.5/LUCAS_5S_OTA_v5.0.9.5.zip",
+  "full_sha256": "08e95bdad661c7da23c4a4680e8ec8c332eee9508a295d63940430606433b43b",
+  "features": "- Triển khai Multi-Mirror OTA Fallback Router: tự động luân chuyển đa CDN (Fastly/jsDelivr/GitHub Raw/Release Full) và đồng bộ lại manifest khi gặp lỗi cache hoặc 404.\n- Tối ưu quy trình cấp phát License Token & phân bổ slot đa thiết bị ngay sau khởi tạo tài khoản.\n- Chuẩn hóa bộ phân tích Fallback Loader đa tầng cho KernelSU/Zygisk Next và Tar-Stream Metadata.",
+  "changelog": "- Triển khai Multi-Mirror OTA Fallback Router: tự động luân chuyển đa CDN (Fastly/jsDelivr/GitHub Raw/Release Full) và đồng bộ lại manifest khi gặp lỗi cache hoặc 404.\n- Tối ưu quy trình cấp phát License Token & phân bổ slot đa thiết bị ngay sau khởi tạo tài khoản.\n- Chuẩn hóa bộ phân tích Fallback Loader đa tầng cho KernelSU/Zygisk Next và Tar-Stream Metadata.",
   "force_update": false,
-  "release_date": "16/11/2026 13:53 (5S v5.0.9.4)"
+  "release_date": "16/11/2026 14:03 (5S v5.0.9.5)"
 }
