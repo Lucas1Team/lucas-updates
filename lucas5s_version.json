@@ -1,18 +1,18 @@
 {
   "status": "success",
   "product": "LUCAS 5S",
-  "version": "5.0.9.5",
-  "latest_version": "5.0.9.5",
+  "version": "5.0.9.6",
+  "latest_version": "5.0.9.6",
   "min_required_version": "5.0.0",
   "ota_mode": "hotfix",
   "package_type": "zip",
-  "sha256": "0a8c5a0052b10f6356a6636cdde33cde0831b27fb254c0e2500e54185e23d3dd",
-  "download_url": "https://cdn.jsdelivr.net/gh/Lucas1Team/lucas-updates@main/LUCAS_5S_HOTFIX_v5.0.9.5.zip?v=0a8c5a00",
-  "download_url_portable": "https://cdn.jsdelivr.net/gh/Lucas1Team/lucas-updates@main/LUCAS_5S_HOTFIX_v5.0.9.5.zip?v=0a8c5a00",
-  "download_url_full": "https://github.com/Lucas1Team/lucas-updates/releases/download/v5.0.9.5/LUCAS_5S_OTA_v5.0.9.5.zip",
-  "full_sha256": "08e95bdad661c7da23c4a4680e8ec8c332eee9508a295d63940430606433b43b",
-  "features": "- Triển khai Multi-Mirror OTA Fallback Router: tự động luân chuyển đa CDN (Fastly/jsDelivr/GitHub Raw/Release Full) và đồng bộ lại manifest khi gặp lỗi cache hoặc 404.\n- Tối ưu quy trình cấp phát License Token & phân bổ slot đa thiết bị ngay sau khởi tạo tài khoản.\n- Chuẩn hóa bộ phân tích Fallback Loader đa tầng cho KernelSU/Zygisk Next và Tar-Stream Metadata.",
-  "changelog": "- Triển khai Multi-Mirror OTA Fallback Router: tự động luân chuyển đa CDN (Fastly/jsDelivr/GitHub Raw/Release Full) và đồng bộ lại manifest khi gặp lỗi cache hoặc 404.\n- Tối ưu quy trình cấp phát License Token & phân bổ slot đa thiết bị ngay sau khởi tạo tài khoản.\n- Chuẩn hóa bộ phân tích Fallback Loader đa tầng cho KernelSU/Zygisk Next và Tar-Stream Metadata.",
+  "sha256": "6cd33a256128da82b1c7153572073be6d7b7445f30f35ec7084d9a31fe547f8d",
+  "download_url": "https://cdn.jsdelivr.net/gh/Lucas1Team/lucas-updates@main/LUCAS_5S_HOTFIX_v5.0.9.6.zip?v=6cd33a25",
+  "download_url_portable": "https://cdn.jsdelivr.net/gh/Lucas1Team/lucas-updates@main/LUCAS_5S_HOTFIX_v5.0.9.6.zip?v=6cd33a25",
+  "download_url_full": "https://github.com/Lucas1Team/lucas-updates/releases/download/v5.0.9.6/LUCAS_5S_OTA_v5.0.9.6.zip",
+  "full_sha256": "afe966c530781cd45a676221d356b268b00b693d07217a3d157b4cceb050c6c7",
+  "features": "﻿- Triển khai Universal Backup Bridge Pipeline (AES-256-CBC/GCM + Tar-Stream): đọc, chuyển đổi hàng loạt và khôi phục chuẩn 0-Random từ đa nguồn lưu trữ (Doma, OneChanger .rar/.ocbk + .properties, MiChanger .7z, XChanger).\n- Tích hợp khóa bảo mật kho Backup độc quyền .lcbk (AES-256-CBC + HMAC-SHA256 Encrypt-then-MAC + Keyring đa phiên bản & mật khẩu kho DPAPI).\n- Tối ưu Zygisk Next Layout Normalization (zygiskd/znctl), tăng tốc hậu kiểm Restore (Async Broadcast Pipeline), bổ sung Xuất/Nhập khóa RSA ADB đa máy tính và giao diện Cockpit thích ứng DPI.",
+  "changelog": "﻿- Triển khai Universal Backup Bridge Pipeline (AES-256-CBC/GCM + Tar-Stream): đọc, chuyển đổi hàng loạt và khôi phục chuẩn 0-Random từ đa nguồn lưu trữ (Doma, OneChanger .rar/.ocbk + .properties, MiChanger .7z, XChanger).\n- Tích hợp khóa bảo mật kho Backup độc quyền .lcbk (AES-256-CBC + HMAC-SHA256 Encrypt-then-MAC + Keyring đa phiên bản & mật khẩu kho DPAPI).\n- Tối ưu Zygisk Next Layout Normalization (zygiskd/znctl), tăng tốc hậu kiểm Restore (Async Broadcast Pipeline), bổ sung Xuất/Nhập khóa RSA ADB đa máy tính và giao diện Cockpit thích ứng DPI.",
   "force_update": false,
-  "release_date": "16/11/2026 14:03 (5S v5.0.9.5)"
+  "release_date": "17/11/2026 02:14 (5S v5.0.9.6)"
 }
