@@ -1,15 +1,18 @@
 {
   "status": "success",
   "product": "LUCAS 5S",
-  "version": "5.0.9.1",
-  "latest_version": "5.0.9.1",
+  "version": "5.0.9.2",
+  "latest_version": "5.0.9.2",
   "min_required_version": "5.0.0",
+  "ota_mode": "hotfix",
   "package_type": "zip",
-  "sha256": "0f303eb2302ca04cc407a4beba703a41f819bbce8ca5206f98042ea17d014797",
-  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS_5S_OTA_v5.0.9.1.zip?v=0f303eb2",
-  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS_5S_OTA_v5.0.9.1.zip?v=0f303eb2",
-  "features": "- Tối ưu Trial Onboarding Pipeline & License Slot Allocation (3/5/7 ngày, giới hạn đa thiết bị theo phiên đồng bộ).\n- Bổ sung kênh điều hướng hỗ trợ trực tiếp Telegram & Omnix Portal ngay trong DeviceLicenseDialog.\n- Giữ nguyên lõi Play Integrity Shield, Hardware Attestation Bypass & kiến trúc 12 Standalone DLL độc lập.",
-  "changelog": "- Tối ưu Trial Onboarding Pipeline & License Slot Allocation (3/5/7 ngày, giới hạn đa thiết bị theo phiên đồng bộ).\n- Bổ sung kênh điều hướng hỗ trợ trực tiếp Telegram & Omnix Portal ngay trong DeviceLicenseDialog.\n- Giữ nguyên lõi Play Integrity Shield, Hardware Attestation Bypass & kiến trúc 12 Standalone DLL độc lập.",
+  "sha256": "d8932e00350c4a1620b8260a4cd7d257da8007adb4732ae1a272b60cd5c25602",
+  "download_url": "https://cdn.jsdelivr.net/gh/Lucas1Team/lucas-updates@main/LUCAS_5S_HOTFIX_v5.0.9.2.zip?v=d8932e00",
+  "download_url_portable": "https://cdn.jsdelivr.net/gh/Lucas1Team/lucas-updates@main/LUCAS_5S_HOTFIX_v5.0.9.2.zip?v=d8932e00",
+  "download_url_full": "https://github.com/Lucas1Team/lucas-updates/releases/download/v5.0.9.2/LUCAS_5S_OTA_v5.0.9.2.zip",
+  "full_sha256": "ae4b888d85938c79f2fa19964452df0def4fb86a7c013c03391598046ec3cfd0",
+  "features": "- Khắc phục xung đột SELinux Security Bounded Transition trên phân vùng nosuid và đồng bộ chuỗi nạp KernelSU/Zygisk Next lúc Cold Reboot.\n- Hợp nhất Boot Persistence Engine cho Spoofer Overlay & PlayIntegrityFork cùng cơ chế hậu kiểm trạng thái Zygisk Inject đa tầng.\n- Tự động ổn định các dịch vụ nền HAL và tối ưu quy trình khôi phục môi trường sau khởi động lại.",
+  "changelog": "- Khắc phục xung đột SELinux Security Bounded Transition trên phân vùng nosuid và đồng bộ chuỗi nạp KernelSU/Zygisk Next lúc Cold Reboot.\n- Hợp nhất Boot Persistence Engine cho Spoofer Overlay & PlayIntegrityFork cùng cơ chế hậu kiểm trạng thái Zygisk Inject đa tầng.\n- Tự động ổn định các dịch vụ nền HAL và tối ưu quy trình khôi phục môi trường sau khởi động lại.",
   "force_update": false,
-  "release_date": "16/11/2026 12:26 (5S v5.0.9.1)"
+  "release_date": "16/11/2026 12:59 (5S v5.0.9.2)"
 }
