@@ -1,18 +1,18 @@
 {
   "status": "success",
   "product": "LUCAS 5S",
-  "version": "5.0.9.7",
-  "latest_version": "5.0.9.7",
+  "version": "5.0.9.8",
+  "latest_version": "5.0.9.8",
   "min_required_version": "5.0.0",
   "ota_mode": "hotfix",
   "package_type": "zip",
-  "sha256": "41fcbb4d5c12d371a0cc2c268a3d2703d9e6c8ca90a9fb11c28f024c4a993ecb",
-  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS_5S_HOTFIX_v5.0.9.7.zip?v=41fcbb4d",
-  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS_5S_HOTFIX_v5.0.9.7.zip?v=41fcbb4d",
-  "download_url_full": "https://github.com/Lucas1Team/lucas-updates/releases/download/v5.0.9.7/LUCAS_5S_OTA_v5.0.9.7.zip",
-  "full_sha256": "25c06b230ce0a8d267a2f305d78a95820539c44b9648f6a5b78978d3fce39dd6",
-  "features": "- Nâng cấp hệ thống OTA Multi-Mirror Failover tích hợp Watchdog Timeout 7 giây & Direct-Raw Routing: tự động cắt kết nối treo và chuyển gương tức thì khi gặp nghẽn CDN.\n- Kế thừa toàn bộ Universal Backup Bridge (Doma, OneChanger .rar/.ocbk + .properties AES-256-GCM, MiChanger .7z, XChanger) và kho Backup độc quyền .lcbk (AES-256-CBC + HMAC-SHA256 Keyring).\n- Tối ưu Zygisk Next Layout Normalization, Async Post-Restore Pipeline và đồng bộ khóa RSA ADB đa máy tính.",
-  "changelog": "- Nâng cấp hệ thống OTA Multi-Mirror Failover tích hợp Watchdog Timeout 7 giây & Direct-Raw Routing: tự động cắt kết nối treo và chuyển gương tức thì khi gặp nghẽn CDN.\n- Kế thừa toàn bộ Universal Backup Bridge (Doma, OneChanger .rar/.ocbk + .properties AES-256-GCM, MiChanger .7z, XChanger) và kho Backup độc quyền .lcbk (AES-256-CBC + HMAC-SHA256 Keyring).\n- Tối ưu Zygisk Next Layout Normalization, Async Post-Restore Pipeline và đồng bộ khóa RSA ADB đa máy tính.",
+  "sha256": "e8e0e2a30546bd60643cf492a113333c1ff564933afead2e6cbd947658098b23",
+  "download_url": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS_5S_HOTFIX_v5.0.9.8.zip?v=e8e0e2a3",
+  "download_url_portable": "https://raw.githubusercontent.com/Lucas1Team/lucas-updates/main/LUCAS_5S_HOTFIX_v5.0.9.8.zip?v=e8e0e2a3",
+  "download_url_full": "https://github.com/Lucas1Team/lucas-updates/releases/download/v5.0.9.8/LUCAS_5S_OTA_v5.0.9.8.zip",
+  "full_sha256": "31501e9e7b4d32423ee69739ddecb3dcc3555ccc76afcb9baf8a624368f5e423",
+  "features": "- Tối ưu Multicore JIT Startup Profiling & Incremental Binary Unblock Caching giúp rút ngắn thời gian khởi động hệ thống LUCAS 5S.\n- Chuẩn hóa Immutable Hardware Serial Attribution và cơ chế nhận diện KernelSU / APatch Daemon thực tế trên các thiết bị Phone Farm đa môi trường Root.\n- Nâng cấp .lcbk Vault Crypto Policy Engine (AES-256-CBC + HMAC Keyring v2 / Team Passphrase / Open Interop) đồng bộ DPAPI đa tầng.",
+  "changelog": "- Tối ưu Multicore JIT Startup Profiling & Incremental Binary Unblock Caching giúp rút ngắn thời gian khởi động hệ thống LUCAS 5S.\n- Chuẩn hóa Immutable Hardware Serial Attribution và cơ chế nhận diện KernelSU / APatch Daemon thực tế trên các thiết bị Phone Farm đa môi trường Root.\n- Nâng cấp .lcbk Vault Crypto Policy Engine (AES-256-CBC + HMAC Keyring v2 / Team Passphrase / Open Interop) đồng bộ DPAPI đa tầng.",
   "force_update": false,
-  "release_date": "17/11/2026 02:37 (5S v5.0.9.7)"
+  "release_date": "17/11/2026 11:50 (5S v5.0.9.8)"
 }
