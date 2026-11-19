@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-16T02:23:41Z",
+  "generated_at": "2026-11-19T07:41:19Z",
   "product": "LUCAS 5S",
-  "version": "5.0.8",
+  "version": "5.1.0.2",
   "excluded_legacy": [
     "dev_diag.dat",
     "poleds_runtime.pak"
@@ -29,7 +29,7 @@
     "Resources/core/drv_patch_lvl.dat": {
       "path": "Resources/core/drv_patch_lvl.dat",
       "sha256": "0095e11e4e4a73a0b505a8fa57bc11bfdea75c768d96771f8f09d9b3ab18a369",
-      "min_bytes": 15,
+      "min_bytes": 13,
       "size": 15
     },
     "Resources/core/kbd_drv.sys": {
@@ -44,11 +44,29 @@
       "min_bytes": 11493578,
       "size": 12770643
     },
+    "Resources/core/ksu_mgr.dat": {
+      "path": "Resources/core/ksu_mgr.dat",
+      "sha256": "f0c4f3f66923f1f7d34a35a01a6d88d9702ea3ab3307587e1a3be72c510779e7",
+      "min_bytes": 6811768,
+      "size": 7568632
+    },
+    "Resources/core/ksu_mgr_legacy.dat": {
+      "path": "Resources/core/ksu_mgr_legacy.dat",
+      "sha256": "68eb86c485980a8c6ff33e906fce2236ca72a28ca464d27d09fa816c12db25cd",
+      "min_bytes": 7609995,
+      "size": 8455550
+    },
+    "Resources/core/ksun_mgr.dat": {
+      "path": "Resources/core/ksun_mgr.dat",
+      "sha256": "6489ebfc9c8c25d0a9be02073e93583fe34a89193670334d20220bbb509fa75b",
+      "min_bytes": 16075629,
+      "size": 17861811
+    },
     "Resources/core/lc_engine.pak": {
       "path": "Resources/core/lc_engine.pak",
-      "sha256": "3f7f7a803a44e048fec6671e9a3bdcef144ef1eb4aac89aa9060add04eb1918b",
-      "min_bytes": 2149122,
-      "size": 2387914
+      "sha256": "00f75fea559f69ea680b4795c9f6364197c517de4a80ef76f70446fed778da8a",
+      "min_bytes": 2135683,
+      "size": 2372982
     },
     "Resources/core/mcore_svc.dat": {
       "path": "Resources/core/mcore_svc.dat",
