@@ -1,4 +1,9 @@
+<!-- [Update: 21/11/2026 16:02] Bo sung proxy_engine_runtime.zip (sing-box.exe + wintun.dll) & cap nhat Resources/cloud_manifest.json -->
 # Nhật ký phát triển dự án
+
+## [21/11/2026 16:02] - Bổ sung `proxy_engine_runtime.zip` cho Proxy Hub Studio
+- **Nội dung:** Đóng gói `proxy_engine_runtime.zip` (`27,870,768` bytes, `sha256: dce90f01852a3cae69af1e92d410be57d0e5ccc0c87e0f7ec367e25721c7e76f`) chứa `Resources/proxy_engine/sing-box.exe` và `Resources/proxy_engine/wintun.dll` và đăng ký vào `Resources/cloud_manifest.json`.
+- **Mục đích:** Khắc phục triệt để lỗi `"● Lỗi tải sing-box.exe"` trên các máy chưa kèm sẵn `bin\proxy_engine\`.
 
 ## [04/11/2026 11:35] - Tích hợp bộ nhớ dài hạn AgentMemory 17 skills
 - **Nội dung:** Đồng bộ 17 kỹ năng bộ nhớ vĩnh viễn () vào  và khóa phiên bản qua .
