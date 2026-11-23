@@ -16,7 +16,8 @@
     },
     "proxy_engine_runtime.zip": {
       "path": "proxy_engine_runtime.zip",
-      "sha256": "b2283d807656118e0cb80f1df849e33598e7d51fa8168dc4aa11694a0b95cf54",
+      "url": "https://github.com/Lucas1Team/lucas-updates/releases/download/runtime-assets-v1/proxy_engine_runtime.zip",
+      "sha256": "dce90f01852a3cae69af1e92d410be57d0e5ccc0c87e0f7ec367e25721c7e76f",
       "min_bytes": 25083691,
       "size": 27870768
     },
