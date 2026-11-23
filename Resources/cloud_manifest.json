@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-23T04:12:11Z",
-  "product": "LUCAS 5S",
-  "version": "5.1.0.7",
+  "generated_at": "2026-11-23T05:02:36Z",
+  "product": "LUCAS 5S [TEST-LAB]",
+  "version": "5.1.0.8",
   "excluded_legacy": [
     "dev_diag.dat",
     "poleds_runtime.pak"
@@ -70,9 +70,9 @@
     },
     "Resources/core/lc_engine.pak": {
       "path": "Resources/core/lc_engine.pak",
-      "sha256": "36982f67967a9ea3f8dd7470942150d04e5d3e71e2e0eb56454529faa1383a4b",
-      "min_bytes": 2152827,
-      "size": 2392030
+      "sha256": "4d2a80f02775dc6f0e43975870d8dba6a452cef79dad38788d38ff44edc3511e",
+      "min_bytes": 2160311,
+      "size": 2400346
     },
     "Resources/core/mcore_svc.dat": {
       "path": "Resources/core/mcore_svc.dat",
