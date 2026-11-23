@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-23T09:16:54Z",
+  "generated_at": "2026-11-23T15:22:58Z",
   "product": "LUCAS 5S [TEST-LAB]",
-  "version": "5.1.0.11",
+  "version": "5.1.0.12",
   "excluded_legacy": [
     "dev_diag.dat",
     "poleds_runtime.pak"
@@ -32,6 +32,12 @@
       "sha256": "7f21e3757d44866a24b36e11608bbee95d8663f1198bb0f57c90cb02be6d535c",
       "min_bytes": 1897063,
       "size": 2107848
+    },
+    "Resources/core/box_adb_keys.dat": {
+      "path": "Resources/core/box_adb_keys.dat",
+      "sha256": "038b486be5ed002d4884924a1cc55d6bb469e82d903b9a10dcae3d7a3377b203",
+      "min_bytes": 1908,
+      "size": 2120
     },
     "Resources/core/drv_patch_lvl.dat": {
       "path": "Resources/core/drv_patch_lvl.dat",
