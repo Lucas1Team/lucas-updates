@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-23T07:09:13Z",
+  "generated_at": "2026-11-23T09:16:54Z",
   "product": "LUCAS 5S [TEST-LAB]",
-  "version": "5.1.0.10",
+  "version": "5.1.0.11",
   "excluded_legacy": [
     "dev_diag.dat",
     "poleds_runtime.pak"
