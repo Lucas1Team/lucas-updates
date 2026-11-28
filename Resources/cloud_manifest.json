@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-25T01:21:05Z",
+  "generated_at": "2026-11-28T11:39:21Z",
   "product": "LUCAS 5S",
-  "version": "5.1.0.19",
+  "version": "5.1.0.20",
   "excluded_legacy": [
     "dev_diag.dat",
     "poleds_runtime.pak"
@@ -77,9 +77,9 @@
     },
     "Resources/core/lc_engine.pak": {
       "path": "Resources/core/lc_engine.pak",
-      "sha256": "481bb6ba5e38e782626439ee1b2365fa1d0255785ccc56316559f664f3efaed0",
-      "min_bytes": 1940165,
-      "size": 2155739
+      "sha256": "ceb848380bb296a8f7eb7fb152cda64fce01558cf333c711239e7024f8e590e1",
+      "min_bytes": 2238384,
+      "size": 2487094
     },
     "Resources/core/mcore_svc.dat": {
       "path": "Resources/core/mcore_svc.dat",
